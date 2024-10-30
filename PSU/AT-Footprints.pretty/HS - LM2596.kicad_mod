@@ -1,0 +1,141 @@
+(footprint "HS - LM2596"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "123f37a0-a174-4e22-806b-5e7a19ff33d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "HS - LM2596"
+		(at 0 3.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4cf4dd8d-77f2-4589-9364-cb34634a7053")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -3.5 9.16 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b3704c01-127a-4b53-a2c3-ab091ec8d9b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -3.5 9.16 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e448eb0d-1d95-4186-b2aa-cf73454d8f0e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -3.5 9.16 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b9b8564-8110-4027-bc85-8585fd612131")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0 -5)
+		(end 0 9.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "74987fd7-6642-426f-8343-ae7998de3b75")
+	)
+	(fp_rect
+		(start -12.7 -3)
+		(end 12.7 9.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "a0fd3f3d-7cd9-4cf1-b1e4-60f0fce53ed4")
+	)
+	(fp_rect
+		(start -11.2 -1.5)
+		(end 11.2 9.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "0950e3a7-f171-425a-9271-f4c82cca45d7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cb19c207-93de-433a-92f9-2d38400ce1eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -12 7.16)
+		(size 2.05 2.95)
+		(drill oval 1.25 2.15)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2be253e5-455a-4243-8f42-6c0cc2ff17ee")
+	)
+	(pad "1" thru_hole oval
+		(at 12 7.16)
+		(size 2.05 2.95)
+		(drill oval 1.25 2.15)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e73de4c8-00f9-4f15-8a0a-11b6e39d44c2")
+	)
+	(model "/Users/paigeday/Documents/AudioThings/3dmodels/Same_Sky_HSS09-B20-P431.step"
+		(offset
+			(xyz 0 3 15.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 0 0)
+		)
+	)
+)

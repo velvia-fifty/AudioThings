@@ -1,0 +1,214 @@
+(footprint "IND_HCTI-68-7.7"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -4.825 -17.635 0)
+		(layer "F.SilkS")
+		(uuid "8386ea1d-815b-4a65-9fd1-8fffdcb1f857")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IND_HCTI-68-7.7"
+		(at 1.525 17.365 0)
+		(layer "F.Fab")
+		(uuid "bc89abb3-471d-48c0-84e0-b95f77f479b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f3e8d28c-b304-4b1c-b631-ca067da39865")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2f7c0cc5-cf1b-4446-b15c-987a345c8644")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd140c65-c460-4b72-842f-7ddd180c5176")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -8.255 -16.256)
+		(end 8.255 -16.256)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7a04f205-0c90-4585-8c84-0da60d958c98")
+	)
+	(fp_line
+		(start -8.255 16.256)
+		(end -8.255 -16.256)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c9e10a16-a8ee-4e3a-aa2f-1158b783aa2a")
+	)
+	(fp_line
+		(start 8.255 -16.256)
+		(end 8.255 16.256)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cb5da85a-11f2-46c3-9e73-0fa9aac42c35")
+	)
+	(fp_line
+		(start 8.255 16.256)
+		(end -8.255 16.256)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "83119e3d-b39f-49d2-90c9-5e70d1f15e05")
+	)
+	(fp_line
+		(start -8.505 -16.506)
+		(end 8.505 -16.506)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "73c21e75-c6c0-4ab1-9b33-ba294cec860a")
+	)
+	(fp_line
+		(start -8.505 16.506)
+		(end -8.505 -16.506)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a4ade4d2-a964-42ef-a497-87d5bb68ab18")
+	)
+	(fp_line
+		(start 8.505 -16.506)
+		(end 8.505 16.506)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b18e358b-94ff-4dfd-a880-4e8def4f3579")
+	)
+	(fp_line
+		(start 8.505 16.506)
+		(end -8.505 16.506)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f9f741e2-1af9-4a13-a06f-24fb21eb8c4b")
+	)
+	(fp_line
+		(start -8.255 -16.256)
+		(end 8.255 -16.256)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b95aa00f-f63c-41a7-bbba-323afbf260cd")
+	)
+	(fp_line
+		(start -8.255 16.256)
+		(end -8.255 -16.256)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0e3f3398-cef2-4b5a-bdc2-5d918170eebd")
+	)
+	(fp_line
+		(start 8.255 -16.256)
+		(end 8.255 16.256)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f55fc3b7-0c11-4cc9-9db8-10bf8e5b235b")
+	)
+	(fp_line
+		(start 8.255 16.256)
+		(end -8.255 16.256)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "032c53de-2ba1-4f13-9331-f70006f8f4a8")
+	)
+	(pad "1" thru_hole circle
+		(at -6.604 0)
+		(size 1.905 1.905)
+		(drill 1.27)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "bd2bc506-67da-42c9-891f-129298ed42ef")
+	)
+	(pad "2" thru_hole circle
+		(at 6.604 0)
+		(size 1.905 1.905)
+		(drill 1.27)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "6626427c-29a7-4175-ad24-3de4e1f234f9")
+	)
+	(model "/Users/paigeday/Documents/AudioThings/3dmodels/HCTI-68-7.7.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
