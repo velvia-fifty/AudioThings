@@ -3489,83 +3489,163 @@
 		(uuid "f5a7c17e-c451-4600-a97f-7642fcb9581f")
 	)
 	(no_connect
-		(at 182.88 261.62)
+		(at 368.3 488.95)
+		(uuid "036dc905-3cca-49b4-957d-bc07cec2107f")
+	)
+	(no_connect
+		(at 212.09 528.32)
 		(uuid "03f56700-8323-4ffc-9cb7-38619563fdab")
 	)
 	(no_connect
-		(at 127 219.71)
+		(at 312.42 488.95)
+		(uuid "09d56606-3577-4912-b86b-cd18bb411c5a")
+	)
+	(no_connect
+		(at 340.36 528.32)
+		(uuid "0a17d032-9f92-4e65-b749-289f7d39a62f")
+	)
+	(no_connect
+		(at 156.21 486.41)
 		(uuid "15f77131-4c78-4937-95f1-7a991e2a1272")
 	)
 	(no_connect
-		(at 99.06 187.96)
+		(at 312.42 486.41)
+		(uuid "19e9a937-2b82-40b7-a5e4-efcca61875e9")
+	)
+	(no_connect
+		(at 128.27 454.66)
 		(uuid "1e321aad-8eac-4a7b-a04c-ebee4fd3f0c0")
 	)
 	(no_connect
-		(at 154.94 190.5)
+		(at 396.24 520.7)
+		(uuid "1ed4c5b2-3fea-4096-8c12-4da19378133f")
+	)
+	(no_connect
+		(at 368.3 520.7)
+		(uuid "21d92a0e-9e19-43e7-bd42-8edef66ed74b")
+	)
+	(no_connect
+		(at 340.36 520.7)
+		(uuid "2e4bf40b-6db7-4fc5-9342-4911a83dd446")
+	)
+	(no_connect
+		(at 184.15 457.2)
 		(uuid "32ed6841-de5a-4d48-b634-8ac4c514fd7c")
 	)
 	(no_connect
-		(at 182.88 254)
+		(at 212.09 520.7)
 		(uuid "36f47015-af3c-4522-9c91-31ce5b61d8d9")
 	)
 	(no_connect
-		(at 99.06 254)
+		(at 128.27 520.7)
 		(uuid "3805776b-61c2-46bb-b7d9-8d090c88b1e7")
 	)
 	(no_connect
-		(at 99.06 219.71)
+		(at 128.27 486.41)
 		(uuid "38ba94a7-0090-4422-bb21-ce9e9a25b142")
 	)
 	(no_connect
-		(at 154.94 195.58)
+		(at 184.15 462.28)
 		(uuid "395d1008-6650-44dc-8f66-77e4962f64d8")
 	)
 	(no_connect
-		(at 127 222.25)
+		(at 156.21 488.95)
 		(uuid "39dff23f-eb3c-4e61-84d2-90cb8d220ae5")
 	)
 	(no_connect
-		(at 154.94 227.33)
+		(at 312.42 454.66)
+		(uuid "3e199c68-bde6-481c-9c1d-b2aee7a5b206")
+	)
+	(no_connect
+		(at 184.15 494.03)
 		(uuid "3e47509a-eba6-4d85-8780-379186ed1b3f")
 	)
 	(no_connect
-		(at 182.88 227.33)
+		(at 368.3 486.41)
+		(uuid "4160b223-13e9-44c7-b356-b4f93aed087a")
+	)
+	(no_connect
+		(at 212.09 494.03)
 		(uuid "420d395c-2b5e-443a-8972-15f0bf06b63d")
 	)
 	(no_connect
-		(at 182.88 256.54)
+		(at 396.24 528.32)
+		(uuid "4380a2b6-abe6-4c44-a73f-065c253baf1a")
+	)
+	(no_connect
+		(at 312.42 462.28)
+		(uuid "49b1e616-9f5a-473e-a71f-d97de7c59202")
+	)
+	(no_connect
+		(at 212.09 523.24)
 		(uuid "4d95ba03-769c-4ec0-81ea-d56f580631d8")
 	)
 	(no_connect
-		(at 99.06 222.25)
+		(at 128.27 488.95)
 		(uuid "4e2d37ce-0ae4-4e2f-8d40-ea604d0be2ac")
 	)
 	(no_connect
-		(at 154.94 219.71)
+		(at 340.36 486.41)
+		(uuid "4f4170d0-17cf-4882-b8d9-4845a20f662c")
+	)
+	(no_connect
+		(at 184.15 486.41)
 		(uuid "50f1089c-da56-4223-a3f8-d29398f991b7")
 	)
 	(no_connect
-		(at 127 187.96)
+		(at 340.36 494.03)
+		(uuid "62660ec8-7829-4c16-a19b-159e6502ad91")
+	)
+	(no_connect
+		(at 156.21 454.66)
 		(uuid "62d62cca-7420-4039-b023-a5f1f9d44518")
 	)
 	(no_connect
-		(at 154.94 187.96)
+		(at 340.36 457.2)
+		(uuid "62e2e43b-cf4b-42b4-b46c-1a6ee9072638")
+	)
+	(no_connect
+		(at 184.15 454.66)
 		(uuid "647de496-5bd2-495e-ae04-3c7870c5bab0")
 	)
 	(no_connect
-		(at 99.06 195.58)
+		(at 128.27 462.28)
 		(uuid "65c5cda1-dabe-42ea-a372-9dda723e6793")
+	)
+	(no_connect
+		(at 312.42 520.7)
+		(uuid "6d465cf4-14eb-4362-8194-e3e385542177")
 	)
 	(no_connect
 		(at 476.25 143.51)
 		(uuid "6d9d08e0-2086-4718-9ec8-2f97125a3739")
 	)
 	(no_connect
+		(at 396.24 457.2)
+		(uuid "70329e6e-cca4-4d9f-958d-c01176e8c70c")
+	)
+	(no_connect
+		(at 312.42 528.32)
+		(uuid "739ef04e-408f-4bd7-b734-a7eb2b79af34")
+	)
+	(no_connect
+		(at 368.3 523.24)
+		(uuid "73efa659-8019-4132-9eab-f5ceffc40987")
+	)
+	(no_connect
+		(at 368.3 454.66)
+		(uuid "77a49d0e-938b-4f3c-b20a-cfb79d79c2e6")
+	)
+	(no_connect
 		(at 478.79 217.17)
 		(uuid "82ab7ff5-5f6a-45dc-90f4-7a43f1e858a9")
 	)
 	(no_connect
-		(at 127 261.62)
+		(at 396.24 486.41)
+		(uuid "91afbd7f-d5fe-430c-8424-c62bf8f36b18")
+	)
+	(no_connect
+		(at 156.21 528.32)
 		(uuid "9a35e040-1cb4-46d3-a365-87ffce9ada81")
 	)
 	(no_connect
@@ -3573,47 +3653,75 @@
 		(uuid "9a4f27a0-a93b-45e5-ac42-99e6e76dc708")
 	)
 	(no_connect
-		(at 182.88 219.71)
+		(at 212.09 486.41)
 		(uuid "9abe5d08-d335-436f-bdcf-45877047b7de")
 	)
 	(no_connect
-		(at 99.06 190.5)
+		(at 340.36 523.24)
+		(uuid "9aea8dde-a949-4ab9-9217-91e8a6d23c8c")
+	)
+	(no_connect
+		(at 312.42 523.24)
+		(uuid "9df8c27c-6709-487e-91fe-4685525e394b")
+	)
+	(no_connect
+		(at 128.27 457.2)
 		(uuid "9e92c3f8-9a3a-4ad9-a71f-07b0d270ad56")
 	)
 	(no_connect
-		(at 99.06 256.54)
+		(at 368.3 528.32)
+		(uuid "a24b43e3-a10e-4bfd-9808-15b2ad0f8464")
+	)
+	(no_connect
+		(at 128.27 523.24)
 		(uuid "a2cf7cd5-53a6-4ccc-ad5f-25aa091117c6")
 	)
 	(no_connect
-		(at 127 256.54)
+		(at 156.21 523.24)
 		(uuid "a5d15365-da95-4c73-8b68-2d2257052f50")
 	)
 	(no_connect
-		(at 154.94 256.54)
+		(at 184.15 523.24)
 		(uuid "a6c734f5-3165-452f-980e-488850805192")
 	)
 	(no_connect
-		(at 154.94 222.25)
+		(at 184.15 488.95)
 		(uuid "adcc2c56-9876-4d89-9ab4-dc823088147d")
 	)
 	(no_connect
-		(at 99.06 227.33)
+		(at 128.27 494.03)
 		(uuid "b5c2db08-5c7c-45a1-91a9-13290d109209")
 	)
 	(no_connect
-		(at 154.94 261.62)
+		(at 396.24 454.66)
+		(uuid "b796e8f7-6550-4bfe-b1d4-6d29a64f0221")
+	)
+	(no_connect
+		(at 184.15 528.32)
 		(uuid "b84ff6a4-3a52-4562-a3de-4e18bef8fe4c")
 	)
 	(no_connect
-		(at 127 190.5)
+		(at 396.24 494.03)
+		(uuid "b90db3f0-03a5-42fd-a26d-450dbc6094aa")
+	)
+	(no_connect
+		(at 156.21 457.2)
 		(uuid "bbe41e6d-71b1-4294-9699-f7aa88a5d820")
 	)
 	(no_connect
-		(at 182.88 195.58)
+		(at 368.3 462.28)
+		(uuid "bc2af1d6-abe0-4863-b951-eecd8b903458")
+	)
+	(no_connect
+		(at 212.09 462.28)
 		(uuid "bc89bfbd-55ff-4142-b120-aaf05f6a32c4")
 	)
 	(no_connect
-		(at 154.94 254)
+		(at 312.42 494.03)
+		(uuid "be962ddb-f6f4-4af6-b357-19f89a88287a")
+	)
+	(no_connect
+		(at 184.15 520.7)
 		(uuid "c3586a6a-91cc-40b2-a4cf-fa0737e308e1")
 	)
 	(no_connect
@@ -3621,44 +3729,80 @@
 		(uuid "c5f0a8ec-e7ea-4860-b3ba-7d6ccdf382b4")
 	)
 	(no_connect
-		(at 127 195.58)
+		(at 396.24 488.95)
+		(uuid "c711f790-3af4-476c-b7b7-9726b2a84993")
+	)
+	(no_connect
+		(at 156.21 462.28)
 		(uuid "cfa89c86-20f4-4ab1-a5d3-f4e6e365b769")
 	)
 	(no_connect
-		(at 182.88 190.5)
+		(at 396.24 523.24)
+		(uuid "d118454c-85b3-4ad5-a9f1-a249ae3c8551")
+	)
+	(no_connect
+		(at 212.09 457.2)
 		(uuid "d305293d-4921-4a76-a8af-235da8c4ca29")
 	)
 	(no_connect
-		(at 182.88 187.96)
+		(at 212.09 454.66)
 		(uuid "d451deb4-945c-46ee-8ae2-8ce1dfd69095")
 	)
 	(no_connect
-		(at 99.06 261.62)
+		(at 128.27 528.32)
 		(uuid "dc7d9457-a6de-4e36-bc23-edf28004f3f3")
+	)
+	(no_connect
+		(at 368.3 494.03)
+		(uuid "df793b9b-a85c-411f-9ae5-5ba8c629753a")
 	)
 	(no_connect
 		(at 478.79 212.09)
 		(uuid "e2cff3f0-c742-4524-8c68-69db2c51eee2")
 	)
 	(no_connect
-		(at 127 254)
+		(at 312.42 457.2)
+		(uuid "e35f8f57-43a9-498a-976c-2f09d5edd761")
+	)
+	(no_connect
+		(at 368.3 457.2)
+		(uuid "edc808e7-8f4d-4d31-bb39-8fdc34607e09")
+	)
+	(no_connect
+		(at 340.36 462.28)
+		(uuid "ef74c0a9-143c-4a93-b8c2-120867d6f8db")
+	)
+	(no_connect
+		(at 156.21 520.7)
 		(uuid "f10598c9-6f40-4a7f-aba2-263cc0529893")
 	)
 	(no_connect
-		(at 127 227.33)
+		(at 156.21 494.03)
 		(uuid "f19300ac-8110-4351-b97f-6b0e1b3eec7b")
+	)
+	(no_connect
+		(at 396.24 462.28)
+		(uuid "f196d401-cd21-4151-acb8-bfc299435928")
+	)
+	(no_connect
+		(at 340.36 488.95)
+		(uuid "f1a57c5d-4e2f-48ed-ac7c-a24171a59266")
 	)
 	(no_connect
 		(at 391.16 215.9)
 		(uuid "f6fbcedb-16d7-4b46-8bb8-d0977cd1cfd8")
 	)
 	(no_connect
-		(at 182.88 222.25)
+		(at 212.09 488.95)
 		(uuid "fa814e65-f64f-44a9-ada0-bab8f570a636")
+	)
+	(no_connect
+		(at 340.36 454.66)
+		(uuid "fe3e7b62-b71f-44c9-98b7-7f363a9d02b7")
 	)
 	(wire
 		(pts
-			(xy 90.17 204.47) (xy 90.17 193.04)
+			(xy 119.38 471.17) (xy 119.38 459.74)
 		)
 		(stroke
 			(width 0)
@@ -3718,6 +3862,26 @@
 	)
 	(wire
 		(pts
+			(xy 388.62 491.49) (xy 388.62 472.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "025a73a9-746e-4f12-a4e4-80d35c3114a3")
+	)
+	(wire
+		(pts
+			(xy 243.84 472.44) (xy 243.84 553.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02fade75-74bb-4b32-a1fa-bf80e7c702fe")
+	)
+	(wire
+		(pts
 			(xy 355.6 110.49) (xy 345.44 110.49)
 		)
 		(stroke
@@ -3748,13 +3912,33 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 251.46) (xy 179.07 251.46)
+			(xy 359.41 525.78) (xy 368.3 525.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "068e55cb-6c40-4f15-a9c9-ca102fc11ba1")
+	)
+	(wire
+		(pts
+			(xy 212.09 518.16) (xy 208.28 518.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "08170937-8d1e-4018-877a-2ab6af1dd019")
+	)
+	(wire
+		(pts
+			(xy 308.61 518.16) (xy 308.61 519.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "082a6731-217d-462b-998b-ba99ee877487")
 	)
 	(wire
 		(pts
@@ -3798,7 +3982,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 201.93) (xy 87.63 176.53)
+			(xy 116.84 468.63) (xy 116.84 443.23)
 		)
 		(stroke
 			(width 0)
@@ -3818,13 +4002,23 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 251.46) (xy 95.25 251.46)
+			(xy 128.27 518.16) (xy 124.46 518.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0b321c85-9618-4297-b4ec-2cc9f5d751c2")
+	)
+	(wire
+		(pts
+			(xy 396.24 459.74) (xy 388.62 459.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b566643-57ea-44d5-969f-93da7d733dbe")
 	)
 	(wire
 		(pts
@@ -3868,7 +4062,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 251.46) (xy 123.19 251.46)
+			(xy 156.21 518.16) (xy 152.4 518.16)
 		)
 		(stroke
 			(width 0)
@@ -3898,13 +4092,23 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 217.17) (xy 151.13 218.44)
+			(xy 180.34 483.87) (xy 180.34 485.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "121ad1b0-e2a2-4ed8-a0bc-8a46edcb7e26")
+	)
+	(wire
+		(pts
+			(xy 340.36 452.12) (xy 336.55 452.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12d4e59f-418e-4c7e-b268-901c06060772")
 	)
 	(wire
 		(pts
@@ -3938,7 +4142,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 208.28) (xy 33.02 208.28)
+			(xy 148.59 474.98) (xy 62.23 474.98)
 		)
 		(stroke
 			(width 0)
@@ -3968,7 +4172,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 287.02) (xy 173.99 287.02)
+			(xy 101.6 553.72) (xy 203.2 553.72)
 		)
 		(stroke
 			(width 0)
@@ -3998,7 +4202,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 217.17) (xy 95.25 218.44)
+			(xy 124.46 483.87) (xy 124.46 485.14)
 		)
 		(stroke
 			(width 0)
@@ -4018,7 +4222,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 224.79) (xy 34.29 279.4)
+			(xy 63.5 491.49) (xy 63.5 546.1)
 		)
 		(stroke
 			(width 0)
@@ -4028,13 +4232,23 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 259.08) (xy 182.88 259.08)
+			(xy 203.2 525.78) (xy 212.09 525.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1acb1372-b824-4617-927b-d1dae743e9aa")
+	)
+	(wire
+		(pts
+			(xy 392.43 452.12) (xy 392.43 453.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1af6e132-5e03-475e-887e-8fe4eb318aa9")
 	)
 	(wire
 		(pts
@@ -4045,6 +4259,16 @@
 			(type default)
 		)
 		(uuid "1d175b9d-5ea8-4f45-bc7f-d989e88aa894")
+	)
+	(wire
+		(pts
+			(xy 247.65 491.49) (xy 247.65 546.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d392a6d-6034-477d-b48e-3dfb622913d9")
 	)
 	(wire
 		(pts
@@ -4108,7 +4332,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 289.56) (xy 29.21 289.56)
+			(xy 66.04 556.26) (xy 58.42 556.26)
 		)
 		(stroke
 			(width 0)
@@ -4198,7 +4422,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 193.04) (xy 154.94 193.04)
+			(xy 175.26 459.74) (xy 184.15 459.74)
 		)
 		(stroke
 			(width 0)
@@ -4248,6 +4472,16 @@
 	)
 	(wire
 		(pts
+			(xy 303.53 459.74) (xy 312.42 459.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2873b3a0-ca54-4ace-ab09-a0ae1cfbf5c5")
+	)
+	(wire
+		(pts
 			(xy 375.92 113.03) (xy 387.35 113.03)
 		)
 		(stroke
@@ -4255,6 +4489,26 @@
 			(type default)
 		)
 		(uuid "28c67935-0356-411e-8e5c-5e0819c94680")
+	)
+	(wire
+		(pts
+			(xy 340.36 483.87) (xy 336.55 483.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a214b66-0004-4caf-8de0-d389d83007d2")
+	)
+	(wire
+		(pts
+			(xy 336.55 518.16) (xy 336.55 519.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a8f43fc-6d28-477e-bf44-15d65abf524d")
 	)
 	(wire
 		(pts
@@ -4268,7 +4522,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 224.79) (xy 99.06 224.79)
+			(xy 63.5 491.49) (xy 128.27 491.49)
 		)
 		(stroke
 			(width 0)
@@ -4278,7 +4532,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 208.28) (xy 33.02 281.94)
+			(xy 62.23 474.98) (xy 62.23 548.64)
 		)
 		(stroke
 			(width 0)
@@ -4298,7 +4552,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 185.42) (xy 179.07 185.42)
+			(xy 212.09 452.12) (xy 208.28 452.12)
 		)
 		(stroke
 			(width 0)
@@ -4338,6 +4592,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 556.26) (xy 242.57 556.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3383c280-ffd4-4df9-8858-c2ddb254a8b3")
+	)
+	(wire
+		(pts
 			(xy 477.52 58.42) (xy 477.52 52.07)
 		)
 		(stroke
@@ -4368,7 +4632,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 185.42) (xy 95.25 186.69)
+			(xy 124.46 452.12) (xy 124.46 453.39)
 		)
 		(stroke
 			(width 0)
@@ -4398,7 +4662,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 251.46) (xy 179.07 252.73)
+			(xy 208.28 518.16) (xy 208.28 519.43)
 		)
 		(stroke
 			(width 0)
@@ -4408,13 +4672,33 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 292.1) (xy 36.83 292.1)
+			(xy 57.15 558.8) (xy 66.04 558.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3744b5b2-c25a-4083-8a9d-ddab57dcc59d")
+	)
+	(wire
+		(pts
+			(xy 250.19 561.34) (xy 240.03 561.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37b1d66c-6394-441b-8aab-94381f62ecc5")
+	)
+	(wire
+		(pts
+			(xy 285.75 551.18) (xy 359.41 551.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39e948d5-4ac2-4240-9622-ce17df63735c")
 	)
 	(wire
 		(pts
@@ -4425,6 +4709,16 @@
 			(type default)
 		)
 		(uuid "3a52b4c4-bdf7-470f-a21e-92250ea61fee")
+	)
+	(wire
+		(pts
+			(xy 332.74 474.98) (xy 246.38 474.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a63e0d3-f872-47a3-8394-d6b02ab10bf3")
 	)
 	(wire
 		(pts
@@ -4458,7 +4752,27 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 217.17) (xy 151.13 217.17)
+			(xy 388.62 472.44) (xy 243.84 472.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c233e75-d126-4c2e-8675-2e02a6ac0d17")
+	)
+	(wire
+		(pts
+			(xy 300.99 443.23) (xy 359.41 443.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d45e958-4c6c-4b48-84a7-f78a31d70eea")
+	)
+	(wire
+		(pts
+			(xy 184.15 483.87) (xy 180.34 483.87)
 		)
 		(stroke
 			(width 0)
@@ -4488,7 +4802,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 224.79) (xy 119.38 208.28)
+			(xy 148.59 491.49) (xy 148.59 474.98)
 		)
 		(stroke
 			(width 0)
@@ -4505,6 +4819,16 @@
 			(type default)
 		)
 		(uuid "400a7537-01fb-4661-84bb-4e5c1a231b2a")
+	)
+	(wire
+		(pts
+			(xy 246.38 474.98) (xy 246.38 548.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40aebdca-1d5a-49eb-90a6-d26e4ca93d0e")
 	)
 	(wire
 		(pts
@@ -4545,6 +4869,16 @@
 			(type default)
 		)
 		(uuid "43af3560-cac5-4839-b432-ef1647332665")
+	)
+	(wire
+		(pts
+			(xy 250.19 551.18) (xy 245.11 551.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44c9d3a6-3635-4497-a3e3-d19f8af0bfc7")
 	)
 	(wire
 		(pts
@@ -4598,7 +4932,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 281.94) (xy 36.83 281.94)
+			(xy 62.23 548.64) (xy 66.04 548.64)
 		)
 		(stroke
 			(width 0)
@@ -4618,13 +4952,33 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 279.4) (xy 90.17 279.4)
+			(xy 101.6 546.1) (xy 119.38 546.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4c1cb875-a596-4221-9039-566fbf2f7da5")
+	)
+	(wire
+		(pts
+			(xy 285.75 548.64) (xy 331.47 548.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c26c4a0-91a6-49b3-a066-5a1c01767871")
+	)
+	(wire
+		(pts
+			(xy 300.99 468.63) (xy 300.99 443.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c4f71c5-ad78-457c-848a-6981f0c54698")
 	)
 	(wire
 		(pts
@@ -4638,7 +4992,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 281.94) (xy 118.11 259.08)
+			(xy 147.32 548.64) (xy 147.32 525.78)
 		)
 		(stroke
 			(width 0)
@@ -4668,7 +5022,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 284.48) (xy 31.75 284.48)
+			(xy 66.04 551.18) (xy 60.96 551.18)
 		)
 		(stroke
 			(width 0)
@@ -4678,7 +5032,17 @@
 	)
 	(wire
 		(pts
-			(xy 127 224.79) (xy 119.38 224.79)
+			(xy 364.49 483.87) (xy 364.49 485.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51b04b8d-0c5d-4eba-86f3-9e9e3a535aa7")
+	)
+	(wire
+		(pts
+			(xy 156.21 491.49) (xy 148.59 491.49)
 		)
 		(stroke
 			(width 0)
@@ -4728,7 +5092,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 193.04) (xy 119.38 177.8)
+			(xy 148.59 459.74) (xy 148.59 444.5)
 		)
 		(stroke
 			(width 0)
@@ -4748,7 +5112,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 205.74) (xy 30.48 205.74)
+			(xy 204.47 472.44) (xy 59.69 472.44)
 		)
 		(stroke
 			(width 0)
@@ -4788,6 +5152,16 @@
 	)
 	(wire
 		(pts
+			(xy 308.61 452.12) (xy 308.61 453.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "575f8dc9-b355-4b6c-ad6e-790f14ed04cd")
+	)
+	(wire
+		(pts
 			(xy 262.89 163.83) (xy 259.08 163.83)
 		)
 		(stroke
@@ -4808,6 +5182,36 @@
 	)
 	(wire
 		(pts
+			(xy 387.35 553.72) (xy 387.35 525.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5915b291-17e9-4fbe-8e40-a2c5e01fd7c0")
+	)
+	(wire
+		(pts
+			(xy 287.02 541.02) (xy 287.02 539.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a71ab83-224a-4306-88ca-4bd89e40c080")
+	)
+	(wire
+		(pts
+			(xy 242.57 471.17) (xy 303.53 471.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b302905-1d3d-4bd9-bb2a-480bb1bfb518")
+	)
+	(wire
+		(pts
 			(xy 262.89 173.99) (xy 259.08 173.99)
 		)
 		(stroke
@@ -4818,7 +5222,27 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 289.56) (xy 29.21 204.47)
+			(xy 359.41 443.23) (xy 359.41 459.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bc34536-f31f-4687-9924-9a61bd20fd9c")
+	)
+	(wire
+		(pts
+			(xy 303.53 525.78) (xy 312.42 525.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c90917e-a6cb-4cb4-8d35-096daa6c0418")
+	)
+	(wire
+		(pts
+			(xy 58.42 556.26) (xy 58.42 471.17)
 		)
 		(stroke
 			(width 0)
@@ -4828,7 +5252,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 251.46) (xy 95.25 252.73)
+			(xy 124.46 518.16) (xy 124.46 519.43)
 		)
 		(stroke
 			(width 0)
@@ -4838,13 +5262,23 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 193.04) (xy 99.06 193.04)
+			(xy 119.38 459.74) (xy 128.27 459.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "610dc840-6e35-4904-bd9a-d11dc7076a17")
+	)
+	(wire
+		(pts
+			(xy 302.26 444.5) (xy 302.26 469.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61662c88-32e0-45e3-9369-38cf5c369282")
 	)
 	(wire
 		(pts
@@ -4868,6 +5302,26 @@
 	)
 	(wire
 		(pts
+			(xy 332.74 459.74) (xy 332.74 444.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63622bc0-b04b-45b1-a3fc-abadb08851f9")
+	)
+	(wire
+		(pts
+			(xy 299.72 440.69) (xy 299.72 467.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "644abd2e-1587-49c6-8484-40e52b4ab899")
+	)
+	(wire
+		(pts
 			(xy 435.61 234.95) (xy 435.61 238.76)
 		)
 		(stroke
@@ -4888,7 +5342,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 217.17) (xy 95.25 217.17)
+			(xy 128.27 483.87) (xy 124.46 483.87)
 		)
 		(stroke
 			(width 0)
@@ -4898,7 +5352,17 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 251.46) (xy 123.19 252.73)
+			(xy 387.35 525.78) (xy 396.24 525.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6685c98c-9732-445a-ada5-6555970ee7b1")
+	)
+	(wire
+		(pts
+			(xy 152.4 518.16) (xy 152.4 519.43)
 		)
 		(stroke
 			(width 0)
@@ -4925,6 +5389,16 @@
 			(type default)
 		)
 		(uuid "67875d1e-01ae-474e-b7dd-706507aa9dbf")
+	)
+	(wire
+		(pts
+			(xy 359.41 491.49) (xy 368.3 491.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "685054b4-aed1-46fc-a509-9e7b4257a329")
 	)
 	(wire
 		(pts
@@ -4958,7 +5432,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 177.8) (xy 88.9 203.2)
+			(xy 118.11 444.5) (xy 118.11 469.9)
 		)
 		(stroke
 			(width 0)
@@ -4968,7 +5442,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 185.42) (xy 123.19 186.69)
+			(xy 152.4 452.12) (xy 152.4 453.39)
 		)
 		(stroke
 			(width 0)
@@ -4978,7 +5452,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 185.42) (xy 151.13 185.42)
+			(xy 184.15 452.12) (xy 180.34 452.12)
 		)
 		(stroke
 			(width 0)
@@ -4988,7 +5462,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 200.66) (xy 25.4 200.66)
+			(xy 115.57 467.36) (xy 54.61 467.36)
 		)
 		(stroke
 			(width 0)
@@ -5008,6 +5482,16 @@
 	)
 	(wire
 		(pts
+			(xy 388.62 440.69) (xy 299.72 440.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cc06e63-3cab-451f-b58c-fa99873cd775")
+	)
+	(wire
+		(pts
 			(xy 262.89 148.59) (xy 259.08 148.59)
 		)
 		(stroke
@@ -5018,6 +5502,26 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 553.72) (xy 250.19 553.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f286db6-a4f4-4f63-a256-47bcaca51a32")
+	)
+	(wire
+		(pts
+			(xy 359.41 473.71) (xy 359.41 491.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f58dab1-cf12-45c0-a956-7243fc29d72c")
+	)
+	(wire
+		(pts
 			(xy 349.25 193.04) (xy 350.52 193.04)
 		)
 		(stroke
@@ -5025,6 +5529,16 @@
 			(type default)
 		)
 		(uuid "71f80b98-801f-49ac-abec-0a97473bbead")
+	)
+	(wire
+		(pts
+			(xy 241.3 558.8) (xy 250.19 558.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "726798b3-66d8-4e02-9834-843073124c5c")
 	)
 	(wire
 		(pts
@@ -5058,6 +5572,16 @@
 	)
 	(wire
 		(pts
+			(xy 336.55 483.87) (xy 336.55 485.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75581577-c425-40d6-8c33-a8d886b076bf")
+	)
+	(wire
+		(pts
 			(xy 203.2 113.03) (xy 203.2 110.49)
 		)
 		(stroke
@@ -5068,13 +5592,23 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 251.46) (xy 151.13 252.73)
+			(xy 180.34 518.16) (xy 180.34 519.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "756e70bb-96d2-4fab-a4ef-366fd61db977")
+	)
+	(wire
+		(pts
+			(xy 240.03 468.63) (xy 300.99 468.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75a23fa1-7be7-43d4-ac94-9321e139bf3d")
 	)
 	(wire
 		(pts
@@ -5088,7 +5622,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 284.48) (xy 146.05 284.48)
+			(xy 101.6 551.18) (xy 175.26 551.18)
 		)
 		(stroke
 			(width 0)
@@ -5108,7 +5642,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 224.79) (xy 154.94 224.79)
+			(xy 175.26 491.49) (xy 184.15 491.49)
 		)
 		(stroke
 			(width 0)
@@ -5158,13 +5692,33 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 200.66) (xy 25.4 297.18)
+			(xy 312.42 518.16) (xy 308.61 518.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bf79141-492c-4464-9d09-475107cc810a")
+	)
+	(wire
+		(pts
+			(xy 54.61 467.36) (xy 54.61 563.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7c315b45-4d75-4eec-8374-0c25951d3058")
+	)
+	(wire
+		(pts
+			(xy 388.62 459.74) (xy 388.62 440.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c5b95fa-68a3-4204-ba6b-601f10224a94")
 	)
 	(wire
 		(pts
@@ -5188,6 +5742,26 @@
 	)
 	(wire
 		(pts
+			(xy 364.49 518.16) (xy 364.49 519.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d9bf3e9-b41f-4467-b6b9-5ee16c67a48e")
+	)
+	(wire
+		(pts
+			(xy 331.47 525.78) (xy 340.36 525.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e84ea80-4ed9-4f48-a908-0df76cd40d2d")
+	)
+	(wire
+		(pts
 			(xy 452.12 158.75) (xy 452.12 147.32)
 		)
 		(stroke
@@ -5208,13 +5782,33 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 203.2) (xy 27.94 203.2)
+			(xy 359.41 551.18) (xy 359.41 525.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "813f359e-e6e4-44c1-ad8e-236bd9793f89")
+	)
+	(wire
+		(pts
+			(xy 118.11 469.9) (xy 57.15 469.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "83431a36-cdca-40c4-a5ce-834459ed2b09")
+	)
+	(wire
+		(pts
+			(xy 396.24 483.87) (xy 392.43 483.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83b140e0-d5b1-47e6-9841-0c3713ea60eb")
 	)
 	(wire
 		(pts
@@ -5225,6 +5819,16 @@
 			(type default)
 		)
 		(uuid "83e788ce-4156-42bb-a448-48e0c7d65b33")
+	)
+	(wire
+		(pts
+			(xy 332.74 491.49) (xy 332.74 474.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84209f5b-14de-482c-8048-14e641ceb800")
 	)
 	(wire
 		(pts
@@ -5248,6 +5852,16 @@
 	)
 	(wire
 		(pts
+			(xy 285.75 553.72) (xy 387.35 553.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85e9c2ab-94ca-4462-bb14-7c07944a3bae")
+	)
+	(wire
+		(pts
 			(xy 241.3 120.65) (xy 245.11 120.65)
 		)
 		(stroke
@@ -5268,7 +5882,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 173.99) (xy 86.36 200.66)
+			(xy 115.57 440.69) (xy 115.57 467.36)
 		)
 		(stroke
 			(width 0)
@@ -5278,7 +5892,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 217.17) (xy 123.19 217.17)
+			(xy 156.21 483.87) (xy 152.4 483.87)
 		)
 		(stroke
 			(width 0)
@@ -5288,7 +5902,17 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 193.04) (xy 175.26 193.04)
+			(xy 396.24 452.12) (xy 392.43 452.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89a21b70-30c6-4675-b085-876404cdbdc8")
+	)
+	(wire
+		(pts
+			(xy 212.09 459.74) (xy 204.47 459.74)
 		)
 		(stroke
 			(width 0)
@@ -5298,7 +5922,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 287.02) (xy 36.83 287.02)
+			(xy 59.69 553.72) (xy 66.04 553.72)
 		)
 		(stroke
 			(width 0)
@@ -5308,7 +5932,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 294.64) (xy 26.67 201.93)
+			(xy 55.88 561.34) (xy 55.88 468.63)
 		)
 		(stroke
 			(width 0)
@@ -5358,7 +5982,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 284.48) (xy 146.05 259.08)
+			(xy 175.26 551.18) (xy 175.26 525.78)
 		)
 		(stroke
 			(width 0)
@@ -5368,7 +5992,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 294.64) (xy 26.67 294.64)
+			(xy 66.04 561.34) (xy 55.88 561.34)
 		)
 		(stroke
 			(width 0)
@@ -5448,7 +6072,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 207.01) (xy 146.05 224.79)
+			(xy 175.26 473.71) (xy 175.26 491.49)
 		)
 		(stroke
 			(width 0)
@@ -5465,6 +6089,16 @@
 			(type default)
 		)
 		(uuid "92687435-0a66-43d9-ac6c-2b1b2819f162")
+	)
+	(wire
+		(pts
+			(xy 246.38 548.64) (xy 250.19 548.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "927e19b3-7124-42c3-acc7-2e01f2254bc3")
 	)
 	(wire
 		(pts
@@ -5488,7 +6122,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 205.74) (xy 30.48 287.02)
+			(xy 59.69 472.44) (xy 59.69 553.72)
 		)
 		(stroke
 			(width 0)
@@ -5498,7 +6132,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 217.17) (xy 179.07 217.17)
+			(xy 212.09 483.87) (xy 208.28 483.87)
 		)
 		(stroke
 			(width 0)
@@ -5518,7 +6152,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 177.8) (xy 88.9 177.8)
+			(xy 148.59 444.5) (xy 118.11 444.5)
 		)
 		(stroke
 			(width 0)
@@ -5528,7 +6162,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 284.48) (xy 31.75 207.01)
+			(xy 60.96 551.18) (xy 60.96 473.71)
 		)
 		(stroke
 			(width 0)
@@ -5548,7 +6182,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 274.32) (xy 72.39 274.32)
+			(xy 102.87 541.02) (xy 101.6 541.02)
 		)
 		(stroke
 			(width 0)
@@ -5588,7 +6222,17 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 259.08) (xy 154.94 259.08)
+			(xy 392.43 518.16) (xy 392.43 519.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b5330ba-0f70-4621-adec-7cf240f24e4b")
+	)
+	(wire
+		(pts
+			(xy 175.26 525.78) (xy 184.15 525.78)
 		)
 		(stroke
 			(width 0)
@@ -5628,6 +6272,16 @@
 	)
 	(wire
 		(pts
+			(xy 331.47 548.64) (xy 331.47 525.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fe68b8d-b9a4-4c6b-96d0-39c9d3436c2c")
+	)
+	(wire
+		(pts
 			(xy 382.27 208.28) (xy 382.27 195.58)
 		)
 		(stroke
@@ -5638,7 +6292,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 185.42) (xy 151.13 186.69)
+			(xy 180.34 452.12) (xy 180.34 453.39)
 		)
 		(stroke
 			(width 0)
@@ -5665,6 +6319,16 @@
 			(type default)
 		)
 		(uuid "a0e209af-5516-4284-a5c9-911ea58660ef")
+	)
+	(wire
+		(pts
+			(xy 238.76 467.36) (xy 238.76 563.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a19d8dea-8a5f-4535-94bf-1c81283e144b")
 	)
 	(wire
 		(pts
@@ -5698,6 +6362,36 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 551.18) (xy 245.11 473.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a896c4c8-01f7-42e0-8c47-07aad06852e6")
+	)
+	(wire
+		(pts
+			(xy 308.61 483.87) (xy 308.61 485.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8c02269-08ce-43cb-a61d-86a85a2b8634")
+	)
+	(wire
+		(pts
+			(xy 340.36 491.49) (xy 332.74 491.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a962f6dc-ee6a-4707-bc8b-e4213de345d7")
+	)
+	(wire
+		(pts
 			(xy 261.62 102.87) (xy 257.81 102.87)
 		)
 		(stroke
@@ -5718,7 +6412,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 279.4) (xy 36.83 279.4)
+			(xy 63.5 546.1) (xy 66.04 546.1)
 		)
 		(stroke
 			(width 0)
@@ -5728,7 +6422,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 185.42) (xy 179.07 186.69)
+			(xy 208.28 452.12) (xy 208.28 453.39)
 		)
 		(stroke
 			(width 0)
@@ -5748,7 +6442,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 259.08) (xy 99.06 259.08)
+			(xy 119.38 525.78) (xy 128.27 525.78)
 		)
 		(stroke
 			(width 0)
@@ -5778,6 +6472,16 @@
 	)
 	(wire
 		(pts
+			(xy 364.49 452.12) (xy 364.49 453.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad5e8ec2-ced6-4354-9514-49606c41b584")
+	)
+	(wire
+		(pts
 			(xy 191.77 110.49) (xy 191.77 113.03)
 		)
 		(stroke
@@ -5798,13 +6502,33 @@
 	)
 	(wire
 		(pts
-			(xy 127 193.04) (xy 119.38 193.04)
+			(xy 156.21 459.74) (xy 148.59 459.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b13e15ca-dad6-45bd-8034-431b3104ecb5")
+	)
+	(wire
+		(pts
+			(xy 340.36 518.16) (xy 336.55 518.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b167c568-4a82-4982-a343-662d5f0cec72")
+	)
+	(wire
+		(pts
+			(xy 332.74 444.5) (xy 302.26 444.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b17a0d81-f4df-4425-aeee-15aacd97e03a")
 	)
 	(wire
 		(pts
@@ -5818,13 +6542,23 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 281.94) (xy 118.11 281.94)
+			(xy 101.6 548.64) (xy 147.32 548.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b26e92b6-3479-4c83-b3e4-96e6dc62e6c4")
+	)
+	(wire
+		(pts
+			(xy 247.65 546.1) (xy 250.19 546.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2b0df0d-0f0b-4a25-b79f-f8ccf5bbe3a6")
 	)
 	(wire
 		(pts
@@ -5838,7 +6572,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 193.04) (xy 175.26 173.99)
+			(xy 204.47 459.74) (xy 204.47 440.69)
 		)
 		(stroke
 			(width 0)
@@ -5868,6 +6602,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 473.71) (xy 359.41 473.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4f2b1d5-7644-4f07-a076-106f041423db")
+	)
+	(wire
+		(pts
 			(xy 261.62 110.49) (xy 257.81 110.49)
 		)
 		(stroke
@@ -5878,7 +6622,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 251.46) (xy 151.13 251.46)
+			(xy 184.15 518.16) (xy 180.34 518.16)
 		)
 		(stroke
 			(width 0)
@@ -5918,7 +6662,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 224.79) (xy 175.26 224.79)
+			(xy 212.09 491.49) (xy 204.47 491.49)
 		)
 		(stroke
 			(width 0)
@@ -5928,7 +6672,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 279.4) (xy 90.17 259.08)
+			(xy 119.38 546.1) (xy 119.38 525.78)
 		)
 		(stroke
 			(width 0)
@@ -5938,7 +6682,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 207.01) (xy 146.05 207.01)
+			(xy 60.96 473.71) (xy 175.26 473.71)
 		)
 		(stroke
 			(width 0)
@@ -5948,7 +6692,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 201.93) (xy 87.63 201.93)
+			(xy 55.88 468.63) (xy 116.84 468.63)
 		)
 		(stroke
 			(width 0)
@@ -5968,7 +6712,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 259.08) (xy 127 259.08)
+			(xy 147.32 525.78) (xy 156.21 525.78)
 		)
 		(stroke
 			(width 0)
@@ -5988,6 +6732,16 @@
 	)
 	(wire
 		(pts
+			(xy 302.26 469.9) (xy 241.3 469.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be7df1fd-45f2-4038-a38a-0ebc934bf1f0")
+	)
+	(wire
+		(pts
 			(xy 199.39 113.03) (xy 199.39 110.49)
 		)
 		(stroke
@@ -5995,6 +6749,16 @@
 			(type default)
 		)
 		(uuid "bf2c31b2-9568-481e-8dd8-87fcc9b945e0")
+	)
+	(wire
+		(pts
+			(xy 312.42 452.12) (xy 308.61 452.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfa82acf-8b24-4498-a7fe-e20ef64d974c")
 	)
 	(wire
 		(pts
@@ -6018,6 +6782,16 @@
 	)
 	(wire
 		(pts
+			(xy 312.42 483.87) (xy 308.61 483.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3b569e3-dabe-432f-ab22-e9e0fef10138")
+	)
+	(wire
+		(pts
 			(xy 477.52 20.32) (xy 480.06 20.32)
 		)
 		(stroke
@@ -6025,6 +6799,16 @@
 			(type default)
 		)
 		(uuid "c4ba07f5-0d9d-4ace-ab86-2e3c1c7f79d6")
+	)
+	(wire
+		(pts
+			(xy 368.3 518.16) (xy 364.49 518.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4ee2426-c2ef-4c7e-9d47-1a474253cae2")
 	)
 	(wire
 		(pts
@@ -6048,7 +6832,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 185.42) (xy 95.25 185.42)
+			(xy 128.27 452.12) (xy 124.46 452.12)
 		)
 		(stroke
 			(width 0)
@@ -6088,7 +6872,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 297.18) (xy 36.83 297.18)
+			(xy 54.61 563.88) (xy 66.04 563.88)
 		)
 		(stroke
 			(width 0)
@@ -6115,6 +6899,26 @@
 			(type default)
 		)
 		(uuid "cb290c47-4fdd-40f1-afdb-f10a4063e7fd")
+	)
+	(wire
+		(pts
+			(xy 303.53 546.1) (xy 303.53 525.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb51140a-5217-4e42-a312-f863eb8fb0b2")
+	)
+	(wire
+		(pts
+			(xy 368.3 452.12) (xy 364.49 452.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb6dd36f-8d5a-420f-8f78-e2ef9c78d32b")
 	)
 	(wire
 		(pts
@@ -6148,13 +6952,33 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 173.99) (xy 86.36 173.99)
+			(xy 204.47 440.69) (xy 115.57 440.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cf8d0f56-d9ca-47ad-a677-643a276613e7")
+	)
+	(wire
+		(pts
+			(xy 285.75 546.1) (xy 303.53 546.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d053c02b-b711-42c6-824b-57376e9d31ab")
+	)
+	(wire
+		(pts
+			(xy 303.53 471.17) (xy 303.53 459.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0ddcd7e-e282-4042-bfc8-2dc591f018e1")
 	)
 	(wire
 		(pts
@@ -6178,6 +7002,26 @@
 	)
 	(wire
 		(pts
+			(xy 368.3 483.87) (xy 364.49 483.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3443692-47aa-4dd7-8e40-b6ccf322a6fa")
+	)
+	(wire
+		(pts
+			(xy 241.3 469.9) (xy 241.3 558.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d38eb9d7-4aa4-44ef-97ab-7a8444b84698")
+	)
+	(wire
+		(pts
 			(xy 632.46 90.17) (xy 628.65 90.17)
 		)
 		(stroke
@@ -6198,6 +7042,16 @@
 	)
 	(wire
 		(pts
+			(xy 340.36 459.74) (xy 332.74 459.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d59ea41a-a5ad-4f62-972b-edd3e6f1ef2c")
+	)
+	(wire
+		(pts
 			(xy 643.89 74.93) (xy 633.73 74.93)
 		)
 		(stroke
@@ -6208,7 +7062,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 287.02) (xy 173.99 259.08)
+			(xy 203.2 553.72) (xy 203.2 525.78)
 		)
 		(stroke
 			(width 0)
@@ -6248,6 +7102,16 @@
 	)
 	(wire
 		(pts
+			(xy 299.72 467.36) (xy 238.76 467.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d90d9f1d-2efb-4210-996e-c0fda90e6538")
+	)
+	(wire
+		(pts
 			(xy 433.07 120.65) (xy 434.34 120.65)
 		)
 		(stroke
@@ -6268,7 +7132,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 203.2) (xy 27.94 292.1)
+			(xy 57.15 469.9) (xy 57.15 558.8)
 		)
 		(stroke
 			(width 0)
@@ -6278,7 +7142,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 224.79) (xy 175.26 205.74)
+			(xy 204.47 491.49) (xy 204.47 472.44)
 		)
 		(stroke
 			(width 0)
@@ -6308,6 +7172,16 @@
 	)
 	(wire
 		(pts
+			(xy 285.75 572.77) (xy 285.75 571.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbe22df6-cde7-403d-b2ff-b02da220a8e6")
+	)
+	(wire
+		(pts
 			(xy 262.89 140.97) (xy 259.08 140.97)
 		)
 		(stroke
@@ -6318,6 +7192,16 @@
 	)
 	(wire
 		(pts
+			(xy 359.41 459.74) (xy 368.3 459.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcbcc7f6-ba9a-42b4-aa5b-e2e87b8a898b")
+	)
+	(wire
+		(pts
 			(xy 242.57 168.91) (xy 246.38 168.91)
 		)
 		(stroke
@@ -6325,6 +7209,26 @@
 			(type default)
 		)
 		(uuid "dd294e19-8c63-4764-9881-0d1f8c6dbe54")
+	)
+	(wire
+		(pts
+			(xy 396.24 491.49) (xy 388.62 491.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd6dab42-2b06-465a-8201-34429d713072")
+	)
+	(wire
+		(pts
+			(xy 240.03 561.34) (xy 240.03 468.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e143a27c-7855-4e24-9f3e-cd88d0379473")
 	)
 	(wire
 		(pts
@@ -6348,6 +7252,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 563.88) (xy 250.19 563.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e27eb08f-4b3a-48f0-923d-6344ed165c0d")
+	)
+	(wire
+		(pts
 			(xy 242.57 166.37) (xy 246.38 166.37)
 		)
 		(stroke
@@ -6358,7 +7272,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 176.53) (xy 146.05 193.04)
+			(xy 175.26 443.23) (xy 175.26 459.74)
 		)
 		(stroke
 			(width 0)
@@ -6378,13 +7292,23 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 204.47) (xy 90.17 204.47)
+			(xy 58.42 471.17) (xy 119.38 471.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e5b646a2-edcd-4980-9eae-9b0ec80fbc06")
+	)
+	(wire
+		(pts
+			(xy 336.55 452.12) (xy 336.55 453.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e60de098-7357-438f-93c4-e5f9c7a6b2be")
 	)
 	(wire
 		(pts
@@ -6408,6 +7332,26 @@
 	)
 	(wire
 		(pts
+			(xy 287.02 541.02) (xy 285.75 541.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8c21ee4-12c0-4bf7-be4f-6c896a402203")
+	)
+	(wire
+		(pts
+			(xy 392.43 483.87) (xy 392.43 485.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea2a7262-8bf1-4fd1-8c32-44e0f2998d84")
+	)
+	(wire
+		(pts
 			(xy 321.31 137.16) (xy 318.77 137.16)
 		)
 		(stroke
@@ -6428,7 +7372,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 185.42) (xy 123.19 185.42)
+			(xy 156.21 452.12) (xy 152.4 452.12)
 		)
 		(stroke
 			(width 0)
@@ -6438,7 +7382,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 274.32) (xy 73.66 273.05)
+			(xy 102.87 541.02) (xy 102.87 539.75)
 		)
 		(stroke
 			(width 0)
@@ -6448,7 +7392,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 176.53) (xy 146.05 176.53)
+			(xy 116.84 443.23) (xy 175.26 443.23)
 		)
 		(stroke
 			(width 0)
@@ -6468,13 +7412,33 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 217.17) (xy 179.07 218.44)
+			(xy 208.28 483.87) (xy 208.28 485.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f7229cee-cec0-4338-bd09-31437576f272")
+	)
+	(wire
+		(pts
+			(xy 242.57 556.26) (xy 242.57 471.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8b4d6af-44a8-471f-9d65-438de8b916da")
+	)
+	(wire
+		(pts
+			(xy 396.24 518.16) (xy 392.43 518.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9ff149d-0295-4c2f-b6d7-eecd311713eb")
 	)
 	(wire
 		(pts
@@ -6498,6 +7462,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 491.49) (xy 312.42 491.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb2025d3-d42a-4667-be3b-2bd5a6fc92a0")
+	)
+	(wire
+		(pts
 			(xy 382.27 231.14) (xy 378.46 231.14)
 		)
 		(stroke
@@ -6508,7 +7482,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 217.17) (xy 123.19 218.44)
+			(xy 152.4 483.87) (xy 152.4 485.14)
 		)
 		(stroke
 			(width 0)
@@ -6528,7 +7502,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 306.07) (xy 72.39 304.8)
+			(xy 101.6 572.77) (xy 101.6 571.5)
 		)
 		(stroke
 			(width 0)
@@ -7315,7 +8289,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 95.25 186.69 0)
+		(at 124.46 453.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7324,7 +8298,7 @@
 		(fields_autoplaced yes)
 		(uuid "003d108e-ce9b-48b1-bf53-374ca5983afc")
 		(property "Reference" "#PWR021"
-			(at 95.25 193.04 0)
+			(at 124.46 459.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7333,7 +8307,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 191.77 0)
+			(at 124.46 458.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7341,7 +8315,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 186.69 0)
+			(at 124.46 453.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7350,7 +8324,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 186.69 0)
+			(at 124.46 453.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7359,7 +8333,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 95.25 186.69 0)
+			(at 124.46 453.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7596,6 +8570,93 @@
 			(project "Controller"
 				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9"
 					(reference "J29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 373.38 520.7 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "064dcd0d-57ec-4b05-8253-519e4a74f1d5")
+		(property "Reference" "J55"
+			(at 375.285 511.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 375.285 514.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 373.38 520.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 373.38 520.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 373.38 520.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "OPR 7"
+			(at 381 526.542 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "35e24ebb-fcea-4678-a4c9-56f05cadbeed")
+		)
+		(pin "S"
+			(uuid "ca7df240-a373-4670-a963-039bc8120864")
+		)
+		(pin "T"
+			(uuid "506f0200-1dd7-4084-a9a9-dfeeb3a9e2e2")
+		)
+		(pin "R"
+			(uuid "aa216b74-981f-4bfe-a5a3-aec9878ee56d")
+		)
+		(pin "RN"
+			(uuid "dd812e2f-62e0-4705-b26f-e98b529e7b77")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9"
+					(reference "J55")
 					(unit 1)
 				)
 			)
@@ -7871,7 +8932,7 @@
 	)
 	(symbol
 		(lib_id "AT-Symbols:SN74HC32PWR")
-		(at 54.61 289.56 0)
+		(at 83.82 556.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7880,7 +8941,7 @@
 		(fields_autoplaced yes)
 		(uuid "0cdfea9a-0da8-4e12-ae95-4fa6bc9511e9")
 		(property "Reference" "U3"
-			(at 54.61 266.7 0)
+			(at 83.82 533.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7888,7 +8949,7 @@
 			)
 		)
 		(property "Value" "SN74HC32PWR"
-			(at 54.61 269.24 0)
+			(at 83.82 535.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7896,7 +8957,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 54.61 289.56 0)
+			(at 83.82 556.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7906,7 +8967,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 289.56 0)
+			(at 83.82 556.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7915,7 +8976,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 289.56 0)
+			(at 83.82 556.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8334,8 +9395,95 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 317.5 520.7 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e2a5b9c-e1b5-4f17-b321-3de0644b03fd")
+		(property "Reference" "J49"
+			(at 319.405 511.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 319.405 514.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 317.5 520.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 317.5 520.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 317.5 520.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "OPR 5"
+			(at 325.12 526.542 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "c77c45e8-49ed-444a-ad72-2ceabc24f081")
+		)
+		(pin "S"
+			(uuid "02112719-ac4d-4bd6-a30c-5451b95136fa")
+		)
+		(pin "T"
+			(uuid "71920f08-090c-4f57-93f4-c66222f77f81")
+		)
+		(pin "R"
+			(uuid "2a31179f-fa08-435f-a2bb-0f479084ddeb")
+		)
+		(pin "RN"
+			(uuid "b7345a9f-b672-499d-9985-517de931c2ab")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9"
+					(reference "J49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 72.39 306.07 0)
+		(at 101.6 572.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8344,7 +9492,7 @@
 		(fields_autoplaced yes)
 		(uuid "0e3a36c8-e0cb-4af6-aefc-fa0469de2d22")
 		(property "Reference" "#PWR025"
-			(at 72.39 312.42 0)
+			(at 101.6 579.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8353,7 +9501,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 72.39 311.15 0)
+			(at 101.6 577.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8361,7 +9509,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 306.07 0)
+			(at 101.6 572.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8370,7 +9518,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 306.07 0)
+			(at 101.6 572.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8379,7 +9527,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 306.07 0)
+			(at 101.6 572.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8487,7 +9635,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 179.07 186.69 0)
+		(at 208.28 453.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8496,7 +9644,7 @@
 		(fields_autoplaced yes)
 		(uuid "16559e49-f600-46c4-bd10-22b1c396e3ec")
 		(property "Reference" "#PWR024"
-			(at 179.07 193.04 0)
+			(at 208.28 459.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8505,7 +9653,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 179.07 191.77 0)
+			(at 208.28 458.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8513,7 +9661,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 186.69 0)
+			(at 208.28 453.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8522,7 +9670,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 186.69 0)
+			(at 208.28 453.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8531,7 +9679,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.07 186.69 0)
+			(at 208.28 453.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8849,8 +9997,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 336.55 453.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1aea46a8-b544-4f02-8cc4-47ad9d7b452a")
+		(property "Reference" "#PWR032"
+			(at 336.55 459.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 336.55 458.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 336.55 453.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 336.55 453.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 336.55 453.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83a3c75a-ce67-47c3-b723-6eec19bb4fd6")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
-		(at 160.02 254 0)
+		(at 189.23 520.7 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8859,7 +10073,7 @@
 		(dnp no)
 		(uuid "1b46d506-97a0-4179-8629-3d84d16afb36")
 		(property "Reference" "J37"
-			(at 161.925 245.11 0)
+			(at 191.135 511.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8867,7 +10081,7 @@
 			)
 		)
 		(property "Value" "AudioJack3_SwitchTR"
-			(at 161.925 247.65 0)
+			(at 191.135 514.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8875,7 +10089,7 @@
 			)
 		)
 		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
-			(at 160.02 254 0)
+			(at 189.23 520.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8884,7 +10098,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 254 0)
+			(at 189.23 520.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8893,7 +10107,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
-			(at 160.02 254 0)
+			(at 189.23 520.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8902,7 +10116,7 @@
 			)
 		)
 		(property "Control" "OPR 3"
-			(at 167.64 259.842 0)
+			(at 196.85 526.542 0)
 			(effects
 				(font
 					(face "Boston Traffic")
@@ -8930,6 +10144,93 @@
 			(project "Controller"
 				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9"
 					(reference "J37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 373.38 486.41 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c1e9268-cc7a-461a-acf6-902fd0583a45")
+		(property "Reference" "J54"
+			(at 375.285 477.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 375.285 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 373.38 486.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 373.38 486.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 373.38 486.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "CALL 2A"
+			(at 381 492.252 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "5c7799b3-907e-41f5-841c-d5d1951247a9")
+		)
+		(pin "S"
+			(uuid "b96cd421-8dae-4b71-a811-25d9a3e4c14a")
+		)
+		(pin "T"
+			(uuid "e90b8f29-93fd-4d8b-a1b0-bd0f677dc8ff")
+		)
+		(pin "R"
+			(uuid "4edf5132-7651-4687-85a2-3ecfadf59b2a")
+		)
+		(pin "RN"
+			(uuid "cde4cb89-1b68-448e-989d-573f5268863c")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9"
+					(reference "J54")
 					(unit 1)
 				)
 			)
@@ -9075,7 +10376,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
-		(at 187.96 187.96 0)
+		(at 217.17 454.66 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9084,7 +10385,7 @@
 		(dnp no)
 		(uuid "2051c51d-f1d7-4c85-9d6d-c41092bf9fb4")
 		(property "Reference" "J46"
-			(at 189.865 179.07 0)
+			(at 219.075 445.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9092,7 +10393,7 @@
 			)
 		)
 		(property "Value" "AudioJack3_SwitchTR"
-			(at 189.865 181.61 0)
+			(at 219.075 448.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9100,7 +10401,7 @@
 			)
 		)
 		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
-			(at 187.96 187.96 0)
+			(at 217.17 454.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9109,7 +10410,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 187.96 0)
+			(at 217.17 454.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9118,7 +10419,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
-			(at 187.96 187.96 0)
+			(at 217.17 454.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9127,7 +10428,7 @@
 			)
 		)
 		(property "Control" "CALL 4B"
-			(at 195.58 193.802 0)
+			(at 224.79 460.502 0)
 			(effects
 				(font
 					(face "Boston Traffic")
@@ -9622,6 +10923,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 308.61 453.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30fe8e96-ba07-4760-b252-4d9421464586")
+		(property "Reference" "#PWR029"
+			(at 308.61 459.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 308.61 458.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 308.61 453.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 308.61 453.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 308.61 453.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0702bf2b-f027-4e5a-bf2d-10da0fc4ea4e")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 445.77 232.41 0)
 		(mirror x)
@@ -9727,7 +11094,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
-		(at 160.02 219.71 0)
+		(at 189.23 486.41 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9736,7 +11103,7 @@
 		(dnp no)
 		(uuid "317f3d39-d981-4b75-bc5f-655537a21a78")
 		(property "Reference" "J41"
-			(at 161.925 210.82 0)
+			(at 191.135 477.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9744,7 +11111,7 @@
 			)
 		)
 		(property "Value" "AudioJack3_SwitchTR"
-			(at 161.925 213.36 0)
+			(at 191.135 480.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9752,7 +11119,7 @@
 			)
 		)
 		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
-			(at 160.02 219.71 0)
+			(at 189.23 486.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9761,7 +11128,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 219.71 0)
+			(at 189.23 486.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9770,7 +11137,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
-			(at 160.02 219.71 0)
+			(at 189.23 486.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9779,7 +11146,7 @@
 			)
 		)
 		(property "Control" "CALL 2A"
-			(at 167.64 225.552 0)
+			(at 196.85 492.252 0)
 			(effects
 				(font
 					(face "Boston Traffic")
@@ -10066,43 +11433,34 @@
 		)
 	)
 	(symbol
-		(lib_id "AT-Symbols:SN74HC32PWR")
-		(at 54.61 332.74 0)
+		(lib_id "power:GND")
+		(at 392.43 485.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "39677268-ed7a-4493-a51d-4e5415298bc4")
-		(property "Reference" "U4"
-			(at 54.61 309.88 0)
+		(uuid "35f9c695-47e2-43f6-8a40-e29e45d2d9a1")
+		(property "Reference" "#PWR039"
+			(at 392.43 491.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Value" "SN74HC32PWR"
-			(at 54.61 312.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 54.61 332.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 54.61 332.74 0)
+		(property "Value" "GND"
+			(at 392.43 490.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 392.43 485.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10110,8 +11468,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 54.61 332.74 0)
+		(property "Datasheet" ""
+			(at 392.43 485.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10119,52 +11477,22 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "348856a6-777b-407c-9433-df2974fb51b2")
-		)
-		(pin "9"
-			(uuid "fb009ba8-2919-4c99-b3d2-08f36ab0f64b")
-		)
-		(pin "7"
-			(uuid "f8596972-a1d4-41ff-bf5c-fab26e1016cd")
-		)
-		(pin "6"
-			(uuid "b12dacdd-23cc-4837-9969-503dae8af638")
-		)
-		(pin "5"
-			(uuid "27d26973-c11a-4569-a487-388ef189acf0")
-		)
-		(pin "8"
-			(uuid "ab784e02-87c7-4175-8d05-776b5a64cd4f")
-		)
-		(pin "14"
-			(uuid "054bb11d-aacd-4f26-982c-037ed3582412")
-		)
-		(pin "10"
-			(uuid "ede3dbbc-a095-40a7-a887-589da8e0f44a")
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 392.43 485.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "9f41a642-bc79-4202-b624-8568d61e26e2")
-		)
-		(pin "12"
-			(uuid "1a72fadc-406e-46ff-99b3-4b7c6b021d03")
-		)
-		(pin "11"
-			(uuid "3e45a92f-6538-4bc1-b903-04e5a0abc42f")
-		)
-		(pin "13"
-			(uuid "b92865ca-68a8-472f-9010-0b5198411ce4")
-		)
-		(pin "2"
-			(uuid "1b60301e-49a5-44a8-ab1c-376a8b9c4099")
-		)
-		(pin "4"
-			(uuid "b146eefe-b404-47b1-b626-94817fe61235")
+			(uuid "c7134309-bf9c-46ea-9f96-3e765b982c9d")
 		)
 		(instances
 			(project "Controller"
 				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9"
-					(reference "U4")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -10337,7 +11665,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
-		(at 187.96 219.71 0)
+		(at 217.17 486.41 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10346,7 +11674,7 @@
 		(dnp no)
 		(uuid "3deb4c0c-f4aa-48d9-a49d-f4fc6438923c")
 		(property "Reference" "J42"
-			(at 189.865 210.82 0)
+			(at 219.075 477.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10354,7 +11682,7 @@
 			)
 		)
 		(property "Value" "AudioJack3_SwitchTR"
-			(at 189.865 213.36 0)
+			(at 219.075 480.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10362,7 +11690,7 @@
 			)
 		)
 		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
-			(at 187.96 219.71 0)
+			(at 217.17 486.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10371,7 +11699,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 219.71 0)
+			(at 217.17 486.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10380,7 +11708,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
-			(at 187.96 219.71 0)
+			(at 217.17 486.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10389,7 +11717,7 @@
 			)
 		)
 		(property "Control" "CALL 2B"
-			(at 195.58 225.552 0)
+			(at 224.79 492.252 0)
 			(effects
 				(font
 					(face "Boston Traffic")
@@ -10417,6 +11745,93 @@
 			(project "Controller"
 				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9"
 					(reference "J42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 401.32 486.41 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3fd8aa79-0325-4ac7-8ea1-6d80ff0de897")
+		(property "Reference" "J57"
+			(at 403.225 477.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 403.225 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 401.32 486.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 401.32 486.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 401.32 486.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "CALL 2B"
+			(at 408.94 492.252 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "9c27cb4a-4070-4372-8e98-c7ba0862c4f5")
+		)
+		(pin "S"
+			(uuid "e57e900f-0bff-41ef-89ed-8abd003f6564")
+		)
+		(pin "T"
+			(uuid "5afdd510-2b93-4eb0-b3c6-df91109af004")
+		)
+		(pin "R"
+			(uuid "083e6818-9fb7-4750-ab33-8f9204c2ff8e")
+		)
+		(pin "RN"
+			(uuid "34d60936-f9d7-4af8-9350-14d1dcfa857b")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9"
+					(reference "J57")
 					(unit 1)
 				)
 			)
@@ -10815,6 +12230,111 @@
 		)
 	)
 	(symbol
+		(lib_id "AT-Symbols:SN74HC32PWR")
+		(at 267.97 556.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47ebc106-f0c9-40c4-96fc-d92412268394")
+		(property "Reference" "U4"
+			(at 267.97 533.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74HC32PWR"
+			(at 267.97 535.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 267.97 556.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 556.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 267.97 556.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "669718ec-5877-47ee-8b5b-fb1be1bbdcdc")
+		)
+		(pin "9"
+			(uuid "e25c8f65-3ebb-404f-ae4f-7cae5c550244")
+		)
+		(pin "7"
+			(uuid "4e48e99e-eb5b-4f6a-b132-567b7450d370")
+		)
+		(pin "6"
+			(uuid "f31e0359-6cf8-4991-86d3-d1fae554ff02")
+		)
+		(pin "5"
+			(uuid "aaafcb7e-9d7c-477f-94d3-47aacba8f265")
+		)
+		(pin "8"
+			(uuid "305d34f3-4715-48d2-b6ff-19e4d339030f")
+		)
+		(pin "14"
+			(uuid "6bc75843-c741-4dd0-852d-008bcf44f192")
+		)
+		(pin "10"
+			(uuid "71f6cc57-6542-4ba5-8a58-fc4130f1d85c")
+		)
+		(pin "1"
+			(uuid "4946e80a-bd39-4398-85fa-6900a5cedf54")
+		)
+		(pin "12"
+			(uuid "68513284-cb85-46b0-a187-b6e6b64bbe4a")
+		)
+		(pin "11"
+			(uuid "87064097-e400-4c78-ae84-2c54343752b3")
+		)
+		(pin "13"
+			(uuid "4b33079c-1164-4023-864e-9a06557569a5")
+		)
+		(pin "2"
+			(uuid "03757b10-ae4d-447f-8011-2aebbffaaf20")
+		)
+		(pin "4"
+			(uuid "4a652c4d-4174-40ed-9c0d-9997ba005f88")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "llama_shared:H_HOLE")
 		(at 195.58 106.68 0)
 		(unit 1)
@@ -10947,7 +12467,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
-		(at 132.08 254 0)
+		(at 161.29 520.7 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10956,7 +12476,7 @@
 		(dnp no)
 		(uuid "48b3e88b-86a0-4ac9-b76a-70b3252018f5")
 		(property "Reference" "J36"
-			(at 133.985 245.11 0)
+			(at 163.195 511.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10964,7 +12484,7 @@
 			)
 		)
 		(property "Value" "AudioJack3_SwitchTR"
-			(at 133.985 247.65 0)
+			(at 163.195 514.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10972,7 +12492,7 @@
 			)
 		)
 		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
-			(at 132.08 254 0)
+			(at 161.29 520.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10981,7 +12501,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 254 0)
+			(at 161.29 520.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10990,7 +12510,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
-			(at 132.08 254 0)
+			(at 161.29 520.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10999,7 +12519,7 @@
 			)
 		)
 		(property "Control" "OPR 2"
-			(at 139.7 259.842 0)
+			(at 168.91 526.542 0)
 			(effects
 				(font
 					(face "Boston Traffic")
@@ -11166,7 +12686,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
-		(at 198.12 302.26 0)
+		(at 299.72 266.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11174,7 +12694,7 @@
 		(dnp no)
 		(uuid "4e015be0-e025-4f6f-b6a7-eab35468c9a7")
 		(property "Reference" "J8"
-			(at 196.215 293.37 0)
+			(at 297.815 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11182,7 +12702,7 @@
 			)
 		)
 		(property "Value" "AudioJack3_SwitchTR"
-			(at 196.215 295.91 0)
+			(at 297.815 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11190,7 +12710,7 @@
 			)
 		)
 		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
-			(at 198.12 302.26 0)
+			(at 299.72 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11199,7 +12719,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 198.12 302.26 0)
+			(at 299.72 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11208,7 +12728,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
-			(at 198.12 302.26 0)
+			(at 299.72 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11217,7 +12737,7 @@
 			)
 		)
 		(property "Control" "TRIGGER"
-			(at 190.5 308.102 0)
+			(at 292.1 272.542 0)
 			(effects
 				(font
 					(face "Boston Traffic")
@@ -11426,7 +12946,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 73.66 273.05 0)
+		(at 102.87 539.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11435,7 +12955,7 @@
 		(fields_autoplaced yes)
 		(uuid "5153c719-d567-4c82-831b-0f02cf56f313")
 		(property "Reference" "#PWR026"
-			(at 73.66 276.86 0)
+			(at 102.87 543.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11444,7 +12964,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 73.66 267.97 0)
+			(at 102.87 534.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11452,7 +12972,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 273.05 0)
+			(at 102.87 539.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11461,7 +12981,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 273.05 0)
+			(at 102.87 539.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11470,7 +12990,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 73.66 273.05 0)
+			(at 102.87 539.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11578,7 +13098,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
-		(at 104.14 254 0)
+		(at 133.35 520.7 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11587,7 +13107,7 @@
 		(dnp no)
 		(uuid "5407859c-98ac-4dd7-b1d1-4bdae0a0cd0a")
 		(property "Reference" "J35"
-			(at 106.045 245.11 0)
+			(at 135.255 511.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11595,7 +13115,7 @@
 			)
 		)
 		(property "Value" "AudioJack3_SwitchTR"
-			(at 106.045 247.65 0)
+			(at 135.255 514.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11603,7 +13123,7 @@
 			)
 		)
 		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
-			(at 104.14 254 0)
+			(at 133.35 520.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11612,7 +13132,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 254 0)
+			(at 133.35 520.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11621,7 +13141,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
-			(at 104.14 254 0)
+			(at 133.35 520.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11630,7 +13150,7 @@
 			)
 		)
 		(property "Control" "OPR 1"
-			(at 111.76 259.842 0)
+			(at 140.97 526.542 0)
 			(effects
 				(font
 					(face "Boston Traffic")
@@ -11744,7 +13264,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
-		(at 172.72 302.26 0)
+		(at 274.32 266.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11752,7 +13272,7 @@
 		(dnp no)
 		(uuid "59128181-86d8-43ca-9671-acf3a56e86f9")
 		(property "Reference" "J2"
-			(at 170.815 293.37 0)
+			(at 272.415 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11760,7 +13280,7 @@
 			)
 		)
 		(property "Value" "AudioJack3_SwitchTR"
-			(at 170.815 295.91 0)
+			(at 272.415 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11768,7 +13288,7 @@
 			)
 		)
 		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
-			(at 172.72 302.26 0)
+			(at 274.32 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11777,7 +13297,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 302.26 0)
+			(at 274.32 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11786,7 +13306,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
-			(at 172.72 302.26 0)
+			(at 274.32 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11795,7 +13315,7 @@
 			)
 		)
 		(property "Control" "Gate"
-			(at 165.1 308.102 0)
+			(at 266.7 272.542 0)
 			(effects
 				(font
 					(face "Boston Traffic")
@@ -12187,6 +13707,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 345.44 454.66 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "653aa6f4-395e-48c7-a1a8-2b5187cace22")
+		(property "Reference" "J50"
+			(at 347.345 445.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 347.345 448.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 345.44 454.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 345.44 454.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 345.44 454.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "CALL 3B"
+			(at 353.06 460.502 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "30ac8fdf-1ee8-47a9-a37c-ed578dcd9059")
+		)
+		(pin "S"
+			(uuid "7a8dea62-6e93-4ce7-988e-e94ebefa4348")
+		)
+		(pin "T"
+			(uuid "91f7d9b0-305b-4dd4-b81f-74b60b63529a")
+		)
+		(pin "R"
+			(uuid "4c82f824-f241-47a8-a4a9-ea7c340f7289")
+		)
+		(pin "RN"
+			(uuid "6a0b1b7f-bab6-4344-aa7f-fda82bc6fb5d")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9"
+					(reference "J50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "llama_shared:AGND")
 		(at 477.52 58.42 0)
 		(unit 1)
@@ -12252,8 +13859,95 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 373.38 454.66 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67e27b89-90df-4f82-9c21-b2a806df3e7c")
+		(property "Reference" "J53"
+			(at 375.285 445.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 375.285 448.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 373.38 454.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 373.38 454.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 373.38 454.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "CALL 4A"
+			(at 381 460.502 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "eed15b98-7e18-4618-9f3a-0d35b40a66d0")
+		)
+		(pin "S"
+			(uuid "60688c0c-25d6-4257-9dc7-dab3d2308fb1")
+		)
+		(pin "T"
+			(uuid "7015c548-7000-4db3-95e6-40580cba61ce")
+		)
+		(pin "R"
+			(uuid "17fa6cf3-0786-4a8f-9844-cb9763732f77")
+		)
+		(pin "RN"
+			(uuid "c9be2f75-e84a-4144-b420-038789579c48")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9"
+					(reference "J53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 123.19 218.44 0)
+		(at 152.4 485.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12262,7 +13956,7 @@
 		(fields_autoplaced yes)
 		(uuid "6daa796a-df03-4582-8626-4e8d8116ff10")
 		(property "Reference" "#PWR018"
-			(at 123.19 224.79 0)
+			(at 152.4 491.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12271,7 +13965,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 123.19 223.52 0)
+			(at 152.4 490.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12279,7 +13973,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 218.44 0)
+			(at 152.4 485.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12288,7 +13982,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 218.44 0)
+			(at 152.4 485.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12297,7 +13991,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 123.19 218.44 0)
+			(at 152.4 485.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12491,7 +14185,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 95.25 218.44 0)
+		(at 124.46 485.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12500,7 +14194,7 @@
 		(fields_autoplaced yes)
 		(uuid "70c1c4f4-13f6-4dc1-b7f9-76b3378f1794")
 		(property "Reference" "#PWR017"
-			(at 95.25 224.79 0)
+			(at 124.46 491.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12509,7 +14203,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 223.52 0)
+			(at 124.46 490.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12517,7 +14211,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 218.44 0)
+			(at 124.46 485.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12526,7 +14220,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 218.44 0)
+			(at 124.46 485.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12535,7 +14229,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 95.25 218.44 0)
+			(at 124.46 485.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12643,16 +14337,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 151.13 186.69 0)
+		(at 336.55 519.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "73300920-a49c-43ad-ba7e-6c78d1a72252")
-		(property "Reference" "#PWR023"
-			(at 151.13 193.04 0)
+		(uuid "729f1d19-05c4-448c-a170-1992a26eedf4")
+		(property "Reference" "#PWR034"
+			(at 336.55 525.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12661,7 +14355,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 151.13 191.77 0)
+			(at 336.55 524.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12669,7 +14363,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 186.69 0)
+			(at 336.55 519.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12678,7 +14372,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 186.69 0)
+			(at 336.55 519.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12687,7 +14381,73 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 186.69 0)
+			(at 336.55 519.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9167b4ab-b86a-4975-a838-258fd04c524c")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 180.34 453.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73300920-a49c-43ad-ba7e-6c78d1a72252")
+		(property "Reference" "#PWR023"
+			(at 180.34 459.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 458.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 453.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 453.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 180.34 453.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12770,6 +14530,72 @@
 			(project "Controller"
 				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 392.43 519.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75051987-d7bf-40e1-b987-2f2667e6b8d2")
+		(property "Reference" "#PWR040"
+			(at 392.43 525.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 392.43 524.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 392.43 519.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 392.43 519.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 392.43 519.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5caae2a7-0d64-4e3d-84c7-aa0c818ffcda")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -12904,6 +14730,72 @@
 			(project "AT-Card"
 				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 287.02 539.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "770ba0f5-9e1c-4c86-b708-15590e9fc7d9")
+		(property "Reference" "#PWR028"
+			(at 287.02 543.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 287.02 534.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 287.02 539.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 287.02 539.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 287.02 539.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b19b5e37-6b7a-4773-9001-38f90bdb0e55")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -13118,6 +15010,72 @@
 			(project "Controller"
 				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9"
 					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 392.43 453.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7dc5fdac-8fd5-4fed-b5fe-573bacf45edb")
+		(property "Reference" "#PWR038"
+			(at 392.43 459.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 392.43 458.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 392.43 453.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 392.43 453.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 392.43 453.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72348e29-bb37-47e4-9bc5-a88f258de21c")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -13346,6 +15304,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 285.75 572.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "854c6020-a322-4ad9-b9e3-43fc224b7831")
+		(property "Reference" "#PWR027"
+			(at 285.75 579.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 285.75 577.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 285.75 572.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 285.75 572.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 285.75 572.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1dd5023-491e-4f5a-87cc-78d9b92840da")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 336.55 148.59 270)
 		(unit 1)
@@ -13568,6 +15592,159 @@
 			(project "Controller"
 				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9"
 					(reference "RV2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 364.49 519.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8db85fe0-f800-4d86-9fbb-b19e962f017e")
+		(property "Reference" "#PWR037"
+			(at 364.49 525.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 364.49 524.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 364.49 519.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 364.49 519.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 364.49 519.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ebe1dbd5-3f0d-40d8-96d7-a2a74dbf0a8a")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 317.5 454.66 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8dcde3de-c7fa-496e-afc5-76c13ce0d6b2")
+		(property "Reference" "J47"
+			(at 319.405 445.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 319.405 448.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 317.5 454.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 317.5 454.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 317.5 454.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "CALL 3A"
+			(at 325.12 460.502 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "4c3a78f8-14a3-4900-ba57-0fe5bd0dd698")
+		)
+		(pin "S"
+			(uuid "aa90e09e-a776-449a-bb39-1175c1317f8a")
+		)
+		(pin "T"
+			(uuid "bb11d65a-9d4a-49d2-ac08-2a1961a70cd9")
+		)
+		(pin "R"
+			(uuid "8f830b94-638e-462d-900a-4550ea30165c")
+		)
+		(pin "RN"
+			(uuid "bf495c19-7568-4c2f-bdb7-a6f9acdeee72")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9"
+					(reference "J47")
 					(unit 1)
 				)
 			)
@@ -13883,7 +16060,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 95.25 252.73 0)
+		(at 124.46 519.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13892,7 +16069,7 @@
 		(fields_autoplaced yes)
 		(uuid "94378393-299b-4f19-b18a-0fb89b15c631")
 		(property "Reference" "#PWR013"
-			(at 95.25 259.08 0)
+			(at 124.46 525.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13901,7 +16078,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 257.81 0)
+			(at 124.46 524.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13909,7 +16086,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 252.73 0)
+			(at 124.46 519.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13918,7 +16095,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 252.73 0)
+			(at 124.46 519.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13927,7 +16104,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 95.25 252.73 0)
+			(at 124.46 519.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14019,7 +16196,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
-		(at 187.96 254 0)
+		(at 217.17 520.7 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14028,7 +16205,7 @@
 		(dnp no)
 		(uuid "9756fe5a-b3b5-436e-8c65-8eaa71635f93")
 		(property "Reference" "J38"
-			(at 189.865 245.11 0)
+			(at 219.075 511.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14036,7 +16213,7 @@
 			)
 		)
 		(property "Value" "AudioJack3_SwitchTR"
-			(at 189.865 247.65 0)
+			(at 219.075 514.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14044,7 +16221,7 @@
 			)
 		)
 		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
-			(at 187.96 254 0)
+			(at 217.17 520.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14053,7 +16230,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 254 0)
+			(at 217.17 520.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14062,7 +16239,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
-			(at 187.96 254 0)
+			(at 217.17 520.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14071,7 +16248,7 @@
 			)
 		)
 		(property "Control" "OPR 4"
-			(at 195.58 259.842 0)
+			(at 224.79 526.542 0)
 			(effects
 				(font
 					(face "Boston Traffic")
@@ -14360,16 +16537,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
-		(at 160.02 187.96 0)
+		(at 345.44 520.7 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9cd5d1f4-c660-4714-9da6-8b6cb4dea318")
-		(property "Reference" "J45"
-			(at 161.925 179.07 0)
+		(uuid "9c2d4b2a-af4c-4759-89aa-9ad14ff12d67")
+		(property "Reference" "J52"
+			(at 347.345 511.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14377,7 +16554,7 @@
 			)
 		)
 		(property "Value" "AudioJack3_SwitchTR"
-			(at 161.925 181.61 0)
+			(at 347.345 514.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14385,7 +16562,7 @@
 			)
 		)
 		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
-			(at 160.02 187.96 0)
+			(at 345.44 520.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14394,7 +16571,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 187.96 0)
+			(at 345.44 520.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14403,7 +16580,94 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
-			(at 160.02 187.96 0)
+			(at 345.44 520.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "OPR 6"
+			(at 353.06 526.542 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "4db04d4e-98dc-4a75-b478-3bb702d243fb")
+		)
+		(pin "S"
+			(uuid "fae54a4b-670f-4d0e-ab3e-6f33ae69e639")
+		)
+		(pin "T"
+			(uuid "1ff9aeb8-564b-4e4b-bf3a-03f6c4c7381e")
+		)
+		(pin "R"
+			(uuid "1b7c9de2-1332-497f-b044-177e92cb9087")
+		)
+		(pin "RN"
+			(uuid "daaa7478-1d8d-4b49-bc77-ed498132ead4")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9"
+					(reference "J52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 189.23 454.66 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9cd5d1f4-c660-4714-9da6-8b6cb4dea318")
+		(property "Reference" "J45"
+			(at 191.135 445.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 191.135 448.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 189.23 454.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 454.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 189.23 454.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14412,7 +16676,7 @@
 			)
 		)
 		(property "Control" "CALL 4A"
-			(at 167.64 193.802 0)
+			(at 196.85 460.502 0)
 			(effects
 				(font
 					(face "Boston Traffic")
@@ -14447,7 +16711,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
-		(at 104.14 219.71 0)
+		(at 133.35 486.41 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14456,7 +16720,7 @@
 		(dnp no)
 		(uuid "9dd81274-c0ef-4d56-89d8-d2abe88c27c5")
 		(property "Reference" "J39"
-			(at 106.045 210.82 0)
+			(at 135.255 477.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14464,7 +16728,7 @@
 			)
 		)
 		(property "Value" "AudioJack3_SwitchTR"
-			(at 106.045 213.36 0)
+			(at 135.255 480.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14472,7 +16736,7 @@
 			)
 		)
 		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
-			(at 104.14 219.71 0)
+			(at 133.35 486.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14481,7 +16745,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 219.71 0)
+			(at 133.35 486.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14490,7 +16754,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
-			(at 104.14 219.71 0)
+			(at 133.35 486.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14499,7 +16763,7 @@
 			)
 		)
 		(property "Control" "CALL 1A"
-			(at 111.76 225.552 0)
+			(at 140.97 492.252 0)
 			(effects
 				(font
 					(face "Boston Traffic")
@@ -14527,6 +16791,72 @@
 			(project "Controller"
 				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9"
 					(reference "J39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 308.61 519.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1b5f636-13db-4da4-ac09-ae71be1b1bd9")
+		(property "Reference" "#PWR031"
+			(at 308.61 525.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 308.61 524.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 308.61 519.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 308.61 519.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 308.61 519.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1827a4e-dc36-47fa-a14e-c5b6782670c2")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -14663,6 +16993,72 @@
 			(project "Controller"
 				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9"
 					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 336.55 485.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3ed7e8f-60ce-4388-b3c1-d0351c78bd0e")
+		(property "Reference" "#PWR033"
+			(at 336.55 491.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 336.55 490.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 336.55 485.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 336.55 485.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 336.55 485.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e3c81e1-052d-4890-85b0-f66cfcb5d1b0")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -15044,7 +17440,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 179.07 218.44 0)
+		(at 208.28 485.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15053,7 +17449,7 @@
 		(fields_autoplaced yes)
 		(uuid "b63a8119-01b3-423d-b48f-a7dd6224d8eb")
 		(property "Reference" "#PWR020"
-			(at 179.07 224.79 0)
+			(at 208.28 491.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15062,7 +17458,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 179.07 223.52 0)
+			(at 208.28 490.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15070,7 +17466,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 218.44 0)
+			(at 208.28 485.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15079,7 +17475,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 218.44 0)
+			(at 208.28 485.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15088,7 +17484,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.07 218.44 0)
+			(at 208.28 485.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15210,6 +17606,180 @@
 				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9"
 					(reference "U2")
 					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 317.5 486.41 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb2f0933-f36c-4c67-aa04-9c9963d9aa87")
+		(property "Reference" "J48"
+			(at 319.405 477.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 319.405 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 317.5 486.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 317.5 486.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 317.5 486.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "CALL 1A"
+			(at 325.12 492.252 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "004b3202-726e-442e-8e43-293f8d14599f")
+		)
+		(pin "S"
+			(uuid "741a51d4-462c-4c36-8a48-474afee3d22d")
+		)
+		(pin "T"
+			(uuid "143bd5e7-bb9a-44e2-a396-3ef9827f2e07")
+		)
+		(pin "R"
+			(uuid "3cdb0d93-ec73-4b25-84e4-a00fface5739")
+		)
+		(pin "RN"
+			(uuid "f606f87d-246d-425f-992b-111aca832c15")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9"
+					(reference "J48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 401.32 520.7 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc2ea0d0-5c6f-4960-a6db-4520af394365")
+		(property "Reference" "J58"
+			(at 403.225 511.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 403.225 514.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 401.32 520.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 401.32 520.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 401.32 520.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "OPR 7"
+			(at 408.94 526.542 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "1f7abcdb-f997-4f74-93ed-bcfff68bc2c1")
+		)
+		(pin "S"
+			(uuid "ca0443f8-0ad1-4ff0-9da5-b9b6161dab16")
+		)
+		(pin "T"
+			(uuid "9bf3288e-ca39-42ec-ac27-cb915048efee")
+		)
+		(pin "R"
+			(uuid "b495462b-6e76-4659-904e-0e094abea062")
+		)
+		(pin "RN"
+			(uuid "077049c7-70b2-47e8-8d04-06e54a3f3e0d")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9"
+					(reference "J58")
+					(unit 1)
 				)
 			)
 		)
@@ -16051,7 +18621,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 123.19 186.69 0)
+		(at 152.4 453.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16060,7 +18630,7 @@
 		(fields_autoplaced yes)
 		(uuid "d5baa71e-9d86-42c5-b87f-6cc2041c57db")
 		(property "Reference" "#PWR022"
-			(at 123.19 193.04 0)
+			(at 152.4 459.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16069,7 +18639,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 123.19 191.77 0)
+			(at 152.4 458.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16077,7 +18647,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 186.69 0)
+			(at 152.4 453.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16086,7 +18656,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 186.69 0)
+			(at 152.4 453.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16095,7 +18665,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 123.19 186.69 0)
+			(at 152.4 453.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16185,7 +18755,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
-		(at 132.08 219.71 0)
+		(at 161.29 486.41 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16194,7 +18764,7 @@
 		(dnp no)
 		(uuid "d6894534-40e8-4624-bdce-9c0e0645e1a6")
 		(property "Reference" "J40"
-			(at 133.985 210.82 0)
+			(at 163.195 477.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16202,7 +18772,7 @@
 			)
 		)
 		(property "Value" "AudioJack3_SwitchTR"
-			(at 133.985 213.36 0)
+			(at 163.195 480.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16210,7 +18780,7 @@
 			)
 		)
 		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
-			(at 132.08 219.71 0)
+			(at 161.29 486.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16219,7 +18789,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 219.71 0)
+			(at 161.29 486.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16228,7 +18798,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
-			(at 132.08 219.71 0)
+			(at 161.29 486.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16237,7 +18807,7 @@
 			)
 		)
 		(property "Control" "CALL 1B"
-			(at 139.7 225.552 0)
+			(at 168.91 492.252 0)
 			(effects
 				(font
 					(face "Boston Traffic")
@@ -16351,6 +18921,72 @@
 			(project "Controller"
 				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9"
 					(reference "J27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 364.49 485.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da263154-190f-44e6-80c6-61018895f3e0")
+		(property "Reference" "#PWR036"
+			(at 364.49 491.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 364.49 490.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 364.49 485.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 364.49 485.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 364.49 485.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3bee44e9-a4a2-4126-b858-397a29b99844")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -16587,16 +19223,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 151.13 252.73 0)
+		(at 308.61 485.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e4038576-f86b-4d80-a79f-ce7a3fa3744c")
-		(property "Reference" "#PWR015"
-			(at 151.13 259.08 0)
+		(uuid "e3d0d7b2-2a8a-4b68-ad3a-767ce5ccf4af")
+		(property "Reference" "#PWR030"
+			(at 308.61 491.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16605,7 +19241,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 151.13 257.81 0)
+			(at 308.61 490.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16613,7 +19249,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 252.73 0)
+			(at 308.61 485.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16622,7 +19258,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 252.73 0)
+			(at 308.61 485.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16631,7 +19267,73 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 252.73 0)
+			(at 308.61 485.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "148f7655-bc9a-450b-8cf1-e92449990109")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 180.34 519.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4038576-f86b-4d80-a79f-ce7a3fa3744c")
+		(property "Reference" "#PWR015"
+			(at 180.34 525.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 524.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 519.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 519.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 180.34 519.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16652,8 +19354,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 364.49 453.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5b3e859-7a9e-48ce-a9b7-70f5421565b3")
+		(property "Reference" "#PWR035"
+			(at 364.49 459.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 364.49 458.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 364.49 453.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 364.49 453.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 364.49 453.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1fa25b9e-ffb8-42a6-9d7e-50af5109f7ac")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
-		(at 104.14 187.96 0)
+		(at 133.35 454.66 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16662,7 +19430,7 @@
 		(dnp no)
 		(uuid "e66fa58f-1ae4-4591-8a11-8c7e164f1475")
 		(property "Reference" "J43"
-			(at 106.045 179.07 0)
+			(at 135.255 445.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16670,7 +19438,7 @@
 			)
 		)
 		(property "Value" "AudioJack3_SwitchTR"
-			(at 106.045 181.61 0)
+			(at 135.255 448.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16678,7 +19446,7 @@
 			)
 		)
 		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
-			(at 104.14 187.96 0)
+			(at 133.35 454.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16687,7 +19455,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 187.96 0)
+			(at 133.35 454.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16696,7 +19464,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
-			(at 104.14 187.96 0)
+			(at 133.35 454.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16705,7 +19473,7 @@
 			)
 		)
 		(property "Control" "CALL 3A"
-			(at 111.76 193.802 0)
+			(at 140.97 460.502 0)
 			(effects
 				(font
 					(face "Boston Traffic")
@@ -16740,7 +19508,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 151.13 218.44 0)
+		(at 180.34 485.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16749,7 +19517,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea2b1df7-8fa8-429e-b536-9692554cc720")
 		(property "Reference" "#PWR019"
-			(at 151.13 224.79 0)
+			(at 180.34 491.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16758,7 +19526,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 151.13 223.52 0)
+			(at 180.34 490.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16766,7 +19534,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 218.44 0)
+			(at 180.34 485.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16775,7 +19543,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 218.44 0)
+			(at 180.34 485.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16784,7 +19552,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 218.44 0)
+			(at 180.34 485.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16799,6 +19567,93 @@
 			(project "Controller"
 				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 401.32 454.66 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec1284c1-9dfd-4161-b532-8f9ed062ccde")
+		(property "Reference" "J56"
+			(at 403.225 445.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 403.225 448.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 401.32 454.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 401.32 454.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 401.32 454.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "CALL 4B"
+			(at 408.94 460.502 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "4ef18945-eb99-46f4-97c8-511a1f03f483")
+		)
+		(pin "S"
+			(uuid "6d521100-cde3-4740-b16e-7008d1cfdda9")
+		)
+		(pin "T"
+			(uuid "c32a015d-9cb4-4727-bbcd-92d2be66c44f")
+		)
+		(pin "R"
+			(uuid "88657d48-1cc0-47a1-93b3-ffe49bf0e3b9")
+		)
+		(pin "RN"
+			(uuid "16a13b0e-c7bc-4e90-aad1-4605c7b5d74d")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9"
+					(reference "J56")
 					(unit 1)
 				)
 			)
@@ -16977,6 +19832,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 345.44 486.41 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f026e7d8-acc3-4086-8a5c-78c90af40e5d")
+		(property "Reference" "J51"
+			(at 347.345 477.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 347.345 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 345.44 486.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 345.44 486.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 345.44 486.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "CALL 1B"
+			(at 353.06 492.252 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "bf42aa5b-c109-461c-9e2e-5f4b1cd2467a")
+		)
+		(pin "S"
+			(uuid "b37f511d-6ba6-4349-92f3-c92265427542")
+		)
+		(pin "T"
+			(uuid "e42dd5c7-79e9-4ad2-8833-f2d5b1151491")
+		)
+		(pin "R"
+			(uuid "8c128364-3d73-4b40-a868-00a6c1cd10fa")
+		)
+		(pin "RN"
+			(uuid "020d431b-2e44-4717-b106-7c88cf7e8114")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9"
+					(reference "J51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 364.49 138.43 0)
 		(mirror x)
@@ -17082,7 +20024,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
-		(at 132.08 187.96 0)
+		(at 161.29 454.66 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17091,7 +20033,7 @@
 		(dnp no)
 		(uuid "f1b97b6e-d865-4914-a8c0-5c0520464cb5")
 		(property "Reference" "J44"
-			(at 133.985 179.07 0)
+			(at 163.195 445.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17099,7 +20041,7 @@
 			)
 		)
 		(property "Value" "AudioJack3_SwitchTR"
-			(at 133.985 181.61 0)
+			(at 163.195 448.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17107,7 +20049,7 @@
 			)
 		)
 		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
-			(at 132.08 187.96 0)
+			(at 161.29 454.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17116,7 +20058,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 187.96 0)
+			(at 161.29 454.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17125,7 +20067,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
-			(at 132.08 187.96 0)
+			(at 161.29 454.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17134,7 +20076,7 @@
 			)
 		)
 		(property "Control" "CALL 3B"
-			(at 139.7 193.802 0)
+			(at 168.91 460.502 0)
 			(effects
 				(font
 					(face "Boston Traffic")
@@ -17255,7 +20197,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 123.19 252.73 0)
+		(at 152.4 519.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17264,7 +20206,7 @@
 		(fields_autoplaced yes)
 		(uuid "f5cdc025-be21-4419-a534-5b9b55341b54")
 		(property "Reference" "#PWR014"
-			(at 123.19 259.08 0)
+			(at 152.4 525.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17273,7 +20215,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 123.19 257.81 0)
+			(at 152.4 524.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17281,7 +20223,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 252.73 0)
+			(at 152.4 519.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17290,7 +20232,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 252.73 0)
+			(at 152.4 519.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17299,7 +20241,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 123.19 252.73 0)
+			(at 152.4 519.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17407,7 +20349,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 179.07 252.73 0)
+		(at 208.28 519.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17416,7 +20358,7 @@
 		(fields_autoplaced yes)
 		(uuid "f819f9da-aacf-492a-8389-ef122d884e9c")
 		(property "Reference" "#PWR016"
-			(at 179.07 259.08 0)
+			(at 208.28 525.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17425,7 +20367,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 179.07 257.81 0)
+			(at 208.28 524.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17433,7 +20375,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 252.73 0)
+			(at 208.28 519.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17442,7 +20384,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 252.73 0)
+			(at 208.28 519.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17451,7 +20393,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.07 252.73 0)
+			(at 208.28 519.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
