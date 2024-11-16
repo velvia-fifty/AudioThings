@@ -45,7 +45,7 @@ ${KIPRJMOD}/../../res/AT-Footprints.pretty
 
 ## I have opinions and they're loud
 
-Opinions are for suckers, we have convictions (and they're obtuse).
+Opinions are for suckers, we're a big girl, we have convictions (and they're obtuse).
 
 ### Maximize Cheap
 
