@@ -2,6 +2,8 @@
 
 # AudioThings
 
+[![GitHub Pages](https://github.com/velvia-fifty/AudioThings/actions/workflows/jekyll-gh-pages.yml/badge.svg)](https://github.com/velvia-fifty/AudioThings/actions/workflows/jekyll-gh-pages.yml)
+
 <sup>*I made this for me, maybe you find it helpful?*</sup>
 
 >What is the meaning of life? Are we here only to eat hot chip, shitpost, and make the robot have orgasm?
