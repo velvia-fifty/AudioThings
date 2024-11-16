@@ -607,6 +607,18 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Control",
+          "name": "Control",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Spec",
+          "name": "Spec",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -643,7 +655,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "/Users/paigeday/Documents/AudioThings/DrawingSheet.kicad_wks",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -658,6 +670,22 @@
     [
       "b48a24c3-e448-4ffe-b89b-bee99abc70c9",
       "Root"
+    ],
+    [
+      "a6d5c902-8345-4597-a2ec-30093cde4c20",
+      "Oscillators"
+    ],
+    [
+      "ac6ab637-7bba-47a4-ae27-467af981a82f",
+      "Filter Stage"
+    ],
+    [
+      "7de54a05-f30a-49c0-81ef-e08e6530619d",
+      "Output Stage"
+    ],
+    [
+      "30cc103e-9324-429d-a2ee-c715c9bdf50e",
+      "Utility"
     ]
   ],
   "text_variables": {}

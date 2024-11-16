@@ -474,6 +474,415 @@
 				)
 			)
 		)
+		(symbol "AT-Symbols:STUSB4761QTR"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 38.1 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "STUSB4761QTR"
+				(at 38.1 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "AT-Footprints:QFN16_STUSB4761QTR_STM"
+				(at 3.048 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "STUSB4761QTR"
+				(at 0 10.414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "STUSB4761QTR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "QFN16_STUSB4761QTR_STM QFN16_STUSB4761QTR_STM-M QFN16_STUSB4761QTR_STM-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "STUSB4761QTR_0_1"
+				(polyline
+					(pts
+						(xy 7.62 -22.86) (xy 68.58 -22.86)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -22.86)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 68.58 -22.86) (xy 68.58 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 68.58 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at 0 0 0)
+					(length 7.62)
+					(name "CC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 76.2 -15.24 180)
+					(length 7.62)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 76.2 -12.7 180)
+					(length 7.62)
+					(name "TSENSE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 76.2 -10.16 180)
+					(length 7.62)
+					(name "VSENSE_DISCH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 76.2 -7.62 180)
+					(length 7.62)
+					(name "VBUS_EN_SRC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 76.2 -5.08 180)
+					(length 7.62)
+					(name "VREG_1V2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 76.2 -2.54 180)
+					(length 7.62)
+					(name "VREG_2V7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 76.2 0 180)
+					(length 7.62)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "VCONN_VSYS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "FAULT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -10.16 0)
+					(length 7.62)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -12.7 0)
+					(length 7.62)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 -15.24 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -17.78 0)
+					(length 7.62)
+					(name "ISENSE_DISCH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 76.2 -17.78 180)
+					(length 7.62)
+					(name "OPTO_DRV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "AT-Symbols:USB-C31-A-D-VT-CS1"
 			(pin_names
 				(offset 1.016)
@@ -7748,6 +8157,25 @@
 		)
 		(uuid "0086e06e-1bcd-4419-bdc9-4c0d83a4cf79")
 	)
+	(text_box "8-5 on Datasheet"
+		(exclude_from_sim no)
+		(at 370.84 153.67 0)
+		(size 39.37 30.48)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "2372b9a8-ce40-4dba-857a-f6c6a46f7247")
+	)
 	(text_box "ATX To -12???\n"
 		(exclude_from_sim no)
 		(at 275.59 447.04 0)
@@ -7767,9 +8195,9 @@
 		)
 		(uuid "69aa45ad-5caa-402f-b3f4-f80a3bf9bde8")
 	)
-	(text "USB PD 20V"
+	(text "USB PD 20V - Sink"
 		(exclude_from_sim no)
-		(at 225.044 213.614 0)
+		(at 240.03 216.154 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -7786,6 +8214,17 @@
 			)
 		)
 		(uuid "30162879-7538-47c0-998c-d99242a354c5")
+	)
+	(text "WATTER\nSPORTS"
+		(exclude_from_sim no)
+		(at 107.696 67.564 0)
+		(effects
+			(font
+				(face "Boston Traffic")
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "60750291-d8d4-4405-a700-7eedf6c594f1")
 	)
 	(text "Regulated Power"
 		(exclude_from_sim no)
@@ -11059,6 +11498,118 @@
 			(project "PSU"
 				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AT-Symbols:STUSB4761QTR")
+		(at 299.72 384.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ccf943a-b69d-4df7-be86-49495aaefeb2")
+		(property "Reference" "U2"
+			(at 337.82 374.65 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "STUSB4761QTR"
+			(at 337.82 377.19 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:QFN16_STUSB4761QTR_STM"
+			(at 302.768 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "STUSB4761QTR"
+			(at 299.72 374.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 299.72 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "69c751a0-ef0c-4c07-a9c6-77a5e9ce214b")
+		)
+		(pin "13"
+			(uuid "3128b692-7943-4791-a3d8-52ddaca3e537")
+		)
+		(pin "11"
+			(uuid "eed3755e-03e5-4491-a5e5-d207754d96c6")
+		)
+		(pin "12"
+			(uuid "0cef474b-cc3c-402d-9064-b465a4dcbd91")
+		)
+		(pin "1"
+			(uuid "3cd58c94-5e35-463b-a47a-4f69e51e190b")
+		)
+		(pin "5"
+			(uuid "105cc4e1-cd55-4474-b5e3-8c66a8fc830a")
+		)
+		(pin "16"
+			(uuid "c45c303b-75f6-4c32-af18-aec6dbae0cae")
+		)
+		(pin "15"
+			(uuid "34d74e65-09a3-4abc-aef6-ba2edbc0b335")
+		)
+		(pin "7"
+			(uuid "6afaed1b-4ac2-4771-b14c-4c979ba094da")
+		)
+		(pin "10"
+			(uuid "19b96bed-3a55-405d-91fa-1f3a998dfce6")
+		)
+		(pin "8"
+			(uuid "dc6eb345-451f-427e-93d9-466de9974fde")
+		)
+		(pin "4"
+			(uuid "45530c43-6243-445c-8fac-23821589b7ec")
+		)
+		(pin "14"
+			(uuid "0e9e4dac-bbc7-4e45-91aa-38e500662c33")
+		)
+		(pin "3"
+			(uuid "0869e0d3-eec7-4f7d-8a9f-312c3e7a6220")
+		)
+		(pin "9"
+			(uuid "5f1465da-4ad5-409c-90eb-854d6fce389f")
+		)
+		(pin "6"
+			(uuid "a002e63d-53b5-472e-9947-f05ae31f9358")
+		)
+		(instances
+			(project ""
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9"
+					(reference "U2")
 					(unit 1)
 				)
 			)

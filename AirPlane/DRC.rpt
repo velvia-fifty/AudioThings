@@ -1,0 +1,700 @@
+** Drc report for AT-Template.kicad_pcb **
+** Created on 2024-11-14T00:40:45-0500 **
+
+** Found 169 DRC violations **
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0982 mm)
+    Rule: netclass 'Default'; error
+    @(200.5050 mm, 131.5440 mm): Track [/Bus/CON_GATE] on B.Cu, length 1.2102 mm
+    @(200.8225 mm, 130.5100 mm): PTH pad 3 [GND] of J2
+[shorting_items]: Items shorting two nets (nets /Bus/CON_GATE and GND)
+    Local override; error
+    @(199.6990 mm, 130.7370 mm): Track [/Bus/CON_GATE] on B.Cu, length 1.1406 mm
+    @(200.8225 mm, 130.5100 mm): PTH pad 3 [GND] of J2
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1325 mm)
+    Rule: netclass 'Default'; error
+    @(185.3330 mm, 134.2320 mm): Track [/Bus/CON_CV] on B.Cu, length 1.5142 mm
+    @(185.5825 mm, 133.0500 mm): PTH pad 16 [/Bus/CON_GATE] of J2
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1683 mm)
+    Rule: netclass 'Default'; error
+    @(199.6980 mm, 130.7360 mm): Track [/Bus/CON_GATE] on B.Cu, length 0.0014 mm
+    @(200.8225 mm, 130.5100 mm): PTH pad 3 [GND] of J2
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1691 mm)
+    Rule: netclass 'Default'; error
+    @(199.4620 mm, 129.5480 mm): Track [/Bus/CON_GATE] on B.Cu, length 1.2112 mm
+    @(200.8225 mm, 130.5100 mm): PTH pad 3 [GND] of J2
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1712 mm)
+    Rule: netclass 'Default'; error
+    @(199.9680 mm, 139.3430 mm): Track [/Bus/CON_CV] on B.Cu, length 0.1188 mm
+    @(199.7250 mm, 139.0840 mm): Track [/Bus/CON_GATE] on B.Cu, length 1.1688 mm
+[shorting_items]: Items shorting two nets (nets /Bus/CON_CV and /Bus/CON_GATE)
+    Local override; error
+    @(199.8140 mm, 139.1140 mm): Track [/Bus/CON_CV] on B.Cu, length 0.2760 mm
+    @(201.4720 mm, 136.4710 mm): Track [/Bus/CON_GATE] on B.Cu, length 3.1432 mm
+[tracks_crossing]: Tracks crossing
+    Rule: netclass 'Default'; error
+    @(199.7150 mm, 139.0150 mm): Track [/Bus/CON_CV] on B.Cu, length 0.1400 mm
+    @(201.4720 mm, 136.4710 mm): Track [/Bus/CON_GATE] on B.Cu, length 3.1432 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0493 mm)
+    Rule: netclass 'Default'; error
+    @(198.6740 mm, 127.4980 mm): Via [/Bus/CON_GATE] on F.Cu - B.Cu
+    @(201.6000 mm, 127.7180 mm): Track [/Bus/CON_CV] on F.Cu, length 3.7288 mm
+[shorting_items]: Items shorting two nets (nets -12V and /Bus/CON_CV)
+    Local override; error
+    @(203.3620 mm, 131.7770 mm): Track [-12V] on F.Cu, length 0.6310 mm
+    @(204.0990 mm, 130.1940 mm): Track [/Bus/CON_CV] on F.Cu, length 1.8333 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1972 mm)
+    Rule: netclass 'Default'; error
+    @(203.3620 mm, 132.4150 mm): Track [-12V] on F.Cu, length 0.0020 mm
+    @(202.0760 mm, 136.6530 mm): Track [/Bus/CON_CV] on F.Cu, length 3.6430 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0578 mm)
+    Rule: netclass 'Default'; error
+    @(216.5040 mm, 130.7640 mm): Via [Net-(J6-Pin_2)] on F.Cu - B.Cu
+    @(217.4410 mm, 130.0170 mm): Track [Net-(J3-Audio_Out_B)] on B.Cu, length 2.4080 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1312 mm)
+    Rule: netclass 'Default'; error
+    @(220.4380 mm, 88.4514 mm): Track [/Bus/I2C0_SCL] on B.Cu, length 1.2377 mm
+    @(219.6825 mm, 89.3900 mm): PTH pad 7 [/Bus/I2C0_SDA] of J8
+[shorting_items]: Items shorting two nets (nets -12V and /Bus/CON_CV)
+    Local override; error
+    @(203.3470 mm, 132.7280 mm): Track [-12V] on F.Cu, length 0.0632 mm
+    @(202.0760 mm, 136.6530 mm): Track [/Bus/CON_CV] on F.Cu, length 3.6430 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1658 mm)
+    Rule: netclass 'Default'; error
+    @(207.5420 mm, 140.0500 mm): Track [Net-(J6-Pin_2)] on B.Cu, length 0.5146 mm
+    @(208.1125 mm, 142.3000 mm): Pad A16 [Net-(J3-Audio_Out_B)] of J3 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1238 mm)
+    Rule: netclass 'Default'; error
+    @(224.1940 mm, 129.2820 mm): Track [/Bus/I2C0_SCL] on F.Cu, length 4.1638 mm
+    @(223.8400 mm, 124.3350 mm): Track [Net-(J3-UART_TX)] on F.Cu, length 5.0800 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1627 mm)
+    Rule: netclass 'Default'; error
+    @(208.7640 mm, 138.2210 mm): Track [Net-(J6-Pin_2)] on B.Cu, length 2.1997 mm
+    @(208.1125 mm, 142.3000 mm): Pad A16 [Net-(J3-Audio_Out_B)] of J3 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1036 mm)
+    Rule: netclass 'Default'; error
+    @(223.2940 mm, 122.3460 mm): Track [/Bus/I2C0_SCL] on F.Cu, length 2.3539 mm
+    @(223.8400 mm, 124.3350 mm): Track [Net-(J3-UART_TX)] on F.Cu, length 5.0800 mm
+[shorting_items]: Items shorting two nets (nets -12V and /Bus/CON_CV)
+    Local override; error
+    @(203.3620 mm, 131.1460 mm): Track [-12V] on F.Cu, length 0.0020 mm
+    @(204.0990 mm, 130.1940 mm): Track [/Bus/CON_CV] on F.Cu, length 1.8333 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1726 mm)
+    Rule: netclass 'Default'; error
+    @(218.8820 mm, 129.4860 mm): Track [Net-(J6-Pin_2)] on F.Cu, length 0.6396 mm
+    @(218.7520 mm, 129.0530 mm): Track [Net-(J3-Audio_Out_A)] on F.Cu, length 0.1202 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1972 mm)
+    Rule: netclass 'Default'; error
+    @(203.3620 mm, 132.4130 mm): Track [-12V] on F.Cu, length 0.0020 mm
+    @(202.0760 mm, 136.6530 mm): Track [/Bus/CON_CV] on F.Cu, length 3.6430 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1990 mm)
+    Rule: netclass 'Default'; error
+    @(203.3620 mm, 132.4130 mm): Track [-12V] on F.Cu, length 0.6320 mm
+    @(202.0760 mm, 136.6530 mm): Track [/Bus/CON_CV] on F.Cu, length 3.6430 mm
+[shorting_items]: Items shorting two nets (nets /Bus/I2C0_SDA and Net-(J6-Pin_8))
+    Local override; error
+    @(221.4040 mm, 127.5270 mm): Track [/Bus/I2C0_SDA] on B.Cu, length 3.4451 mm
+    @(222.2130 mm, 129.9030 mm): Via [Net-(J6-Pin_8)] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets -12V and /Bus/CON_CV)
+    Local override; error
+    @(203.3470 mm, 132.7280 mm): Track [-12V] on F.Cu, length 0.1547 mm
+    @(202.0760 mm, 136.6530 mm): Track [/Bus/CON_CV] on F.Cu, length 3.6430 mm
+[shorting_items]: Items shorting two nets (nets -12V and /Bus/CON_CV)
+    Local override; error
+    @(203.1900 mm, 133.0930 mm): Track [-12V] on F.Cu, length 0.0441 mm
+    @(202.0760 mm, 136.6530 mm): Track [/Bus/CON_CV] on F.Cu, length 3.6430 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1664 mm)
+    Rule: netclass 'Default'; error
+    @(211.2280 mm, 140.8060 mm): Track [Net-(J3-Audio_In_C)] on F.Cu, length 1.5750 mm
+    @(212.1125 mm, 142.3000 mm): Pad B20 [Net-(J5-Pin_7)] of J3 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1299 mm)
+    Rule: netclass 'Default'; error
+    @(223.3670 mm, 76.5334 mm): Track [Net-(D4-A)] on F.Cu, length 0.8242 mm
+    @(222.3625 mm, 76.1700 mm): PTH pad 4 [GND] of J4
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1409 mm)
+    Rule: netclass 'Default'; error
+    @(223.2940 mm, 76.7091 mm): Track [Net-(D4-A)] on F.Cu, length 0.1903 mm
+    @(222.3625 mm, 76.1700 mm): PTH pad 4 [GND] of J4
+[shorting_items]: Items shorting two nets (nets -12V and /Bus/CON_CV)
+    Local override; error
+    @(203.2910 mm, 132.9040 mm): Track [-12V] on F.Cu, length 0.2143 mm
+    @(202.0760 mm, 136.6530 mm): Track [/Bus/CON_CV] on F.Cu, length 3.6430 mm
+[shorting_items]: Items shorting two nets (nets -12V and /Bus/CON_CV)
+    Local override; error
+    @(203.3260 mm, 132.8190 mm): Track [-12V] on F.Cu, length 0.0919 mm
+    @(202.0760 mm, 136.6530 mm): Track [/Bus/CON_CV] on F.Cu, length 3.6430 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1765 mm)
+    Rule: netclass 'Default'; error
+    @(215.4940 mm, 138.8580 mm): Via [Net-(J3-UART_TX)] on F.Cu - B.Cu
+    @(215.1100 mm, 138.5240 mm): Track [Net-(J3-UART_RX)] on F.Cu, length 0.6474 mm
+[shorting_items]: Items shorting two nets (nets -12V and /Bus/CON_CV)
+    Local override; error
+    @(203.3260 mm, 132.8190 mm): Track [-12V] on F.Cu, length 0.0304 mm
+    @(202.0760 mm, 136.6530 mm): Track [/Bus/CON_CV] on F.Cu, length 3.6430 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0336 mm)
+    Rule: netclass 'Default'; error
+    @(193.7430 mm, 139.4360 mm): Track [+12V] on B.Cu, length 1.6376 mm
+    @(193.1125 mm, 142.3000 mm): Pad A3 [GND] of J3 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1501 mm)
+    Rule: netclass 'Default'; error
+    @(223.1180 mm, 77.1341 mm): Track [Net-(D4-A)] on F.Cu, length 0.4600 mm
+    @(222.3625 mm, 76.1700 mm): PTH pad 4 [GND] of J4
+[shorting_items]: Items shorting two nets (nets -12V and /Bus/CON_CV)
+    Local override; error
+    @(203.1660 mm, 133.1300 mm): Track [-12V] on F.Cu, length 0.0262 mm
+    @(202.0760 mm, 136.6530 mm): Track [/Bus/CON_CV] on F.Cu, length 3.6430 mm
+[shorting_items]: Items shorting two nets (nets -12V and /Bus/CON_CV)
+    Local override; error
+    @(203.0090 mm, 133.3630 mm): Track [-12V] on F.Cu, length 0.2871 mm
+    @(202.0760 mm, 136.6530 mm): Track [/Bus/CON_CV] on F.Cu, length 3.6430 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1233 mm)
+    Rule: netclass 'Default'; error
+    @(222.4450 mm, 132.7850 mm): Track [Net-(J3-UART_TX)] on F.Cu, length 1.5351 mm
+    @(224.1940 mm, 129.2820 mm): Track [/Bus/I2C0_SCL] on F.Cu, length 4.1638 mm
+[shorting_items]: Items shorting two nets (nets -12V and /Bus/CON_CV)
+    Local override; error
+    @(203.0130 mm, 133.3570 mm): Track [-12V] on F.Cu, length 0.0072 mm
+    @(202.0760 mm, 136.6530 mm): Track [/Bus/CON_CV] on F.Cu, length 3.6430 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1575 mm)
+    Rule: netclass 'Default'; error
+    @(197.2440 mm, 139.9960 mm): Track [-12V] on F.Cu, length 0.4322 mm
+    @(198.1125 mm, 142.3000 mm): Pad B8 [GND] of J3 on F.Cu
+[shorting_items]: Items shorting two nets (nets /Bus/CON_GATE and /Bus/CON_CV)
+    Local override; error
+    @(199.7250 mm, 139.0840 mm): Track [/Bus/CON_GATE] on B.Cu, length 1.1688 mm
+    @(199.8140 mm, 139.1140 mm): Track [/Bus/CON_CV] on B.Cu, length 0.2760 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1233 mm)
+    Rule: netclass 'Default'; error
+    @(223.8400 mm, 129.4150 mm): Track [Net-(J3-UART_TX)] on F.Cu, length 3.6473 mm
+    @(224.1940 mm, 129.2820 mm): Track [/Bus/I2C0_SCL] on F.Cu, length 4.1638 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0642 mm)
+    Rule: netclass 'Default'; error
+    @(203.3620 mm, 132.5740 mm): Track [-12V] on F.Cu, length 0.1570 mm
+    @(202.0760 mm, 136.6530 mm): Track [/Bus/CON_CV] on F.Cu, length 3.6430 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1599 mm)
+    Rule: netclass 'Default'; error
+    @(197.3590 mm, 139.6180 mm): Track [-12V] on F.Cu, length 0.3951 mm
+    @(198.1125 mm, 142.3000 mm): Pad B8 [GND] of J3 on F.Cu
+[shorting_items]: Items shorting two nets (nets /Bus/CON_GATE and /Bus/CON_CV)
+    Local override; error
+    @(201.4720 mm, 136.4710 mm): Track [/Bus/CON_GATE] on B.Cu, length 3.1432 mm
+    @(199.7150 mm, 139.0150 mm): Via [/Bus/CON_CV] on F.Cu - B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1036 mm)
+    Rule: netclass 'Default'; error
+    @(223.3290 mm, 123.1000 mm): Track [Net-(J3-UART_TX)] on F.Cu, length 1.3365 mm
+    @(223.2940 mm, 122.3460 mm): Track [/Bus/I2C0_SCL] on F.Cu, length 2.3539 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1153 mm)
+    Rule: netclass 'Default'; error
+    @(204.4040 mm, 133.4590 mm): Track [/Bus/CON_GATE] on B.Cu, length 0.9178 mm
+    @(203.3625 mm, 133.0500 mm): PTH pad 2 [-12V] of J2
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0636 mm)
+    Rule: netclass 'Default'; error
+    @(204.4040 mm, 132.5950 mm): Track [/Bus/CON_GATE] on B.Cu, length 0.8640 mm
+    @(203.3625 mm, 133.0500 mm): PTH pad 2 [-12V] of J2
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1587 mm)
+    Rule: netclass 'Default'; error
+    @(204.2280 mm, 132.1710 mm): Track [/Bus/CON_GATE] on B.Cu, length 0.4591 mm
+    @(203.3625 mm, 133.0500 mm): PTH pad 2 [-12V] of J2
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1036 mm)
+    Rule: netclass 'Default'; error
+    @(222.8170 mm, 122.5880 mm): Track [Net-(J3-UART_TX)] on F.Cu, length 0.7241 mm
+    @(223.2940 mm, 122.3460 mm): Track [/Bus/I2C0_SCL] on F.Cu, length 2.3539 mm
+[shorting_items]: Items shorting two nets (nets -12V and /Bus/CON_CV)
+    Local override; error
+    @(203.3620 mm, 130.9860 mm): Track [-12V] on F.Cu, length 0.1580 mm
+    @(204.0990 mm, 130.1940 mm): Track [/Bus/CON_CV] on F.Cu, length 1.8333 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1789 mm)
+    Rule: netclass 'Default'; error
+    @(203.7660 mm, 131.9650 mm): Track [/Bus/CON_GATE] on B.Cu, length 0.4752 mm
+    @(203.3625 mm, 133.0500 mm): PTH pad 2 [-12V] of J2
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1649 mm)
+    Rule: netclass 'Default'; error
+    @(202.8340 mm, 131.7800 mm): Track [/Bus/CON_GATE] on B.Cu, length 0.9502 mm
+    @(203.3625 mm, 133.0500 mm): PTH pad 2 [-12V] of J2
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1662 mm)
+    Rule: netclass 'Default'; error
+    @(212.2280 mm, 140.8060 mm): Track [Net-(J5-Pin_7)] on F.Cu, length 1.7516 mm
+    @(213.1125 mm, 142.3000 mm): Pad B21 [Net-(J3-Audio_In_D)] of J3 on F.Cu
+[shorting_items]: Items shorting two nets (nets -12V and /Bus/CON_CV)
+    Local override; error
+    @(203.3350 mm, 132.7900 mm): Track [-12V] on F.Cu, length 0.0216 mm
+    @(202.0760 mm, 136.6530 mm): Track [/Bus/CON_CV] on F.Cu, length 3.6430 mm
+[shorting_items]: Items shorting two nets (nets -12V and /Bus/CON_CV)
+    Local override; error
+    @(203.3620 mm, 131.7770 mm): Track [-12V] on F.Cu, length 0.0020 mm
+    @(204.1000 mm, 133.6240 mm): Track [/Bus/CON_CV] on F.Cu, length 3.4300 mm
+[shorting_items]: Items shorting two nets (nets -12V and /Bus/CON_CV)
+    Local override; error
+    @(203.0130 mm, 133.3570 mm): Track [-12V] on F.Cu, length 0.2737 mm
+    @(202.0760 mm, 136.6530 mm): Track [/Bus/CON_CV] on F.Cu, length 3.6430 mm
+[shorting_items]: Items shorting two nets (nets Net-(J3-PRSNT_A) and unconnected-(J10-PadR))
+    Local override; error
+    @(200.0040 mm, 72.3219 mm): Track [Net-(J3-PRSNT_A)] on B.Cu, length 31.9121 mm
+    @(218.2625 mm, 55.3500 mm): PTH pad R [unconnected-(J10-PadR)] of J10
+[shorting_items]: Items shorting two nets (nets -12V and /Bus/CON_CV)
+    Local override; error
+    @(203.3620 mm, 131.7810 mm): Track [-12V] on F.Cu, length 0.0020 mm
+    @(204.1000 mm, 133.6240 mm): Track [/Bus/CON_CV] on F.Cu, length 3.4300 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1726 mm)
+    Rule: netclass 'Default'; error
+    @(218.8370 mm, 128.9680 mm): Track [Net-(J3-Audio_Out_A)] on F.Cu, length 0.1285 mm
+    @(218.8820 mm, 129.4860 mm): Track [Net-(J6-Pin_2)] on F.Cu, length 0.6396 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1576 mm)
+    Rule: netclass 'Default'; error
+    @(222.8260 mm, 128.5540 mm): Track [Net-(J3-UART_RX)] on F.Cu, length 4.1651 mm
+    @(222.3625 mm, 128.3000 mm): Pad 8 [Net-(J6-Pin_8)] of J6 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1961 mm)
+    Rule: netclass 'Default'; error
+    @(218.6260 mm, 129.0780 mm): Track [Net-(J3-Audio_Out_A)] on F.Cu, length 0.1285 mm
+    @(218.8820 mm, 129.4860 mm): Track [Net-(J6-Pin_2)] on F.Cu, length 0.6396 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0839 mm)
+    Rule: netclass 'Default'; error
+    @(196.7440 mm, 130.9180 mm): Track [Net-(J3-PRSNT_A)] on B.Cu, length 1.0002 mm
+    @(195.7425 mm, 130.5100 mm): PTH pad 7 [GND] of J2
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0188 mm)
+    Rule: netclass 'Default'; error
+    @(196.0770 mm, 131.5850 mm): Track [Net-(J3-PRSNT_A)] on B.Cu, length 0.9433 mm
+    @(195.7425 mm, 130.5100 mm): PTH pad 7 [GND] of J2
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1417 mm)
+    Rule: netclass 'Default'; error
+    @(195.0960 mm, 131.7800 mm): Track [Net-(J3-PRSNT_A)] on B.Cu, length 1.0002 mm
+    @(195.7425 mm, 130.5100 mm): PTH pad 7 [GND] of J2
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1534 mm)
+    Rule: netclass 'Default'; error
+    @(190.2880 mm, 131.9710 mm): Track [Net-(J3-PRSNT_A)] on B.Cu, length 0.9788 mm
+    @(190.6625 mm, 133.0500 mm): PTH pad 12 [+5V] of J2
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0499 mm)
+    Rule: netclass 'Default'; error
+    @(189.6350 mm, 132.6240 mm): Track [Net-(J3-PRSNT_A)] on B.Cu, length 0.9235 mm
+    @(190.6625 mm, 133.0500 mm): PTH pad 12 [+5V] of J2
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1344 mm)
+    Rule: netclass 'Default'; error
+    @(189.5580 mm, 132.8110 mm): Track [Net-(J3-PRSNT_A)] on B.Cu, length 0.2022 mm
+    @(190.6625 mm, 133.0500 mm): PTH pad 12 [+5V] of J2
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1520 mm)
+    Rule: netclass 'Default'; error
+    @(189.4440 mm, 133.3840 mm): Track [Net-(J3-PRSNT_A)] on B.Cu, length 0.5842 mm
+    @(190.6625 mm, 133.0500 mm): PTH pad 12 [+5V] of J2
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0859 mm)
+    Rule: netclass 'Default'; error
+    @(222.2210 mm, 96.1704 mm): Track [Net-(J3-UART_RX)] on F.Cu, length 0.8373 mm
+    @(222.0100 mm, 96.6862 mm): Via [GND] on F.Cu - B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1955 mm)
+    Rule: netclass 'Default'; error
+    @(203.3620 mm, 132.4150 mm): Track [-12V] on F.Cu, length 0.0020 mm
+    @(202.0760 mm, 136.6530 mm): Track [/Bus/CON_CV] on F.Cu, length 3.6430 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1660 mm)
+    Rule: netclass 'Default'; error
+    @(219.6980 mm, 139.8720 mm): Track [/Bus/I2C1_SCL] on B.Cu, length 0.8287 mm
+    @(220.1125 mm, 142.3000 mm): Pad A28 [<no net>] of J3 on B.Cu
+[shorting_items]: Items shorting two nets (nets /Bus/CON_CV and /Bus/CON_GATE)
+    Local override; error
+    @(199.7150 mm, 139.0150 mm): Via [/Bus/CON_CV] on F.Cu - B.Cu
+    @(199.7250 mm, 139.0840 mm): Track [/Bus/CON_GATE] on B.Cu, length 1.1688 mm
+[shorting_items]: Items shorting two nets (nets /Bus/I2C1_SCL and /Bus/I2C1_SDA)
+    Local override; error
+    @(223.6790 mm, 134.2230 mm): Track [/Bus/I2C1_SCL] on B.Cu, length 4.1651 mm
+    @(222.3860 mm, 137.0410 mm): Track [/Bus/I2C1_SDA] on B.Cu, length 1.3272 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1663 mm)
+    Rule: netclass 'Default'; error
+    @(210.2280 mm, 140.8060 mm): Track [Net-(J5-Pin_5)] on F.Cu, length 1.3759 mm
+    @(211.1125 mm, 142.3000 mm): Pad B19 [Net-(J3-Audio_In_C)] of J3 on F.Cu
+[shorting_items]: Items shorting two nets (nets /Bus/CON_CV and -12V)
+    Local override; error
+    @(204.0990 mm, 130.1940 mm): Track [/Bus/CON_CV] on F.Cu, length 1.8333 mm
+    @(203.3625 mm, 130.5100 mm): PTH pad 1 [-12V] of J2
+[shorting_items]: Items shorting two nets (nets /Bus/CON_CV and -12V)
+    Local override; error
+    @(204.1000 mm, 133.6240 mm): Track [/Bus/CON_CV] on F.Cu, length 3.4300 mm
+    @(203.3620 mm, 131.7770 mm): Track [-12V] on F.Cu, length 0.6310 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1927 mm)
+    Rule: netclass 'Default'; error
+    @(223.0920 mm, 88.5652 mm): Track [/Bus/I2C1_SCL] on B.Cu, length 1.5346 mm
+    @(222.2225 mm, 89.3900 mm): PTH pad 8 [/Bus/I2C1_SDA] of J8
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1193 mm)
+    Rule: netclass 'Default'; error
+    @(185.2070 mm, 129.4660 mm): Track [+12V] on F.Cu, length 1.0043 mm
+    @(185.5825 mm, 130.5100 mm): PTH pad 15 [/Bus/CON_GATE] of J2
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1316 mm)
+    Rule: netclass 'Default'; error
+    @(184.3220 mm, 129.7340 mm): Track [+12V] on F.Cu, length 0.9247 mm
+    @(185.5825 mm, 130.5100 mm): PTH pad 15 [/Bus/CON_GATE] of J2
+[shorting_items]: Items shorting two nets (nets /Bus/CON_CV and -12V)
+    Local override; error
+    @(202.0760 mm, 136.6530 mm): Track [/Bus/CON_CV] on F.Cu, length 3.6430 mm
+    @(203.3625 mm, 133.0500 mm): PTH pad 2 [-12V] of J2
+[shorting_items]: Items shorting two nets (nets +12V and -12V)
+    Local override; error
+    @(166.3520 mm, 143.6950 mm): Track [+12V] on F.Cu, length 4.0050 mm
+    @(166.8875 mm, 143.0500 mm): Pad 1 [-12V] of D3 on F.Cu
+[shorting_items]: Items shorting two nets (nets +12V and -12V)
+    Local override; error
+    @(166.1000 mm, 143.7460 mm): Track [+12V] on F.Cu, length 0.2571 mm
+    @(166.8875 mm, 143.0500 mm): Pad 1 [-12V] of D3 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0104 mm)
+    Rule: netclass 'Default'; error
+    @(162.5620 mm, 144.0940 mm): Track [+12V] on F.Cu, length 3.5551 mm
+    @(164.8375 mm, 143.0500 mm): Pad 2 [Net-(D3-A)] of D3 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1368 mm)
+    Rule: netclass 'Default'; error
+    @(160.1200 mm, 143.9630 mm): Track [+12V] on F.Cu, length 1.3315 mm
+    @(160.3625 mm, 143.0500 mm): Pad 1 [Net-(D2-K)] of D2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1122 mm)
+    Rule: netclass 'Default'; error
+    @(159.6170 mm, 143.8640 mm): Track [+12V] on F.Cu, length 0.5126 mm
+    @(160.3625 mm, 143.0500 mm): Pad 1 [Net-(D2-K)] of D2 on F.Cu
+[shorting_items]: Items shorting two nets (nets /Bus/I2C1_SDA and /Bus/I2C1_SCL)
+    Local override; error
+    @(223.3250 mm, 134.7740 mm): Track [/Bus/I2C1_SDA] on B.Cu, length 2.4538 mm
+    @(223.6790 mm, 134.2230 mm): Track [/Bus/I2C1_SCL] on B.Cu, length 4.1651 mm
+[shorting_items]: Items shorting two nets (nets /Bus/I2C1_SDA and /Bus/I2C1_SCL)
+    Local override; error
+    @(223.3250 mm, 92.4000 mm): Track [/Bus/I2C1_SDA] on B.Cu, length 42.3740 mm
+    @(223.6790 mm, 134.2230 mm): Track [/Bus/I2C1_SCL] on B.Cu, length 4.1651 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1658 mm)
+    Rule: netclass 'Default'; error
+    @(210.5420 mm, 140.0500 mm): Track [Net-(J3-Audio_Out_C)] on B.Cu, length 0.5146 mm
+    @(211.1125 mm, 142.3000 mm): Pad A19 [Net-(J6-Pin_6)] of J3 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1627 mm)
+    Rule: netclass 'Default'; error
+    @(211.7640 mm, 138.2210 mm): Track [Net-(J3-Audio_Out_C)] on B.Cu, length 2.1997 mm
+    @(211.1125 mm, 142.3000 mm): Pad A19 [Net-(J6-Pin_6)] of J3 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1985 mm)
+    Rule: netclass 'Default'; error
+    @(220.6270 mm, 128.9740 mm): Track [Net-(J3-Audio_Out_C)] on F.Cu, length 0.2220 mm
+    @(220.3625 mm, 128.3000 mm): Pad 4 [Net-(J6-Pin_4)] of J6 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0287 mm)
+    Rule: netclass 'Default'; error
+    @(210.1150 mm, 132.0590 mm): Track [Net-(J5-Pin_1)] on F.Cu, length 1.6619 mm
+    @(210.3625 mm, 130.8000 mm): Pad SH1 [<no net>] of J5 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1956 mm)
+    Rule: netclass 'Default'; error
+    @(221.3620 mm, 129.2010 mm): Via [Net-(J6-Pin_6)] on F.Cu - B.Cu
+    @(221.5040 mm, 129.8920 mm): Track [Net-(J3-Audio_Out_D)] on F.Cu, length 0.4881 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1973 mm)
+    Rule: netclass 'Default'; error
+    @(213.5130 mm, 140.0380 mm): Track [Net-(J3-Audio_In_D)] on F.Cu, length 2.0933 mm
+    @(214.1125 mm, 142.3000 mm): Pad B22 [Net-(J3-UART_RX)] of J3 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1972 mm)
+    Rule: netclass 'Default'; error
+    @(213.2360 mm, 140.7060 mm): Track [Net-(J3-Audio_In_D)] on F.Cu, length 0.7232 mm
+    @(214.1125 mm, 142.3000 mm): Pad B22 [Net-(J3-UART_RX)] of J3 on F.Cu
+[shorting_items]: Items shorting two nets (nets Net-(J6-Pin_8) and Net-(J3-UART_RX))
+    Local override; error
+    @(222.2130 mm, 129.9030 mm): Via [Net-(J6-Pin_8)] on F.Cu - B.Cu
+    @(222.8260 mm, 128.5540 mm): Track [Net-(J3-UART_RX)] on F.Cu, length 4.1651 mm
+[shorting_items]: Items shorting two nets (nets Net-(J6-Pin_8) and Net-(J3-UART_RX))
+    Local override; error
+    @(222.3620 mm, 129.5490 mm): Track [Net-(J6-Pin_8)] on F.Cu, length 0.5750 mm
+    @(222.8260 mm, 128.5540 mm): Track [Net-(J3-UART_RX)] on F.Cu, length 4.1651 mm
+[shorting_items]: Items shorting two nets (nets Net-(J6-Pin_8) and Net-(J3-UART_RX))
+    Local override; error
+    @(222.3250 mm, 129.7380 mm): Track [Net-(J6-Pin_8)] on F.Cu, length 0.1926 mm
+    @(222.8260 mm, 128.5540 mm): Track [Net-(J3-UART_RX)] on F.Cu, length 4.1651 mm
+[shorting_items]: Items shorting two nets (nets Net-(J6-Pin_8) and Net-(J3-UART_RX))
+    Local override; error
+    @(222.3080 mm, 129.7790 mm): Track [Net-(J6-Pin_8)] on F.Cu, length 0.0444 mm
+    @(222.8260 mm, 128.5540 mm): Track [Net-(J3-UART_RX)] on F.Cu, length 4.1651 mm
+[shorting_items]: Items shorting two nets (nets Net-(J6-Pin_8) and Net-(J3-UART_RX))
+    Local override; error
+    @(222.2500 mm, 129.8660 mm): Track [Net-(J6-Pin_8)] on F.Cu, length 0.1046 mm
+    @(222.8260 mm, 128.5540 mm): Track [Net-(J3-UART_RX)] on F.Cu, length 4.1651 mm
+[shorting_items]: Items shorting two nets (nets Net-(J6-Pin_8) and Net-(J3-UART_RX))
+    Local override; error
+    @(222.2130 mm, 129.9030 mm): Track [Net-(J6-Pin_8)] on F.Cu, length 0.0523 mm
+    @(222.8260 mm, 128.5540 mm): Track [Net-(J3-UART_RX)] on F.Cu, length 4.1651 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1667 mm)
+    Rule: netclass 'Default'; error
+    @(213.5410 mm, 140.0500 mm): Track [Net-(J6-Pin_8)] on B.Cu, length 0.5142 mm
+    @(214.1125 mm, 142.3000 mm): Pad A22 [Net-(J3-UART_TX)] of J3 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1635 mm)
+    Rule: netclass 'Default'; error
+    @(214.7640 mm, 138.2210 mm): Track [Net-(J6-Pin_8)] on B.Cu, length 2.2002 mm
+    @(214.1125 mm, 142.3000 mm): Pad A22 [Net-(J3-UART_TX)] of J3 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0922 mm)
+    Rule: netclass 'Default'; error
+    @(222.2130 mm, 130.1200 mm): Track [Net-(J6-Pin_8)] on B.Cu, length 0.4271 mm
+    @(221.4040 mm, 127.5270 mm): Track [/Bus/I2C0_SDA] on B.Cu, length 3.4451 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0091 mm)
+    Rule: netclass 'Default'; error
+    @(222.2130 mm, 129.9030 mm): Track [Net-(J6-Pin_8)] on B.Cu, length 0.2170 mm
+    @(221.4040 mm, 127.5270 mm): Track [/Bus/I2C0_SDA] on B.Cu, length 3.4451 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1658 mm)
+    Rule: netclass 'Default'; error
+    @(212.5420 mm, 140.0500 mm): Track [Net-(J3-Audio_Out_D)] on B.Cu, length 0.5146 mm
+    @(213.1125 mm, 142.3000 mm): Pad A21 [Net-(J6-Pin_8)] of J3 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1627 mm)
+    Rule: netclass 'Default'; error
+    @(213.7640 mm, 138.2210 mm): Track [Net-(J3-Audio_Out_D)] on B.Cu, length 2.1997 mm
+    @(213.1125 mm, 142.3000 mm): Pad A21 [Net-(J6-Pin_8)] of J3 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1767 mm)
+    Rule: netclass 'Default'; error
+    @(221.8190 mm, 129.3780 mm): Track [Net-(J3-Audio_Out_D)] on F.Cu, length 0.2591 mm
+    @(221.3620 mm, 129.2010 mm): Via [Net-(J6-Pin_6)] on F.Cu - B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1838 mm)
+    Rule: netclass 'Default'; error
+    @(221.7750 mm, 129.4860 mm): Track [Net-(J3-Audio_Out_D)] on F.Cu, length 0.1166 mm
+    @(221.3620 mm, 129.2010 mm): Via [Net-(J6-Pin_6)] on F.Cu - B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1658 mm)
+    Rule: netclass 'Default'; error
+    @(209.5420 mm, 140.0500 mm): Track [Net-(J6-Pin_4)] on B.Cu, length 0.5146 mm
+    @(210.1125 mm, 142.3000 mm): Pad A18 [Net-(J3-Audio_Out_C)] of J3 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1627 mm)
+    Rule: netclass 'Default'; error
+    @(210.7640 mm, 138.2210 mm): Track [Net-(J6-Pin_4)] on B.Cu, length 2.1997 mm
+    @(210.1125 mm, 142.3000 mm): Pad A18 [Net-(J3-Audio_Out_C)] of J3 on B.Cu
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(213.2625 mm, 50.3500 mm): Footprint J10
+    @(219.7625 mm, 60.8500 mm): Footprint H2
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(191.1125 mm, 142.3000 mm): Footprint J3
+    @(203.3625 mm, 130.5100 mm): Footprint J2
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(179.7625 mm, 140.8500 mm): Footprint H4
+    @(203.3625 mm, 130.5100 mm): Footprint J2
+[invalid_outline]: Board has malformed outline (not a closed shape)
+    Local override; error
+    @(211.0625 mm, 45.8500 mm): Segment on Edge.Cuts
+[invalid_outline]: Board has malformed outline (not a closed shape)
+    Local override; error
+    @(198.5625 mm, 45.8500 mm): Segment on Edge.Cuts
+[invalid_outline]: Board has malformed outline (self-intersecting)
+    Local override; error
+    @(202.9625 mm, 45.8500 mm): Segment on Edge.Cuts
+    @(202.9625 mm, 46.8500 mm): Segment on Edge.Cuts
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(224.1940 mm, 129.2820 mm): Track [/Bus/I2C0_SCL] on F.Cu, length 4.1638 mm
+    @(223.3625 mm, 130.8000 mm): Pad SH2 [<no net>] of J6 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(223.8400 mm, 129.4150 mm): Track [Net-(J3-UART_TX)] on F.Cu, length 3.6473 mm
+    @(223.3625 mm, 130.8000 mm): Pad SH2 [<no net>] of J6 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(210.1150 mm, 132.0590 mm): Track [Net-(J5-Pin_1)] on F.Cu, length 1.6619 mm
+    @(210.3625 mm, 130.8000 mm): Pad SH1 [<no net>] of J5 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(200.0040 mm, 72.3219 mm): Track [Net-(J3-PRSNT_A)] on B.Cu, length 31.9121 mm
+    @(218.2625 mm, 55.3500 mm): PTH pad R [unconnected-(J10-PadR)] of J10
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(204.0990 mm, 130.1940 mm): Track [/Bus/CON_CV] on F.Cu, length 1.8333 mm
+    @(203.3625 mm, 130.5100 mm): PTH pad 1 [-12V] of J2
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(204.1000 mm, 133.6240 mm): Track [/Bus/CON_CV] on F.Cu, length 3.4300 mm
+    @(203.3625 mm, 130.5100 mm): PTH pad 1 [-12V] of J2
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(204.1000 mm, 133.6240 mm): Track [/Bus/CON_CV] on F.Cu, length 3.4300 mm
+    @(203.3625 mm, 133.0500 mm): PTH pad 2 [-12V] of J2
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(202.0760 mm, 136.6530 mm): Track [/Bus/CON_CV] on F.Cu, length 3.6430 mm
+    @(203.3625 mm, 133.0500 mm): PTH pad 2 [-12V] of J2
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(199.6990 mm, 130.7370 mm): Track [/Bus/CON_GATE] on B.Cu, length 1.1406 mm
+    @(200.8225 mm, 130.5100 mm): PTH pad 3 [GND] of J2
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(166.3520 mm, 143.6950 mm): Track [+12V] on F.Cu, length 4.0050 mm
+    @(166.8875 mm, 143.0500 mm): Pad 1 [-12V] of D3 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(166.1000 mm, 143.7460 mm): Track [+12V] on F.Cu, length 0.2571 mm
+    @(166.8875 mm, 143.0500 mm): Pad 1 [-12V] of D3 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(188.2625 mm, 108.3500 mm): Pad 1 [/GND] of J11 on F.Cu
+    @(188.7625 mm, 108.3500 mm): Pad 2 [/EXT_JACK_T_1] of J11 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(188.7625 mm, 108.3500 mm): Pad 2 [/EXT_JACK_T_1] of J11 on F.Cu
+    @(189.2625 mm, 108.3500 mm): Pad 3 [/EXT_JACK_TN_1] of J11 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(189.2625 mm, 108.3500 mm): Pad 3 [/EXT_JACK_TN_1] of J11 on F.Cu
+    @(189.7625 mm, 108.3500 mm): Pad 4 [/EXT_JACK_R_1] of J11 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(189.7625 mm, 108.3500 mm): Pad 4 [/EXT_JACK_R_1] of J11 on F.Cu
+    @(190.2625 mm, 108.3500 mm): Pad 5 [/EXT_JACK_T_2] of J11 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(190.2625 mm, 108.3500 mm): Pad 5 [/EXT_JACK_T_2] of J11 on F.Cu
+    @(190.7625 mm, 108.3500 mm): Pad 6 [/EXT_JACK_TN_2] of J11 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(190.7625 mm, 108.3500 mm): Pad 6 [/EXT_JACK_TN_2] of J11 on F.Cu
+    @(191.2625 mm, 108.3500 mm): Pad 7 [/EXT_JACK_R_2] of J11 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(191.2625 mm, 108.3500 mm): Pad 7 [/EXT_JACK_R_2] of J11 on F.Cu
+    @(191.7625 mm, 108.3500 mm): Pad 8 [/GND] of J11 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(191.7625 mm, 108.3500 mm): Pad 8 [/GND] of J11 on F.Cu
+    @(192.2625 mm, 108.3500 mm): Pad 9 [/EXT_JACK_T_3] of J11 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(192.2625 mm, 108.3500 mm): Pad 9 [/EXT_JACK_T_3] of J11 on F.Cu
+    @(192.7625 mm, 108.3500 mm): Pad 10 [/EXT_JACK_TN_3] of J11 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(192.7625 mm, 108.3500 mm): Pad 10 [/EXT_JACK_TN_3] of J11 on F.Cu
+    @(193.2625 mm, 108.3500 mm): Pad 11 [/EXT_JACK_R_3] of J11 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(193.2625 mm, 108.3500 mm): Pad 11 [/EXT_JACK_R_3] of J11 on F.Cu
+    @(193.7625 mm, 108.3500 mm): Pad 12 [/EXT_JACK_T_4] of J11 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(193.7625 mm, 108.3500 mm): Pad 12 [/EXT_JACK_T_4] of J11 on F.Cu
+    @(194.2625 mm, 108.3500 mm): Pad 13 [/EXT_JACK_TN_4] of J11 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(194.2625 mm, 108.3500 mm): Pad 13 [/EXT_JACK_TN_4] of J11 on F.Cu
+    @(194.7625 mm, 108.3500 mm): Pad 14 [/EXT_JACK_R_4] of J11 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(194.7625 mm, 108.3500 mm): Pad 14 [/EXT_JACK_R_4] of J11 on F.Cu
+    @(195.2625 mm, 108.3500 mm): Pad 15 [/GND] of J11 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(195.7625 mm, 108.3500 mm): Pad 16 [/GND] of J11 on F.Cu
+    @(196.2625 mm, 108.3500 mm): Pad 17 [/EXT_JACK_T_5] of J11 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(196.2625 mm, 108.3500 mm): Pad 17 [/EXT_JACK_T_5] of J11 on F.Cu
+    @(196.7625 mm, 108.3500 mm): Pad 18 [/EXT_JACK_TN_5] of J11 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(196.7625 mm, 108.3500 mm): Pad 18 [/EXT_JACK_TN_5] of J11 on F.Cu
+    @(197.2625 mm, 108.3500 mm): Pad 19 [/EXT_JACK_R_5] of J11 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(197.2625 mm, 108.3500 mm): Pad 19 [/EXT_JACK_R_5] of J11 on F.Cu
+    @(197.7625 mm, 108.3500 mm): Pad 20 [/EXT_JACK_T_6] of J11 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(197.7625 mm, 108.3500 mm): Pad 20 [/EXT_JACK_T_6] of J11 on F.Cu
+    @(198.2625 mm, 108.3500 mm): Pad 21 [/EXT_JACK_TN_6] of J11 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(198.2625 mm, 108.3500 mm): Pad 21 [/EXT_JACK_TN_6] of J11 on F.Cu
+    @(198.7625 mm, 108.3500 mm): Pad 22 [/EXT_JACK_R_6] of J11 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(198.7625 mm, 108.3500 mm): Pad 22 [/EXT_JACK_R_6] of J11 on F.Cu
+    @(199.2625 mm, 108.3500 mm): Pad 23 [/GND] of J11 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(199.2625 mm, 108.3500 mm): Pad 23 [/GND] of J11 on F.Cu
+    @(199.7625 mm, 108.3500 mm): Pad 24 [/EXT_JACK_T_7] of J11 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(199.7625 mm, 108.3500 mm): Pad 24 [/EXT_JACK_T_7] of J11 on F.Cu
+    @(200.2625 mm, 108.3500 mm): Pad 25 [/EXT_JACK_TN_7] of J11 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(200.2625 mm, 108.3500 mm): Pad 25 [/EXT_JACK_TN_7] of J11 on F.Cu
+    @(200.7625 mm, 108.3500 mm): Pad 26 [/EXT_JACK_R_7] of J11 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(200.7625 mm, 108.3500 mm): Pad 26 [/EXT_JACK_R_7] of J11 on F.Cu
+    @(201.2625 mm, 108.3500 mm): Pad 27 [/EXT_JACK_T_8] of J11 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(201.2625 mm, 108.3500 mm): Pad 27 [/EXT_JACK_T_8] of J11 on F.Cu
+    @(201.7625 mm, 108.3500 mm): Pad 28 [/EXT_JACK_TN_8] of J11 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(201.7625 mm, 108.3500 mm): Pad 28 [/EXT_JACK_TN_8] of J11 on F.Cu
+    @(202.2625 mm, 108.3500 mm): Pad 29 [/EXT_JACK_R_8] of J11 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(202.2625 mm, 108.3500 mm): Pad 29 [/EXT_JACK_R_8] of J11 on F.Cu
+    @(202.7625 mm, 108.3500 mm): Pad 30 [/GND] of J11 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(218.8625 mm, 128.3000 mm): Pad 1 [Net-(J3-Audio_Out_A)] of J6 on F.Cu
+    @(219.3625 mm, 128.3000 mm): Pad 2 [Net-(J6-Pin_2)] of J6 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(219.3625 mm, 128.3000 mm): Pad 2 [Net-(J6-Pin_2)] of J6 on F.Cu
+    @(219.8625 mm, 128.3000 mm): Pad 3 [Net-(J3-Audio_Out_B)] of J6 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(219.8625 mm, 128.3000 mm): Pad 3 [Net-(J3-Audio_Out_B)] of J6 on F.Cu
+    @(220.3625 mm, 128.3000 mm): Pad 4 [Net-(J6-Pin_4)] of J6 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(220.3625 mm, 128.3000 mm): Pad 4 [Net-(J6-Pin_4)] of J6 on F.Cu
+    @(220.8625 mm, 128.3000 mm): Pad 5 [Net-(J3-Audio_Out_C)] of J6 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(220.8625 mm, 128.3000 mm): Pad 5 [Net-(J3-Audio_Out_C)] of J6 on F.Cu
+    @(221.3625 mm, 128.3000 mm): Pad 6 [Net-(J6-Pin_6)] of J6 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(221.3625 mm, 128.3000 mm): Pad 6 [Net-(J6-Pin_6)] of J6 on F.Cu
+    @(221.8625 mm, 128.3000 mm): Pad 7 [Net-(J3-Audio_Out_D)] of J6 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(221.8625 mm, 128.3000 mm): Pad 7 [Net-(J3-Audio_Out_D)] of J6 on F.Cu
+    @(222.3625 mm, 128.3000 mm): Pad 8 [Net-(J6-Pin_8)] of J6 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(211.3625 mm, 128.3000 mm): Pad 1 [Net-(J5-Pin_1)] of J5 on F.Cu
+    @(211.8625 mm, 128.3000 mm): Pad 2 [Net-(J3-Audio_In_A)] of J5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(211.8625 mm, 128.3000 mm): Pad 2 [Net-(J3-Audio_In_A)] of J5 on F.Cu
+    @(212.3625 mm, 128.3000 mm): Pad 3 [Net-(J5-Pin_3)] of J5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(212.3625 mm, 128.3000 mm): Pad 3 [Net-(J5-Pin_3)] of J5 on F.Cu
+    @(212.8625 mm, 128.3000 mm): Pad 4 [Net-(J3-Audio_In_B)] of J5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(212.8625 mm, 128.3000 mm): Pad 4 [Net-(J3-Audio_In_B)] of J5 on F.Cu
+    @(213.3625 mm, 128.3000 mm): Pad 5 [Net-(J5-Pin_5)] of J5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(213.3625 mm, 128.3000 mm): Pad 5 [Net-(J5-Pin_5)] of J5 on F.Cu
+    @(213.8625 mm, 128.3000 mm): Pad 6 [Net-(J3-Audio_In_C)] of J5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(213.8625 mm, 128.3000 mm): Pad 6 [Net-(J3-Audio_In_C)] of J5 on F.Cu
+    @(214.3625 mm, 128.3000 mm): Pad 7 [Net-(J5-Pin_7)] of J5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(214.3625 mm, 128.3000 mm): Pad 7 [Net-(J5-Pin_7)] of J5 on F.Cu
+    @(214.8625 mm, 128.3000 mm): Pad 8 [Net-(J3-Audio_In_D)] of J5 on F.Cu
+
+** Found 4 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(225.9191 mm, 45.3500 mm): Zone [GND] on F.Cu and B.Cu
+    @(225.9191 mm, 45.3500 mm): Zone [GND] on F.Cu and B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(191.1120 mm, 144.5340 mm): Track [GND] on F.Cu, length 0.2744 mm
+    @(171.7060 mm, 145.1550 mm): Track [GND] on F.Cu, length 0.5077 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(222.3625 mm, 128.3000 mm): Pad 8 [Net-(J6-Pin_8)] of J6 on F.Cu
+    @(222.3620 mm, 129.5490 mm): Track [Net-(J6-Pin_8)] on F.Cu, length 0.5750 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(205.1125 mm, 142.3000 mm): Pad A13 [Net-(J3-USB_D-)] of J3 on B.Cu
+    @(222.3625 mm, 71.0900 mm): PTH pad 2 [Net-(J3-USB_D-)] of J4
+
+** Found 0 Footprint errors **
+
+** End of Report **

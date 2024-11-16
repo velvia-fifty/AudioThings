@@ -658,6 +658,22 @@
     [
       "b48a24c3-e448-4ffe-b89b-bee99abc70c9",
       "Root"
+    ],
+    [
+      "f4a6d66c-f71e-494a-b531-70121fadd92b",
+      "Octuple Or"
+    ],
+    [
+      "a0ffe1e9-394b-4656-8257-095beb73297c",
+      "dialpad"
+    ],
+    [
+      "c4876274-9dfd-43a6-bc4f-ced46cfe4fe1",
+      "Scope"
+    ],
+    [
+      "a2789ce4-1236-45a0-9ecd-17420e17c57a",
+      "USB"
     ]
   ],
   "text_variables": {}

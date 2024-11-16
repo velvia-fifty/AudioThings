@@ -1,0 +1,6984 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "0cc52bf1-f1ed-4067-9686-c1fc53162cd8")
+	(paper "A1")
+	(lib_symbols
+		(symbol "Connector_Audio:AudioJack3_SwitchTR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AudioJack3_SwitchTR"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "audio jack receptacle stereo headphones phones TRS connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AudioJack3_SwitchTR_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end -6.35 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -0.254) (xy 0.762 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -5.334) (xy 2.032 -5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0.635 -5.715) (xy 1.27 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -7.62) (xy 1.778 -7.62) (xy 1.778 -5.334) (xy 1.524 -5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 0.508 -2.54) (xy 0.508 -0.254) (xy 0.254 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -5.08) (xy -1.27 -5.715) (xy -0.635 -5.08) (xy -0.635 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy -2.54 2.54) (xy -2.54 -5.08) (xy -3.175 -5.715) (xy -3.81 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 3.81)
+					(end -5.08 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AudioJack3_SwitchTR_1_1"
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "RN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "TN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R_Potentiometer"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Potentiometer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Potentiometer_0_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Display_Character:SM420561N"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -2.54 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "SM420561N"
+				(at 1.27 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Display_7Segment:7SegmentLED_LTS6760_LTS6780"
+				(at 1.27 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Wuxi-ARK-Tech-Elec-SM420561N_C141367.pdf"
+				(at -12.7 12.065 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "One digit 7 segment blue LED, common cathode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "display LED 7-segment"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "7SegmentLED?LTS6760?LTS6780*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SM420561N_0_0"
+				(text "A"
+					(at 0.254 5.588 0)
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(text "B"
+					(at 2.54 4.826 0)
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(text "C"
+					(at 2.286 1.778 0)
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(text "D"
+					(at -0.254 1.016 0)
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(text "DP"
+					(at 3.556 0.254 0)
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(text "E"
+					(at -2.54 1.778 0)
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(text "F"
+					(at -2.286 4.826 0)
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(text "G"
+					(at 0 4.064 0)
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(symbol "SM420561N_0_1"
+				(rectangle
+					(start -5.08 12.7)
+					(end 5.08 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 2.794) (xy -1.778 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0.254) (xy 0.762 0.254)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.842) (xy -1.524 3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 3.302) (xy 1.016 3.302)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 6.35) (xy 1.27 6.35)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 2.794) (xy 1.27 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 5.842) (xy 1.524 3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0.254) (xy 2.54 0.254)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SM420561N_1_1"
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -7.62 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -7.62 180)
+					(length 2.54)
+					(name "CC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -10.16 0)
+					(length 2.54)
+					(name "DP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 5.08 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 7.62 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -10.16 180)
+					(length 2.54)
+					(name "CC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -5.08 0)
+					(length 2.54)
+					(name "F"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Switch:SW_SPDT"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPDT_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(rectangle
+		(start 50.8 77.47)
+		(end 336.55 156.21)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 05673675-2cd6-4fc6-98e4-38c9b8dc78a3)
+	)
+	(rectangle
+		(start 454.66 287.02)
+		(end 576.58 309.88)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 118d780e-cc1d-4d02-8380-90be9d417bdb)
+	)
+	(rectangle
+		(start 144.78 116.84)
+		(end 256.54 138.43)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ae120b08-c2e0-40fb-8ba3-ec4d0b1b4143)
+	)
+	(rectangle
+		(start 548.64 167.64)
+		(end 576.58 262.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b1ac5ab0-76b8-4189-b818-b47bd0bf7dcd)
+	)
+	(rectangle
+		(start 576.58 167.64)
+		(end 612.14 292.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ddb3f89f-ec8d-46e3-97ad-e4e5647c0e3c)
+	)
+	(rectangle
+		(start 454.66 166.37)
+		(end 548.64 264.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f477106a-9c3e-4295-900b-ccff69957694)
+	)
+	(text_box "SEQ Modes:\n---\nAutodial\n<step gap>\n<pre dur>\n<post dur>\nStepped Dial\nStepped Manual\n\nSTEPS\n\n\n\n---\nPRE-VOID\n1\n2\n3\n-\n4\n5\n6\n-\n7\n8\n9\n0\nPOST-VOID"
+		(exclude_from_sim no)
+		(at 52.07 161.29 0)
+		(size 81.28 45.72)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "77e9afdf-c813-449e-9176-d5816499c748")
+	)
+	(text_box "CDT 1700&2200hz\nCoins\n$0.05 - 66ms on\n$0.10 - 66ms on 66ms off 66ms on\n$0.25 - 33ms on 33ms off 33ms on 33ms off 33ms on 33ms off 33ms on 33ms off 33ms on 33ms off\n$1.00 - 650ms on\n\n1700&1100hz\nCoin return:\n2600hz 90ms - 60ms silence - 900ms on"
+		(exclude_from_sim no)
+		(at 665.48 190.5 0)
+		(size 107.95 22.86)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "b0ea0648-cb52-4d46-9059-1e51ec3f8f57")
+	)
+	(text_box "4x4 matrix sequancer"
+		(exclude_from_sim no)
+		(at 143.51 237.49 0)
+		(size 99.06 60.96)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c8ebaa7e-f278-4f11-ad1a-d717ab965f56")
+	)
+	(text_box "RINGR - Random ring\nHOOKR - Random off hook\nMSR - Random Message\nNUMR - Random Number"
+		(exclude_from_sim no)
+		(at 514.35 325.12 0)
+		(size 107.95 22.86)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "de3b56fa-25ff-4609-8582-8395d847633e")
+	)
+	(text_box "For ~$50 you can make these thumbwheels where you need to use an audio cable to set the number, just saying https://www.digikey.com/en/products/detail/omron-electronics-inc-emc-div/A7DP-206-S07-1/1811658"
+		(exclude_from_sim no)
+		(at 180.34 158.75 0)
+		(size 88.9 54.61)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "dea09bb4-26e1-437b-8c34-9a8f4bbba1e7")
+	)
+	(text_box "Up/down on pulse, could be trigger or re"
+		(exclude_from_sim no)
+		(at 90.17 262.89 0)
+		(size 16.51 15.24)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "fee76b61-942a-4b5f-a9c2-296b518dc60e")
+	)
+	(text "Autodialer Conf"
+		(exclude_from_sim no)
+		(at 161.29 120.396 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "0f7a0e97-dc08-4684-8a30-3de8c19f7915")
+	)
+	(text ">"
+		(exclude_from_sim no)
+		(at 144.526 107.95 0)
+		(effects
+			(font
+				(face "Boston Traffic")
+				(size 12.7 12.7)
+			)
+		)
+		(uuid "107ef0b4-d1b2-4633-887e-24c38350f7f0")
+	)
+	(text "A difficult to use 12 or 13 step sequencer"
+		(exclude_from_sim no)
+		(at 117.094 82.804 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "2460a927-ea8a-4d1b-8a97-a77aa83e44e8")
+	)
+	(text "6x6 Trigger Matrix"
+		(exclude_from_sim no)
+		(at 512.826 145.796 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "2804b4dc-d61e-4477-ae54-e36730e0b5d2")
+	)
+	(text "...including the area code"
+		(exclude_from_sim no)
+		(at 93.98 74.168 0)
+		(effects
+			(font
+				(face "Boston Traffic")
+				(size 4.445 4.445)
+			)
+		)
+		(uuid "329059b1-5546-42ba-bcb5-aadf4e36d874")
+	)
+	(text "<"
+		(exclude_from_sim no)
+		(at 60.198 107.442 0)
+		(effects
+			(font
+				(face "Boston Traffic")
+				(size 12.7 12.7)
+			)
+		)
+		(uuid "63650ad9-14f7-4517-b5f8-188fef7a6a2e")
+	)
+	(text "EXCLUDED FROM BOARD"
+		(exclude_from_sim no)
+		(at 415.798 44.45 0)
+		(effects
+			(font
+				(face "Boston Traffic")
+				(size 12.7 12.7)
+			)
+		)
+		(uuid "651e1abb-fd48-4cb0-bb49-0ceeb031fffd")
+	)
+	(text "-"
+		(exclude_from_sim no)
+		(at 228.854 106.934 0)
+		(effects
+			(font
+				(face "Boston Traffic")
+				(size 12.7 12.7)
+			)
+		)
+		(uuid "c73698cf-6ec5-4488-b988-71918ca405f3")
+	)
+	(text "EHLO OPER8TRIX"
+		(exclude_from_sim no)
+		(at 184.15 424.18 0)
+		(effects
+			(font
+				(face "Boston Traffic")
+				(size 12.7 12.7)
+			)
+		)
+		(uuid "ef772995-a445-457a-a28f-0fca9a8072af")
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 474.98 226.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "00b94941-38a3-4094-8990-5c68b2afeac8")
+		(property "Reference" "J29"
+			(at 473.075 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 473.075 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 474.98 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 474.98 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 474.98 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "7"
+			(at 467.36 231.902 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 3.81 3.81)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "6cef4153-2c60-41e5-9f65-e69e18d634cc")
+		)
+		(pin "S"
+			(uuid "b65c949e-5970-4548-ade9-aedee8933e9b")
+		)
+		(pin "T"
+			(uuid "06588e54-695d-4075-be60-4b8fed436e16")
+		)
+		(pin "R"
+			(uuid "0fd8485b-47ad-47fb-bead-dcba6acafe63")
+		)
+		(pin "RN"
+			(uuid "b70f4145-226a-405c-a02f-16f8722379b2")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 496.57 274.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "02a1c4be-b248-4f99-8f84-2b93baa2198b")
+		(property "Reference" "J62"
+			(at 494.665 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 494.665 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 496.57 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 496.57 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 496.57 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "5c"
+			(at 488.95 280.162 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 3.81 3.81)
+				)
+				(justify right top)
+			)
+		)
+		(property "freq" "DT 1700&2200hz"
+			(at 482.6 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(pin "TN"
+			(uuid "8250c5e5-9f06-466e-a05e-a053cccf424c")
+		)
+		(pin "S"
+			(uuid "557bfdf2-afbe-43dc-a0e0-cf6f9c9c8e54")
+		)
+		(pin "T"
+			(uuid "c7f7055f-d4cb-48c4-9e83-df9f1bdd577b")
+		)
+		(pin "R"
+			(uuid "113204a9-3b4c-4f85-8941-09e18b558378")
+		)
+		(pin "RN"
+			(uuid "7088766e-3a43-4704-b93f-edffec5b1645")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 129.54 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "0556ade8-4ff8-4728-9025-0b4a9a028832")
+		(property "Reference" "J11"
+			(at 127.635 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 127.635 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 129.54 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 129.54 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "OFF HOOK"
+			(at 121.92 130.302 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "b8dad167-6d53-4afa-9660-64a42e2bd5a9")
+		)
+		(pin "S"
+			(uuid "4cd16a40-a382-4ed4-9fe5-405f5a3d8bbf")
+		)
+		(pin "T"
+			(uuid "3af3fe53-0efa-442e-9bea-0db4783fc5c1")
+		)
+		(pin "R"
+			(uuid "9151fa77-09d8-403f-9ef2-ce0f10a39ff8")
+		)
+		(pin "RN"
+			(uuid "e2f4d403-b868-4914-bfc3-25da8dc4d46d")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 474.98 274.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "069491f2-06ea-407e-a6c5-4bbeb1c515ab")
+		(property "Reference" "J31"
+			(at 473.075 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 473.075 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 474.98 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 474.98 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 474.98 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "BLUE"
+			(at 467.36 280.162 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 3.81 3.81)
+				)
+				(justify right top)
+			)
+		)
+		(property "freq" "2600hz"
+			(at 461.01 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(pin "TN"
+			(uuid "f692e9e0-cc07-4e6d-b13a-4a9afb72fdc2")
+		)
+		(pin "S"
+			(uuid "d2330d62-3252-450e-bd0a-9f2db0fe6858")
+		)
+		(pin "T"
+			(uuid "84e5f2e8-8176-489e-856a-d89591744628")
+		)
+		(pin "R"
+			(uuid "567ec6e6-4371-4e83-bae9-73330a803cce")
+		)
+		(pin "RN"
+			(uuid "a47e3d73-66bf-4c09-aa88-fc56c64e721c")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 568.96 295.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "13ce424f-8da9-4f96-8b10-76754bfbaf9a")
+		(property "Reference" "J78"
+			(at 567.055 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 567.055 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 568.96 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 568.96 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 568.96 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "RINGR"
+			(at 561.34 301.752 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 3.81 3.81)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "675a7992-73d4-461f-b638-6b56b840b813")
+		)
+		(pin "S"
+			(uuid "56c86db4-b4a9-4fc8-95fc-c06c7b13f79a")
+		)
+		(pin "T"
+			(uuid "7a78f857-4386-410f-9099-aacc3246e8af")
+		)
+		(pin "R"
+			(uuid "2c6cac74-69f0-480d-ac44-86a4369dd4cb")
+		)
+		(pin "RN"
+			(uuid "a9ca474b-9648-4269-8cdf-3614a447719f")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 518.16 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "174ea18c-8cb3-427d-af38-914046281c52")
+		(property "Reference" "J64"
+			(at 516.255 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 516.255 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 518.16 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 518.16 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 518.16 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "3"
+			(at 510.54 186.182 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 3.81 3.81)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "d0a9c149-4095-4b51-91e7-ee23c8dd0c1c")
+		)
+		(pin "S"
+			(uuid "6a930afe-78c8-4ac4-bc80-c84d506f2809")
+		)
+		(pin "T"
+			(uuid "a288d72c-e055-4b97-9adf-68e31c32c23c")
+		)
+		(pin "R"
+			(uuid "ffc67498-5b75-4550-ace8-1b379229455c")
+		)
+		(pin "RN"
+			(uuid "cc278b9c-292e-44ab-b682-b9b557f044b4")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 406.4 293.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "1daf8576-eeb7-4e63-847c-2b970371ed1a")
+		(property "Reference" "J25"
+			(at 404.495 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 404.495 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 406.4 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 406.4 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 406.4 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "TRIGGER"
+			(at 398.78 299.212 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "7a0d39a8-2085-48a6-b8c6-13e7aa95767b")
+		)
+		(pin "S"
+			(uuid "91e7cdd3-ff9b-41be-ac91-0d464484643e")
+		)
+		(pin "T"
+			(uuid "b1b6e7ea-0eb2-41f5-8c4a-2dde229cf5e8")
+		)
+		(pin "R"
+			(uuid "b5207cb6-08af-4951-afdd-55c8b27797dc")
+		)
+		(pin "RN"
+			(uuid "891061a3-f7ad-47ad-8641-df76283e8dcb")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 193.04 337.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "1e614bf8-b4ee-4fef-b0b5-8fc766a14e14")
+		(property "Reference" "RV4"
+			(at 190.5 336.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_Potentiometer"
+			(at 190.5 339.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
+			(at 193.04 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 193.04 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "DURATION"
+			(at 189.992 341.122 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "2"
+			(uuid "e51c395d-3643-4c97-bde0-2a07b74cbd8c")
+		)
+		(pin "1"
+			(uuid "fa6d78b9-07c0-45e3-9beb-66cbe49fa43b")
+		)
+		(pin "3"
+			(uuid "37963ba2-6161-43c9-8dd9-7e1bad2b22fc")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "RV4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 474.98 297.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "21bfc58e-2e3f-44fa-9001-c3e8ed8688b2")
+		(property "Reference" "J32"
+			(at 473.075 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 473.075 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 474.98 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 474.98 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 474.98 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "RING"
+			(at 467.36 303.022 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 3.81 3.81)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "36a3faea-be0c-4ce5-ac86-35da0f675b49")
+		)
+		(pin "S"
+			(uuid "1175c2f9-d623-4d8d-99f1-baf94f2b59b3")
+		)
+		(pin "T"
+			(uuid "6ab9e238-057f-41cc-aab1-211685c48905")
+		)
+		(pin "R"
+			(uuid "43728a54-24ac-4df6-a0f5-a0fddf67c4d1")
+		)
+		(pin "RN"
+			(uuid "2ce90884-7a36-4e15-b62b-a49a195b2e93")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 384.81 269.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "220e76a3-23ca-4bbc-82b1-ab12ba1902ef")
+		(property "Reference" "J24"
+			(at 382.905 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 382.905 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 384.81 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 384.81 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 384.81 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "Gate"
+			(at 377.19 275.082 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "dad1d90e-a84a-4a23-a171-f3b8daee8386")
+		)
+		(pin "S"
+			(uuid "1881b3f2-ece9-4de2-b48c-770c5c24b96d")
+		)
+		(pin "T"
+			(uuid "030d3061-7172-4265-a571-fbc58681a54d")
+		)
+		(pin "R"
+			(uuid "1e35bd65-a131-4c6f-8b65-4ee7a762aa53")
+		)
+		(pin "RN"
+			(uuid "d22588aa-6773-4b73-be4b-e5f34f5b57e3")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 570.23 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "22a806db-b130-453a-b3cd-e964a384733d")
+		(property "Reference" "J79"
+			(at 568.325 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 568.325 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 570.23 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 570.23 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 570.23 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "DIAL"
+			(at 562.61 187.452 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 3.81 3.81)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "2fb9e917-5da0-423c-be2b-bec026ed7fa3")
+		)
+		(pin "S"
+			(uuid "a72fc876-f8cc-4d60-9f0d-e81f08bd5041")
+		)
+		(pin "T"
+			(uuid "787aef77-37ec-4029-a003-d8b8edc8b980")
+		)
+		(pin "R"
+			(uuid "74d49306-cb70-4785-9cde-ff930d4aed0a")
+		)
+		(pin "RN"
+			(uuid "ad0907b9-1a88-486e-ad97-6cd1378740d1")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 152.4 354.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "256db756-8569-459d-b7e2-74200e789f74")
+		(property "Reference" "SW5"
+			(at 152.4 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 152.4 347.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 152.4 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "POS1" "PROGRAM"
+			(at 157.734 348.742 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "POS2" "BULB"
+			(at 157.734 359.156 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "CON" "SHUTTER MODE"
+			(at 147.828 350.774 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "1"
+			(uuid "39605a13-b886-477f-8704-36547a7501c5")
+		)
+		(pin "3"
+			(uuid "5b33ee7d-c8a2-4d0a-8987-c07620e283d9")
+		)
+		(pin "2"
+			(uuid "5f9c3863-6477-4f56-99a9-17d608fcf897")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 518.16 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "2786b4ed-ddcc-4960-91c5-8cfac9f9eafd")
+		(property "Reference" "J65"
+			(at 516.255 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 516.255 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 518.16 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 518.16 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 518.16 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "6"
+			(at 510.54 209.042 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 3.81 3.81)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "065c836b-9176-4f77-9564-a0275e79b851")
+		)
+		(pin "S"
+			(uuid "b43388c0-3018-4420-9a39-d237f09d61ee")
+		)
+		(pin "T"
+			(uuid "a3a525f1-f187-400c-8d38-fc990e85e17d")
+		)
+		(pin "R"
+			(uuid "180633aa-e31d-4c51-9fca-37d1a66f4461")
+		)
+		(pin "RN"
+			(uuid "74a94962-fb95-4ccd-9aa4-27cbbdc8f527")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 295.91 124.46 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "2e84046d-45e6-4340-93a9-73be255f4eba")
+		(property "Reference" "SW6"
+			(at 304.8 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 302.26 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 295.91 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 288.29 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 295.91 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "POS1" "ANSWER"
+			(at 301.498 119.126 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "POS2" "TRY AGAIN"
+			(at 291.084 119.126 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "CON" "CALL"
+			(at 299.466 129.032 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "1"
+			(uuid "b7b5eb3f-8e37-4a8f-b87a-3bc545888bc0")
+		)
+		(pin "3"
+			(uuid "b2fd28cc-b0db-48ae-a08d-ab791b549924")
+		)
+		(pin "2"
+			(uuid "2144e8ca-8e90-4a8b-a55c-8cf286ff6cbb")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 167.64 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "2f0b8224-13f5-4af0-987a-90e74ef1f306")
+		(property "Reference" "J12"
+			(at 165.735 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 165.735 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 167.64 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 167.64 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "NUM PATCH"
+			(at 160.02 104.902 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "4212c1f3-7d0b-4aff-b13f-17fdf0da83a5")
+		)
+		(pin "S"
+			(uuid "83b9d5d6-314f-4051-a312-4a200127dec9")
+		)
+		(pin "T"
+			(uuid "5bbaa1a9-d1c2-415b-8df9-4d94c6e5c24a")
+		)
+		(pin "R"
+			(uuid "f6964332-2fce-4539-aafe-3174f0325948")
+		)
+		(pin "RN"
+			(uuid "f12ff9d0-01af-47f0-9832-78ff0012ccc1")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 297.18 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "35286d53-9293-4665-a2d0-a68c594f44a7")
+		(property "Reference" "J20"
+			(at 295.275 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 295.275 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 297.18 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 297.18 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 297.18 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "NUM PATCH"
+			(at 289.56 104.902 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "257cd9da-0ef3-43fb-aa20-7e3118bce009")
+		)
+		(pin "S"
+			(uuid "7ea5e6d8-50c6-491b-ad82-4f08ca4eda1a")
+		)
+		(pin "T"
+			(uuid "7708649d-caff-4e86-bd81-878f262c5c2a")
+		)
+		(pin "R"
+			(uuid "03078960-2f12-431f-8ce2-137d60f61b5b")
+		)
+		(pin "RN"
+			(uuid "1af871ad-3055-48fd-bcc2-278e7725ba00")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 121.92 358.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "36674a38-cae8-4e22-9a31-4d84ba0736d1")
+		(property "Reference" "SW4"
+			(at 121.92 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 121.92 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 365.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 121.92 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "POS1" "SHUTTER"
+			(at 127.254 352.552 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "POS2" "DRONE"
+			(at 127.254 362.966 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "CON" "PRIORITY"
+			(at 117.348 354.584 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "1"
+			(uuid "555b0c21-cea1-48bf-98f1-ff0f199948f3")
+		)
+		(pin "3"
+			(uuid "1a08dee3-aed9-4de8-9fcc-b9e067993e38")
+		)
+		(pin "2"
+			(uuid "3077b0f2-15b3-49cc-b383-ca496741cca2")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 568.96 226.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "383726db-3091-430e-ab22-925ccacc80cf")
+		(property "Reference" "J75"
+			(at 567.055 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 567.055 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 568.96 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 568.96 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 568.96 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "ERR"
+			(at 561.34 231.902 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 3.81 3.81)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "6ae047eb-48f8-4182-a4e4-250481c37eb6")
+		)
+		(pin "S"
+			(uuid "49d37798-9cf5-4a51-9d0f-7f6ce64aa709")
+		)
+		(pin "T"
+			(uuid "c4276972-7e79-45c9-ab49-95688182bfa8")
+		)
+		(pin "R"
+			(uuid "b4760c7f-a02d-4287-a649-faa966119226")
+		)
+		(pin "RN"
+			(uuid "d332d219-86d1-43a1-bd97-f3149de4f557")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 474.98 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "3ab035cf-748b-452c-8b8f-7b3f597145dc")
+		(property "Reference" "J27"
+			(at 473.075 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 473.075 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 474.98 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 474.98 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 474.98 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "1"
+			(at 467.36 186.182 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 3.81 3.81)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "17ad190b-efb8-460a-bd80-65e2ece5fc06")
+		)
+		(pin "S"
+			(uuid "8179c44a-e315-4e49-b5c8-1d3d42a4a372")
+		)
+		(pin "T"
+			(uuid "7d86ef83-06a3-4223-9f4c-e9397fabbfb8")
+		)
+		(pin "R"
+			(uuid "19b03613-b8f5-43b4-af85-cf3a93fc00b7")
+		)
+		(pin "RN"
+			(uuid "3c4af8e2-fd88-4ced-82b9-075075ac600b")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 104.14 127 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "432b1336-bd3d-4d58-b38f-4564981f091f")
+		(property "Reference" "SW3"
+			(at 113.03 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 110.49 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 104.14 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "POS1" "AUTO"
+			(at 109.728 121.666 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "POS2" "MANUAL"
+			(at 99.314 121.666 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "CON" "DIALER"
+			(at 107.696 131.572 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "1"
+			(uuid "53387835-42a0-4846-a8ef-791c6db3fa55")
+		)
+		(pin "3"
+			(uuid "33180237-c99d-46ed-b8a9-f7339ee144ee")
+		)
+		(pin "2"
+			(uuid "0acddd26-b21e-4fed-8f33-c6ed859ed5b8")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 495.3 297.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "444eca08-84e7-4a0c-963a-6ab7c44d5a70")
+		(property "Reference" "J33"
+			(at 493.395 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 493.395 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 495.3 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 495.3 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 495.3 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "CITY"
+			(at 487.68 303.022 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 3.81 3.81)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "4d3ad716-7bc8-4c1a-8b3e-5dcfe7e3d571")
+		)
+		(pin "S"
+			(uuid "d91127ac-19de-4784-b47e-e50c851c7a30")
+		)
+		(pin "T"
+			(uuid "30d0886e-71dc-454a-89a9-c603a8ce3ffc")
+		)
+		(pin "R"
+			(uuid "0d87a506-271b-48c3-bcbe-81c65ec8100d")
+		)
+		(pin "RN"
+			(uuid "2649eb35-f7d5-4727-a7dd-caaf88013ba0")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 105.41 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "4485b2c4-1913-4ad3-b2ce-9b28a1473655")
+		(property "Reference" "J9"
+			(at 103.505 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 103.505 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 105.41 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 105.41 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "NUM PATCH"
+			(at 97.79 104.902 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "90cf5fa1-590e-4044-99df-f5bae82d849d")
+		)
+		(pin "S"
+			(uuid "11704ad4-ab84-4089-9ad2-6fab8247f1f2")
+		)
+		(pin "T"
+			(uuid "7d0d99c2-a01c-4495-aa6f-aa779e3c4d2c")
+		)
+		(pin "R"
+			(uuid "d8434c56-72f8-4386-935a-dced86988ddd")
+		)
+		(pin "RN"
+			(uuid "02cee2c6-5f48-4777-88e5-871bc37e13f6")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 496.57 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "45b94ba6-dcb2-49e6-998f-7f9840c7c649")
+		(property "Reference" "J59"
+			(at 494.665 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 494.665 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 496.57 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 496.57 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 496.57 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "5"
+			(at 488.95 209.042 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 3.81 3.81)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "42377d54-a6df-498c-ba2f-cc0cd548e0df")
+		)
+		(pin "S"
+			(uuid "c243d318-4eab-4708-9479-e1b92063654e")
+		)
+		(pin "T"
+			(uuid "c120aa13-a4d0-4879-9b39-13bec0f470cc")
+		)
+		(pin "R"
+			(uuid "5b171526-f71b-44ea-bbc8-3b834cba0e0a")
+		)
+		(pin "RN"
+			(uuid "4a270dda-ecbe-4d76-961b-504b88a59c62")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 191.77 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "4e513ef2-b98f-414f-b0e0-3f6c7576e123")
+		(property "Reference" "J13"
+			(at 189.865 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 189.865 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 191.77 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 191.77 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "NUM PATCH"
+			(at 184.15 104.902 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "322e1088-1442-4f02-86ba-90ef52fc6d85")
+		)
+		(pin "S"
+			(uuid "06dbe2aa-5751-42e0-8685-4976b67645b7")
+		)
+		(pin "T"
+			(uuid "0e358d04-3994-4b5a-bf90-e046fe764357")
+		)
+		(pin "R"
+			(uuid "141b661e-61f2-4dbf-af3a-f04b47d4865d")
+		)
+		(pin "RN"
+			(uuid "de1b05e0-f064-406f-a71e-059e8d885876")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 81.28 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "5a196e58-dc37-4d3e-b8d3-026c814a54a4")
+		(property "Reference" "J8"
+			(at 79.375 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 79.375 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 81.28 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 81.28 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "STEP TRIGGER"
+			(at 73.66 130.302 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "687f9dac-6bd6-4e22-a6b5-900a13d24886")
+		)
+		(pin "S"
+			(uuid "f061b507-5edf-41d9-8888-9bc3172ada55")
+		)
+		(pin "T"
+			(uuid "85b7095f-efff-4fce-b229-478161a72beb")
+		)
+		(pin "R"
+			(uuid "9d002127-14d2-4ade-8120-ed5449683fa7")
+		)
+		(pin "RN"
+			(uuid "934a28d4-f1b8-415e-a795-d283d4029959")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 600.71 227.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "61adee9a-71b9-47de-ad44-9a1cdf1ae5f6")
+		(property "Reference" "J85"
+			(at 598.805 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 598.805 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 600.71 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 600.71 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 600.71 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "MSG3"
+			(at 593.09 233.172 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 3.81 3.81)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "89464a3e-3e8f-4fb7-b25f-ff60c90b9d3a")
+		)
+		(pin "S"
+			(uuid "6f8b80f7-09f2-4893-9778-021ef763d9b1")
+		)
+		(pin "T"
+			(uuid "aba46666-1bfe-4188-9f47-686232dc7fb3")
+		)
+		(pin "R"
+			(uuid "3ae9b7ac-4f94-4ceb-acd0-6a85a48afbd7")
+		)
+		(pin "RN"
+			(uuid "2e5dfa06-e547-47ab-95ab-25181bda2c99")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J85")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 190.5 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "63b34b4f-4cbb-4ae4-a0fd-e493372d7b07")
+		(property "Reference" "RV2"
+			(at 187.96 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_Potentiometer"
+			(at 187.96 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
+			(at 190.5 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 190.5 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "KEY DELAY"
+			(at 187.452 131.572 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "2"
+			(uuid "7f30b121-6fd5-4898-bde7-ed4c651d3018")
+		)
+		(pin "1"
+			(uuid "1b71d4b6-36e0-44a6-99a2-da8647515666")
+		)
+		(pin "3"
+			(uuid "2dea6d45-5044-4eb3-9ec3-71053d2f4520")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "RV2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 248.92 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "668e9030-acc3-45d7-940b-dce72af79755")
+		(property "Reference" "J15"
+			(at 247.015 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 247.015 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 248.92 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 248.92 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "NUM PATCH"
+			(at 241.3 104.902 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "2abe7980-0531-4f0d-ae70-c41392b3d6b4")
+		)
+		(pin "S"
+			(uuid "8dda728f-ce58-4156-8acd-12ff3a3c3653")
+		)
+		(pin "T"
+			(uuid "e5495384-eded-4446-9326-cac268855458")
+		)
+		(pin "R"
+			(uuid "fc8729b7-55fa-427d-85f5-fc028ef0af9c")
+		)
+		(pin "RN"
+			(uuid "3019238d-67d7-4e41-8d34-c1a923b657cd")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 518.16 274.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "6e360330-d780-418b-b439-654bc2ce153c")
+		(property "Reference" "J68"
+			(at 516.255 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 516.255 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 518.16 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 518.16 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 518.16 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "10c"
+			(at 510.54 280.162 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 3.81 3.81)
+				)
+				(justify right top)
+			)
+		)
+		(property "freq" "DT 1700&2200hz"
+			(at 504.19 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(pin "TN"
+			(uuid "48828d54-8d4c-4004-b9b0-c3a9b850e161")
+		)
+		(pin "S"
+			(uuid "3d225d8e-15d0-4f70-bca9-83137764ff58")
+		)
+		(pin "T"
+			(uuid "13a1591b-0d1f-476a-a60d-64d08eb221c8")
+		)
+		(pin "R"
+			(uuid "afd15574-b8e3-4747-aedc-017174175988")
+		)
+		(pin "RN"
+			(uuid "1043366e-34d6-47d1-8e99-628dab95fc5d")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Display_Character:SM420561N")
+		(at 97.79 248.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "751aad42-223a-4a4b-8736-1d9bf7701ecb")
+		(property "Reference" "U5"
+			(at 97.79 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SM420561N"
+			(at 97.79 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Display_7Segment:7SegmentLED_LTS6760_LTS6780"
+			(at 99.06 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Wuxi-ARK-Tech-Elec-SM420561N_C141367.pdf"
+			(at 85.09 236.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "One digit 7 segment blue LED, common cathode"
+			(at 97.79 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f3636fb5-1d30-40c6-94d6-b9a22abac06a")
+		)
+		(pin "6"
+			(uuid "3602137f-a20f-411e-8245-9c53b091c2f8")
+		)
+		(pin "9"
+			(uuid "8769f333-e979-4222-924e-3605a3093901")
+		)
+		(pin "1"
+			(uuid "b99aa22d-cbd8-4026-bfb0-dd9b92cb4c41")
+		)
+		(pin "8"
+			(uuid "d2486765-b9c2-441c-a29f-3744c0831238")
+		)
+		(pin "4"
+			(uuid "b9f00081-62cc-4429-b403-9558010a4bd9")
+		)
+		(pin "5"
+			(uuid "c27aa343-cd04-42d0-b76a-bba145afeb69")
+		)
+		(pin "7"
+			(uuid "f27ac95b-a7f2-4af7-8678-fb95938f6cb4")
+		)
+		(pin "3"
+			(uuid "b6f7d602-cfe5-4b4d-a3fa-8e566ce357f2")
+		)
+		(pin "10"
+			(uuid "71fc255d-dc99-435c-a1b7-96ad15efdad3")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 273.05 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "776d0549-92be-4293-9e6b-f32e52b87fa3")
+		(property "Reference" "J19"
+			(at 271.145 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 271.145 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 273.05 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 273.05 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 273.05 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "RING"
+			(at 265.43 127.762 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "349e5d17-1595-4f40-8e84-c62abf0cff87")
+		)
+		(pin "S"
+			(uuid "4c39f73d-83c6-4f46-be07-b094fe31eae0")
+		)
+		(pin "T"
+			(uuid "dcdb5569-d492-4675-bb74-a66b4a4540bd")
+		)
+		(pin "R"
+			(uuid "7012a906-ea77-4eaf-9b61-21a5013475fe")
+		)
+		(pin "RN"
+			(uuid "1c8c5ab3-4a5b-4f9f-b561-d52841fb0573")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 166.37 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "7e3b9de9-fa46-4a7f-8366-73ac6ce24619")
+		(property "Reference" "RV1"
+			(at 163.83 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_Potentiometer"
+			(at 163.83 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
+			(at 166.37 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 166.37 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "OFF HOOK DURATION"
+			(at 163.322 131.572 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "2"
+			(uuid "d29af529-337d-454b-a877-7a12fe9426fa")
+		)
+		(pin "1"
+			(uuid "0a9dd649-bbc1-441a-a53d-5f0ac7e37db5")
+		)
+		(pin "3"
+			(uuid "f1ea7a93-dccc-4263-ab36-484a709d761e")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 568.96 273.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "807c8d9f-a5e4-4247-81a7-2e87e6b3b6e5")
+		(property "Reference" "J77"
+			(at 567.055 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 567.055 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 568.96 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 568.96 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 568.96 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "BELL"
+			(at 561.34 278.892 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 3.81 3.81)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "ca4d9f50-5e77-4019-922d-aa15d1534fb1")
+		)
+		(pin "S"
+			(uuid "196657aa-72fc-4bca-bea2-5043dc9fb658")
+		)
+		(pin "T"
+			(uuid "1cb9ef8f-d2d6-4af2-9fc3-24db8c4edf24")
+		)
+		(pin "R"
+			(uuid "d1aaaa64-e665-480a-b8c3-6cbd42712a3e")
+		)
+		(pin "RN"
+			(uuid "6d174779-0724-47be-8565-c591d3d7a3c4")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 518.16 248.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "80ba8df8-1504-4225-b938-620006bac4e1")
+		(property "Reference" "J67"
+			(at 516.255 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 516.255 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 518.16 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 518.16 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 518.16 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "PN"
+			(at 510.54 254.762 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 3.81 3.81)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "7ee23de4-ddde-4abc-aaa7-1416991f6d08")
+		)
+		(pin "S"
+			(uuid "074df6ff-632b-4bef-a20a-db1b7a6c64cb")
+		)
+		(pin "T"
+			(uuid "6f912427-bff7-4253-9725-42490c20c247")
+		)
+		(pin "R"
+			(uuid "a746457a-f0ab-45c6-a350-49ec6203cecb")
+		)
+		(pin "RN"
+			(uuid "ffd54639-41e3-4758-ba25-c5f4c5916560")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 598.17 295.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "8b5e5343-579d-4641-a219-6783048ee943")
+		(property "Reference" "J81"
+			(at 596.265 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 596.265 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 598.17 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 598.17 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 598.17 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "NUMR"
+			(at 590.55 301.752 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 3.81 3.81)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "9d5cccd4-3db6-4260-b9a5-04922facdc9b")
+		)
+		(pin "S"
+			(uuid "88223341-9a33-4683-a60f-42f8f06e8f7b")
+		)
+		(pin "T"
+			(uuid "b81760a1-421b-4b88-b34c-a90ce22333e1")
+		)
+		(pin "R"
+			(uuid "709dc900-0015-4f55-96e2-1fad5002b9b1")
+		)
+		(pin "RN"
+			(uuid "ef4eaa6f-1491-46dd-832b-2801e236e895")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 129.54 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "90868efc-3c75-4fbf-8ec2-149f593ad698")
+		(property "Reference" "J10"
+			(at 127.635 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 127.635 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 129.54 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 129.54 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "NUM PATCH"
+			(at 121.92 104.902 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "bb5ed547-06a8-40ee-9377-8b4e520010b5")
+		)
+		(pin "S"
+			(uuid "cbe6d27d-ac54-4cd6-8f83-b21bba13953d")
+		)
+		(pin "T"
+			(uuid "3c8220f8-3186-48c5-b4a5-1a085895a5dc")
+		)
+		(pin "R"
+			(uuid "e67cc3d3-8378-4855-9475-d9ec8d6de2f5")
+		)
+		(pin "RN"
+			(uuid "ac626788-dae2-49aa-bc3a-3af72363992a")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 599.44 275.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "90b3cc07-d695-4959-8932-38c68eeb75eb")
+		(property "Reference" "J82"
+			(at 597.535 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 597.535 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 599.44 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 599.44 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 599.44 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "MSGR"
+			(at 591.82 281.432 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 3.81 3.81)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "c05062de-4daa-429c-962c-168bbd6f27b1")
+		)
+		(pin "S"
+			(uuid "0ec7f54c-d563-42bd-91ab-89c50b58f446")
+		)
+		(pin "T"
+			(uuid "082bdd58-89cc-4990-a419-1531b7d58b14")
+		)
+		(pin "R"
+			(uuid "4f309137-f3e8-4ce6-90fe-7dc7ee500ad1")
+		)
+		(pin "RN"
+			(uuid "83ca6b7e-5a62-46f6-b334-82dfae649bef")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 215.9 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "925a206c-e8e4-471d-8f07-995cbcf02a5f")
+		(property "Reference" "RV5"
+			(at 213.36 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_Potentiometer"
+			(at 213.36 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
+			(at 215.9 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 215.9 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "JITTER"
+			(at 212.852 131.572 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "2"
+			(uuid "610d9332-0844-48b8-9211-6bc2dfb7af4e")
+		)
+		(pin "1"
+			(uuid "767a9348-790e-4468-991b-70cd286d1dc9")
+		)
+		(pin "3"
+			(uuid "66d0ec19-b245-46aa-a658-d4219f022289")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "RV5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 516.89 297.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "962cb317-37ab-48d9-ac13-638401d82298")
+		(property "Reference" "J63"
+			(at 514.985 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 514.985 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 516.89 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 516.89 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 516.89 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "INTL"
+			(at 509.27 303.022 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 3.81 3.81)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "bc10ea5f-5e88-451b-bb99-e1a3554267cf")
+		)
+		(pin "S"
+			(uuid "f5491092-2649-48dc-a669-4f2dd2313a19")
+		)
+		(pin "T"
+			(uuid "17aa40e5-4337-4954-ab18-c6248272e302")
+		)
+		(pin "R"
+			(uuid "424cd628-493d-4492-9666-36397b1d6c97")
+		)
+		(pin "RN"
+			(uuid "f48d28e7-e22c-4a64-ac69-a6adaaa9b308")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 568.96 250.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "9b8b8cf0-7531-4ea2-93cf-d3dd9cad621b")
+		(property "Reference" "J76"
+			(at 567.055 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 567.055 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 568.96 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 568.96 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 568.96 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "HOOKR"
+			(at 561.34 256.032 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 3.81 3.81)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "ff410767-ef88-4bcc-b800-a9bd798a2c4f")
+		)
+		(pin "S"
+			(uuid "d76eb7ba-26dc-464d-9682-b7dafa42a181")
+		)
+		(pin "T"
+			(uuid "b60be7d5-4003-4deb-9935-0e9a372d2bd6")
+		)
+		(pin "R"
+			(uuid "cdf75a3b-e6b6-439b-8341-f7c52b38daeb")
+		)
+		(pin "RN"
+			(uuid "e6b5d293-8c56-4c7e-b070-cce67e1920ef")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 496.57 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "a3cd1599-22dd-4d78-af11-8986ebc41998")
+		(property "Reference" "J34"
+			(at 494.665 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 494.665 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 496.57 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 496.57 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 496.57 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "2"
+			(at 488.95 186.182 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 3.81 3.81)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "b761c64a-5c03-4c54-a844-8d4334f38356")
+		)
+		(pin "S"
+			(uuid "17d1b398-7bdf-447b-851b-4eabfe804781")
+		)
+		(pin "T"
+			(uuid "3e71bc8a-31c1-4717-bd17-92fd4973b1f5")
+		)
+		(pin "R"
+			(uuid "21f98d80-d319-44a8-b43c-22388db5e765")
+		)
+		(pin "RN"
+			(uuid "a4d3ca56-3443-40cf-abb3-adba7204bc3a")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 496.57 248.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "a48814e8-eee8-4bd8-a1ea-9d186bb0c129")
+		(property "Reference" "J61"
+			(at 494.665 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 494.665 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 496.57 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 496.57 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 496.57 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "0"
+			(at 488.95 254.762 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 3.81 3.81)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "4b29b41e-5d4e-4dfd-8805-36e2a61dd831")
+		)
+		(pin "S"
+			(uuid "fb3b8204-ddc0-4692-9a6b-41eb270e0c39")
+		)
+		(pin "T"
+			(uuid "1a969abf-ba8f-4539-9888-3e010b3d07d1")
+		)
+		(pin "R"
+			(uuid "476bda35-6afc-4846-9f9c-95e08f87dc36")
+		)
+		(pin "RN"
+			(uuid "1ecc5c5b-739f-422a-b45f-a03838ca8068")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 600.71 204.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "b19c6dd5-eb85-472b-8db3-398d36b2bd24")
+		(property "Reference" "J84"
+			(at 598.805 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 598.805 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 600.71 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 600.71 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 600.71 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "MSG2"
+			(at 593.09 210.312 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 3.81 3.81)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "33b1df78-2cb1-44d7-9751-015f93b1c374")
+		)
+		(pin "S"
+			(uuid "fe915da4-6c22-4a41-8e1a-6ab66456f389")
+		)
+		(pin "T"
+			(uuid "0f309b92-98fe-4fde-80a3-dfa576254865")
+		)
+		(pin "R"
+			(uuid "c0069ebb-a5ed-44b8-a051-6a4b715eec82")
+		)
+		(pin "RN"
+			(uuid "a2746118-6b16-4625-9d9a-90474bff1115")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 474.98 248.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "b214291c-8e1c-40e1-850c-d1cf074e249a")
+		(property "Reference" "J30"
+			(at 473.075 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 473.075 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 474.98 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 474.98 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 474.98 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "ST"
+			(at 467.36 254.762 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 3.81 3.81)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "c8012b1e-6873-46b5-8b27-37b97b672d76")
+		)
+		(pin "S"
+			(uuid "ad968b21-c311-4185-b3da-dd9cda23e1f9")
+		)
+		(pin "T"
+			(uuid "71c7bf5f-0147-471c-a815-eeb6d5944e3a")
+		)
+		(pin "R"
+			(uuid "de4052ec-83ab-4b9b-805c-dfcd79f3aae4")
+		)
+		(pin "RN"
+			(uuid "dfec11eb-a784-49a9-bd4f-65cae6483fab")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 600.71 250.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "b5c4c080-d48f-4e73-85c6-00f1e2f1f225")
+		(property "Reference" "J86"
+			(at 598.805 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 598.805 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 600.71 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 600.71 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 600.71 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "MSG4"
+			(at 593.09 256.032 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 3.81 3.81)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "770ba346-1fb8-48c6-b057-f27c9b26b572")
+		)
+		(pin "S"
+			(uuid "7c2ac5aa-f6b1-4bd4-ad17-a969b688ef8d")
+		)
+		(pin "T"
+			(uuid "8f574bc9-ad3b-4e08-a6a2-f01b789cc341")
+		)
+		(pin "R"
+			(uuid "67faa31b-4077-4cc2-927d-64bc41ffab4d")
+		)
+		(pin "RN"
+			(uuid "3bd72c31-dc6d-4b0a-8474-3f45046344c1")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J86")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 600.71 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "b9911272-261e-45fe-b33c-1826aa012cf7")
+		(property "Reference" "J83"
+			(at 598.805 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 598.805 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 600.71 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 600.71 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 600.71 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "MSG1"
+			(at 593.09 187.452 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 3.81 3.81)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "cc51219d-fd88-4581-8be3-a0862a802e1e")
+		)
+		(pin "S"
+			(uuid "16923258-e73f-4355-a6eb-4cc792e05ced")
+		)
+		(pin "T"
+			(uuid "38737461-15b3-4f74-99e9-f2784cda2dbb")
+		)
+		(pin "R"
+			(uuid "7394761f-8a9e-4eb2-be89-8d79d0278fb6")
+		)
+		(pin "RN"
+			(uuid "b222bd22-a373-4bc9-a2b2-b7537354b68d")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 570.23 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "c17af4db-d225-480a-b857-3417bb0b070f")
+		(property "Reference" "J80"
+			(at 568.325 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 568.325 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 570.23 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 570.23 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 570.23 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "FAST"
+			(at 562.61 209.042 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 3.81 3.81)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "c2d51267-e971-4f46-99c2-097911155c5f")
+		)
+		(pin "S"
+			(uuid "0e795f27-1ff2-4640-8381-bbf3ea1f17d8")
+		)
+		(pin "T"
+			(uuid "215462b2-dac9-4913-83cd-01be3b79a15c")
+		)
+		(pin "R"
+			(uuid "e87ca4f9-c116-40a5-8efe-02578fb3618e")
+		)
+		(pin "RN"
+			(uuid "3e31a44a-4aea-4957-b10c-26f9d7ea0294")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 539.75 248.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "c30ce477-9e48-4baf-bb49-f6f46671696a")
+		(property "Reference" "J72"
+			(at 537.845 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 537.845 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 539.75 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 539.75 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 539.75 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "D"
+			(at 532.13 254.762 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 3.81 3.81)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "e5f1fd1a-8dba-425e-b07a-ac0b7ea9d094")
+		)
+		(pin "S"
+			(uuid "47836d9a-5d4a-48ce-98c7-9236e5a00f62")
+		)
+		(pin "T"
+			(uuid "185018b8-2b19-4187-bb2a-1fa677a5fedc")
+		)
+		(pin "R"
+			(uuid "0ac0b43e-07d6-46c5-bad2-e1a945676909")
+		)
+		(pin "RN"
+			(uuid "3216dbc4-3f84-4b26-bc30-1ce89c10bcec")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 496.57 226.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "c461df9b-eedb-4b38-a522-1532170d3d8f")
+		(property "Reference" "J60"
+			(at 494.665 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 494.665 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 496.57 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 496.57 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 496.57 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "8"
+			(at 488.95 231.902 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 3.81 3.81)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "d4f3b16a-bd6f-415d-ac94-b3ed7056cb5f")
+		)
+		(pin "S"
+			(uuid "40451b68-f868-4d1e-99e7-23a22186a661")
+		)
+		(pin "T"
+			(uuid "d922d2c5-9f6e-4bf0-a4a0-9b8c42707b4e")
+		)
+		(pin "R"
+			(uuid "8c922828-1bbc-420b-9ae5-10aee513c8d2")
+		)
+		(pin "RN"
+			(uuid "0a27675a-74e7-4328-a39b-caa6ca00fe88")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 539.75 274.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "c48e0bb5-9452-40fb-b97e-bdf591f81958")
+		(property "Reference" "J73"
+			(at 537.845 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 537.845 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 539.75 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 539.75 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 539.75 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "25c"
+			(at 532.13 280.162 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 3.81 3.81)
+				)
+				(justify right top)
+			)
+		)
+		(property "freq" "DT 1700&2200hz"
+			(at 525.78 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(pin "TN"
+			(uuid "6b9db842-ccc2-471d-99e3-dbd3616b57b9")
+		)
+		(pin "S"
+			(uuid "060343f3-5c5b-4ff5-bbee-735cd948e136")
+		)
+		(pin "T"
+			(uuid "4faabbbb-6ab5-48a7-9758-09f0f595ab35")
+		)
+		(pin "R"
+			(uuid "9ab29761-87f0-493f-8bb8-9e7f21f6cc01")
+		)
+		(pin "RN"
+			(uuid "19c74bd1-3092-4942-b36e-be7b7e2b2289")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 474.98 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "c7add755-a2de-45a5-9134-9a2515f3efe4")
+		(property "Reference" "J28"
+			(at 473.075 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 473.075 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 474.98 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 474.98 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 474.98 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "4"
+			(at 467.36 209.042 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 3.81 3.81)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "354debab-4c37-42ac-a061-4c3e80c4b7b5")
+		)
+		(pin "S"
+			(uuid "8296295a-61d8-457d-977b-68c5ada8a44a")
+		)
+		(pin "T"
+			(uuid "e822615f-2d3c-4c63-ad16-9a629cf0b20c")
+		)
+		(pin "R"
+			(uuid "6641ed6e-cf0b-472a-a33f-cecdec157b57")
+		)
+		(pin "RN"
+			(uuid "1a1d3c17-5fe8-4349-854c-9e772af9e1ef")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 321.31 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "d10a1c0e-dd88-4a27-97f0-a2bfee387302")
+		(property "Reference" "J22"
+			(at 319.405 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 319.405 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 321.31 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 321.31 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 321.31 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "ANSWER"
+			(at 313.69 127.762 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "46e7eec3-6916-4fdc-b725-f4815f75896a")
+		)
+		(pin "S"
+			(uuid "75f2a26d-99f3-4bba-9395-6a3452c1e205")
+		)
+		(pin "T"
+			(uuid "03ec9255-1924-46aa-9406-32488232f5a1")
+		)
+		(pin "R"
+			(uuid "08c3fc63-b882-4900-a3c3-734f1e03d9cf")
+		)
+		(pin "RN"
+			(uuid "b32854f4-604b-4fab-b1c0-5a230ddc8056")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 191.77 323.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "d2a4c2c8-5025-483e-90cd-6ff9d60917b2")
+		(property "Reference" "RV3"
+			(at 189.23 322.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_Potentiometer"
+			(at 189.23 325.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
+			(at 191.77 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 191.77 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "THRESHOLD"
+			(at 188.722 327.152 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "2"
+			(uuid "cf8c21ca-a11a-4733-ba2c-5e9327b08056")
+		)
+		(pin "1"
+			(uuid "90318062-579a-439e-9e12-c64e9c33d0e9")
+		)
+		(pin "3"
+			(uuid "468a4649-f1f0-42d9-9643-6dd617f868c7")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "RV3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 518.16 226.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "dc23e357-f37e-454b-82f0-f139b4a52903")
+		(property "Reference" "J66"
+			(at 516.255 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 516.255 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 518.16 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 518.16 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 518.16 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "9"
+			(at 510.54 231.902 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 3.81 3.81)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "e34cb44a-7030-460c-b065-aca34e0a9c5d")
+		)
+		(pin "S"
+			(uuid "8476366d-d1c5-4cc8-99d3-63976a5eff31")
+		)
+		(pin "T"
+			(uuid "f0d8b76b-d59f-4aec-a820-0fa5b4d2d295")
+		)
+		(pin "R"
+			(uuid "ec8c9a77-3431-4726-b0e5-0aa1661604c1")
+		)
+		(pin "RN"
+			(uuid "14af1040-51e9-43f0-9d3d-049b33370a32")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 539.75 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "dfabe3a7-0055-4904-8c61-f44df1d1f338")
+		(property "Reference" "J69"
+			(at 537.845 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 537.845 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 539.75 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 539.75 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 539.75 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "A"
+			(at 532.13 186.182 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 3.81 3.81)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "4304709b-88be-4ddd-be16-f06581ccbeea")
+		)
+		(pin "S"
+			(uuid "7507361f-0fca-457d-b447-e0001016d013")
+		)
+		(pin "T"
+			(uuid "8b74e5b4-697a-4912-a0d5-bd1f20a6f406")
+		)
+		(pin "R"
+			(uuid "6e2e5321-a370-4f33-bbd5-a118104e9077")
+		)
+		(pin "RN"
+			(uuid "7315a37e-d90d-4d51-b2fe-10a7d284405d")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 321.31 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "e89c8d2b-87f1-49ea-899f-15c8cfce1f69")
+		(property "Reference" "J21"
+			(at 319.405 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 319.405 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 321.31 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 321.31 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 321.31 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "NUM PATCH"
+			(at 313.69 104.902 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "de616e4f-6d3d-4111-9276-69683087c4bc")
+		)
+		(pin "S"
+			(uuid "bc2e77f0-800b-4106-b7d0-7f6d17e9ef69")
+		)
+		(pin "T"
+			(uuid "a3bad3be-562f-4209-af33-568913b86b87")
+		)
+		(pin "R"
+			(uuid "e0ee8b41-20c4-4c3b-b498-cf2c8d5f9344")
+		)
+		(pin "RN"
+			(uuid "52221777-1aca-417c-a976-4e7fe071093a")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 539.75 226.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "ee8033d4-30fb-4782-98e5-519eec43eafc")
+		(property "Reference" "J71"
+			(at 537.845 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 537.845 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 539.75 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 539.75 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 539.75 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "C"
+			(at 532.13 231.902 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 3.81 3.81)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "139c102f-5e28-419f-9828-2e514f0992e2")
+		)
+		(pin "S"
+			(uuid "0f73bfa9-9fac-4b6d-803b-819651425fdc")
+		)
+		(pin "T"
+			(uuid "62053be5-f433-4431-b71f-54e69ff0e682")
+		)
+		(pin "R"
+			(uuid "adc4b68b-4652-4ed3-b535-e5189476b0ff")
+		)
+		(pin "RN"
+			(uuid "13d3eb62-d819-4ce3-9399-f38bb71d7380")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 539.75 297.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "f383b4f1-1243-4e17-a8d8-50247f5062ca")
+		(property "Reference" "J74"
+			(at 537.845 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 537.845 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 539.75 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 539.75 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 539.75 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "BUSY"
+			(at 532.13 303.022 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 3.81 3.81)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "64d23d51-44c7-4f89-99ef-595a473268cf")
+		)
+		(pin "S"
+			(uuid "f69b3770-ff02-4049-bd6a-cafc110df9e1")
+		)
+		(pin "T"
+			(uuid "3d5e3379-d338-4dc2-b3eb-6f73bf941c34")
+		)
+		(pin "R"
+			(uuid "2ce26bd1-8610-4dad-986a-f4870e705923")
+		)
+		(pin "RN"
+			(uuid "ea36fa89-6a58-41d8-8661-05cbf6c82ff2")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 247.65 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "f47e5e47-5b29-45ff-80ca-8031d80a2910")
+		(property "Reference" "RV6"
+			(at 245.11 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_Potentiometer"
+			(at 245.11 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
+			(at 247.65 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 247.65 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "RING DURATION"
+			(at 244.602 129.032 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "2"
+			(uuid "67190918-fe68-42e7-9284-1cfb5aedb173")
+		)
+		(pin "1"
+			(uuid "3a13792f-6aa9-498f-9b9d-ea48083de8ce")
+		)
+		(pin "3"
+			(uuid "be8bbc7b-6252-42ac-a508-5c909299d2e5")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "RV6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 273.05 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "f4cc13ac-d53c-408a-b701-86f6e1dd5103")
+		(property "Reference" "J18"
+			(at 271.145 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 271.145 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 273.05 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 273.05 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 273.05 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "NUM PATCH"
+			(at 265.43 104.902 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "d679eb96-fdf6-44ff-a511-97c1fe337a62")
+		)
+		(pin "S"
+			(uuid "be4da0eb-6502-4e73-a002-0f5dd87bc711")
+		)
+		(pin "T"
+			(uuid "b9e51d40-eb46-42d9-9b46-6dda2b0891f4")
+		)
+		(pin "R"
+			(uuid "361dceef-bb20-4af7-a7e0-e0471565b7e9")
+		)
+		(pin "RN"
+			(uuid "9475ce76-488c-4e64-bc8b-4ab9e22feeb5")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 215.9 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "f7a50af4-96d1-449e-9ff3-a68e4fc2c70e")
+		(property "Reference" "J14"
+			(at 213.995 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 213.995 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 215.9 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 215.9 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "NUM PATCH"
+			(at 208.28 104.902 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "bf43e402-8fce-4241-b5fc-20c989641462")
+		)
+		(pin "S"
+			(uuid "e9d2545a-c8c2-4f88-86ba-64467706771e")
+		)
+		(pin "T"
+			(uuid "106535e2-4d86-4ccb-bc4a-b63b37cb42eb")
+		)
+		(pin "R"
+			(uuid "aab9d6d8-83ec-40ed-8eb1-ba923fd88cc0")
+		)
+		(pin "RN"
+			(uuid "871e1ba5-10db-416d-b967-03ee422e5d23")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 81.28 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "fa4ff5b2-f6c2-496a-bda1-58ec85c1d4ae")
+		(property "Reference" "J2"
+			(at 79.375 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 79.375 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 81.28 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 81.28 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "NUM PATCH"
+			(at 73.66 104.902 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "e39871c8-7c83-4361-ae0c-b8d100c97260")
+		)
+		(pin "S"
+			(uuid "874b0ff5-a021-4c7b-aaf3-66525628d062")
+		)
+		(pin "T"
+			(uuid "f934c571-e352-40d1-b342-29f45edb34a7")
+		)
+		(pin "R"
+			(uuid "bef31779-f7c8-44ff-b0b8-21ea3c589849")
+		)
+		(pin "RN"
+			(uuid "aedd36b7-f8bf-48dd-b933-f00d3b72f648")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 539.75 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "fa8cb315-541d-4150-832d-4eeaa9b57fe9")
+		(property "Reference" "J70"
+			(at 537.845 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 537.845 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 539.75 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 539.75 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 539.75 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "B"
+			(at 532.13 209.042 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 3.81 3.81)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "9eab6882-da5f-46d3-ab5a-86f5b25d3f1b")
+		)
+		(pin "S"
+			(uuid "e8b8989e-d0d1-4188-be4c-b3a9d7cf922d")
+		)
+		(pin "T"
+			(uuid "5445b785-4edb-45fd-a350-d0cd81a5f6c8")
+		)
+		(pin "R"
+			(uuid "9916e9a0-37e2-4889-b934-5f33aed11132")
+		)
+		(pin "RN"
+			(uuid "5fa32327-c5d1-48c3-9c07-4ff499b27f4e")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 407.67 269.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "fac409f2-90e0-4d8d-a917-373ac3239f79")
+		(property "Reference" "J26"
+			(at 405.765 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 405.765 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 407.67 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 407.67 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 407.67 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "TRIGGER"
+			(at 400.05 275.082 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "98832733-6368-4379-838f-c66568e66138")
+		)
+		(pin "S"
+			(uuid "f36b4948-b8bb-4fb0-9948-40be9befd165")
+		)
+		(pin "T"
+			(uuid "48d45f50-165a-4f5b-8844-8a9f1252066c")
+		)
+		(pin "R"
+			(uuid "45b325dd-8c9e-4a35-9ffb-c6f976ffcbf5")
+		)
+		(pin "RN"
+			(uuid "1a7f9ed4-4634-48a5-adae-ca2c111e947d")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 383.54 293.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "fe376a04-f76d-471f-b334-eef41ddca6fd")
+		(property "Reference" "J23"
+			(at 381.635 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 381.635 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:CONN5_STX-3680_KYC"
+			(at 383.54 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 383.54 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 383.54 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Control" "Gate"
+			(at 375.92 299.212 0)
+			(effects
+				(font
+					(face "Boston Traffic")
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "TN"
+			(uuid "3138b678-5b02-4e24-a4a3-27ea9a9967af")
+		)
+		(pin "S"
+			(uuid "2bf20b70-3d28-4b14-83e8-3493374081e4")
+		)
+		(pin "T"
+			(uuid "fa8b85ab-3def-4baf-81ef-2ad15ffee99e")
+		)
+		(pin "R"
+			(uuid "62927881-a40f-4219-9135-2705bf18f698")
+		)
+		(pin "RN"
+			(uuid "b6e7dd44-4dac-43de-8ea6-1327200a2419")
+		)
+		(instances
+			(project "Controller"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/a0ffe1e9-394b-4656-8257-095beb73297c"
+					(reference "J23")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

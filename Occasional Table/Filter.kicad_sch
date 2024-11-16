@@ -1,0 +1,29 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "531ca281-8659-4898-bd92-5c2528eed6c7")
+	(paper "A2")
+	(title_block
+		(title "Basiq Explorer")
+		(rev "1.0")
+		(company "velvia-fifty")
+		(comment 1 "https://github.com/velvia-fifty/AudioThings")
+		(comment 2 "If you only sent just one to the fab...")
+		(comment 4 "Stay humble")
+	)
+	(lib_symbols)
+	(text "Is a wavefolder a filter? I'm going with nah."
+		(exclude_from_sim no)
+		(at 101.6 40.64 0)
+		(effects
+			(font
+				(face "Boston Traffic")
+				(size 6.35 6.35)
+				(italic yes)
+				(color 132 0 132 1)
+			)
+		)
+		(uuid "f67dac03-c94b-4b40-b647-3e727ece2e90")
+	)
+)
