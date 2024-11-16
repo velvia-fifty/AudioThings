@@ -10,8 +10,22 @@
 >
 >*We do audio, we do thing, we do audio things!*
 
+## Navigating this hot mess
 
-## Opinions
+This repo is poorly organized and so am I, here are the main non-projet folders.
+- [Art](./Art/)
+    - Less-than-practical boards that are incomplete.
+- [AT-Template](./AT-Template/)
+    - KiCad template I've been using to make things.
+- [CRIB SHEET](./CRIB%20SHEET/)
+    - Things I ~stole~ used for inspiration.
+- [Modules](./Modules/)
+    - The stuff that's mostly complete
+- [OLD](./OLD/)
+    - The trashcan, I sometimes use this to store things
+
+
+## I have opinions and they're loud
 
 Opinions are for suckers, we have convictions (and they're obtuse).
 
