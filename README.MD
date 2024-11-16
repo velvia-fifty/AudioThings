@@ -10,7 +10,11 @@
 >
 >*We do audio, we do thing, we do audio things!*
 
-## Navigating this hot mess
+## Getting the most out of your trip to Cleveland Ohio
+
+When you download this as a ZIP open AudioThings.kicad_pro, this is a panopticon project that contains the main resources and exists to handle some references that are common.
+
+## Navigating this hot mess of a repo
 
 This repo is poorly organized and so am I, here are the main non-projet folders.
 - [Art](./Art/)

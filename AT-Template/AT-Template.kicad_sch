@@ -3559,7 +3559,7 @@
 		(lib_id "Graphic:Logo_Open_Hardware_Small")
 		(at 210.82 93.98 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
 		(dnp no)
@@ -3602,15 +3602,6 @@
 			)
 		)
 		(property "Description" "CC"
-			(at 210.82 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 210.82 93.98 0)
 			(effects
 				(font
@@ -4291,7 +4282,7 @@
 		(lib_id "Graphic:Logo_Open_Hardware_Small")
 		(at 195.58 93.98 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
 		(dnp no)
@@ -4342,15 +4333,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 195.58 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project ""
 				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9"
@@ -4364,7 +4346,7 @@
 		(lib_id "Graphic:Logo_Open_Hardware_Small")
 		(at 180.34 93.98 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -4407,15 +4389,6 @@
 			)
 		)
 		(property "Description" "Open Hardware logo, small"
-			(at 180.34 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 180.34 93.98 0)
 			(effects
 				(font

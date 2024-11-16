@@ -1,0 +1,25 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f741fe92-68a7-4b98-af28-796575e7db8e")
+	(paper "A4")
+	(lib_symbols)
+	(text "This is a dummy schematic for the panopticon\n\nDrill down into the subfolders \nto find what you came here for \n\n:)"
+		(exclude_from_sim no)
+		(at 147.828 110.236 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+				(thickness 1.778)
+				(bold yes)
+			)
+		)
+		(uuid "68ff5faa-6640-4694-bd93-aeb9054b6999")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
