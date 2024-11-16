@@ -1,105 +1,51 @@
 # AudioThings
 
-I made this for me, maybe you find it helpful?
+~I made this for me, maybe you find it helpful?~
+
+>What is the meaning of life? Are we here only to eat hot chip, shitpost, and make the robot have orgasm?
+>
+>**No!**
+>
+>*We do audio, we do thing, we do audio things!*
+
 
 ## Opinions
 
-### Maximum Cheap
+Opinions are for suckers, we have convictions (and they're obtuse).
 
-- Full functionality within 100mm<sup>2</sup>
-- Active parts only
+### Maximize Cheap
+
+If we wanted to spend money, we wouldn't pay with our time!
+
+- Boards stay within 100mm x 100mm to get the cheapest per-board costs for small orders
+- BOM includes actively produced parts unless there are no other options
 - Rely on someone else's scale and use the most common solution in the wrong way
 
+See: [Fab Min-Max Notes](./FAB_NOTES.MD)
 
-### Minimum Lock-in
+### Form Factor Agnostic
 
 - Assume Eurorack
 - Assume Backplane
 - Assume Stacking
 - Assume Standalone
 
+### Your Licensing Model is Bad and You Should Feel Bad
 
+- All work is under copyright, this is not public domain
+- Its licensed to you under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+- If you're not an individual, the words "copyright" and "NonCommercial" are very important.
 
-## Fab Min/Maxxing
+For how I really feel, see: [LICENSE.MD](./LICENSE.MD)
 
-This is not definitive, authoritative, or good advice, it's anecdotal and subject to the will of the fab.
+## Core Features
 
-TL;DR:
-- JLPCB as low as $0.70/board shipped
-    - **If you only want 5 boards and not in a hurry**
-    - **For flex - Same cost w/ defaults +0.25mm fingers and Polymide stiffener**
-    - Free serial numbering w/ QR
-    - No cost to remove marking
-    - Free edgecard bevels
-    - Purple boards
-    - Low cost lead-free
+- Eurorack Compatible
+- Backplane preferred but optional
+- Daughterboards are assumed (Minium PCB order is 5 after all)
 
-- PCBWay as low as $1.32/board shipped
-    - **If you want 10 boards or want USPS shipping**
-    - If you don't care about fab marking (or will spend $0.15/board to remove)
-    - Want 0.2mm minimum hole size
+# I took notes here, don't look!
 
-## Min/Maxxing PCBway's $5 Quick Turn
-
-Single Boards - 100 x 100 QTY 10 = 1000mm<sup>2</sup> of board in a single order
-
-100 x 100 (design to ~99.45)
-2 Layers
-FR4
-S1000H TG150 is a free upgrade at time of writing
-Thickness between 0.8 and 1.6
-Track/Spacing 5/5 or 6/6
-0.2 Min Hole
-Soldermask: Green, Red, Yellow, Blue, White, or Black (top row)
-_(I have had Green randomly cost more when plugging around but not sure exactly what the combo is that causes that)_
-Silkscreen must be default or none
-HASL, Leaded
-Vias, Tented or Untented
-1oz
-_Add "WayWayWay" on board to specify PCBWay order number location_
-**$1.5 to remove marking**
-
-Under advanced settings you can specify plain box at no charge
-
-Global Direct is the cheapest shipping option, technically the same speed as USPS... technically
-
-$13.20 shipped to the USA
-
-+$1.5 to remove PCBWay marking
-$14.70
-
-Shipped USPS $21.57
-
-## Min/Maxxing jlcpcb
-
-Single Boards - 100 x 100 qty 5 = 500mm<sup>2</sup>
-FR4
-2 Layers
-Thickness between 0.8 and 1.6
-Soldermask: Green, **Purple**, Red, Yellow, White, Black
-_Some combinations of mask and thickness are an extra charge_
-HASL, Leaded
-**Lead Free for $1.30**
-Vias, Tented or Untented
-Minimum Via 3.0mm
-_Add "JLCJLCJLCJLC" on board to specify order number location_
-**No Charge Serial Number**
-- Text Only, up to 34 Char. Prefix and 6 digit number. with or without 5 character JLC string
-- QR Code or Data Matrix Code as small as 5mm x 5mm in custom location, with or without number below it
-_Cannot be hacked to be a URL... maybe..._
-**No Charge to remove mark**
-**No Charge Edge-connector routing**
-**No Charge Chamfering**
-
-$3.52 shipped Global Standard Direct Line
-**_$20.02 shipped USPS or DHL_**
-
-$16.06 for QTY 10 shipped Direct Line
-**_$30.87 shipped USPS_**
-
-## Also-ran Ref's
-
-- DigiKey $23.24/board
 
 # 
 m.2
@@ -116,4 +62,5 @@ https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/SJ3-350
 
 PTV09 Pots
 https://www.bourns.com/docs/Product-Datasheets/PTV09.pdf
+
 
