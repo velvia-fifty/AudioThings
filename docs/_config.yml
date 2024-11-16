@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: AudioThings
-email: your-email@example.com
+email: noreply@google.com
 description: >- # this means to ignore newlines until "baseurl:"
   What is the meaning of life? 
   Are we here only to eat hot chip, shitpost, and make the robot have orgasm?
@@ -28,6 +28,7 @@ url: https://velvia-fifty.github.io/ # the base hostname & protocol for your sit
 #twitter_username: jekyllrb
 github_username:  velvia-fifty
 show_downloads: true
+encoding: UTF-8
 
 # Build settings
 theme: jekyll-theme-leap-day
@@ -35,6 +36,7 @@ theme: jekyll-theme-leap-day
 plugins:
   - jekyll-feed
   - jekyll-remote-theme # add this line to the plugins list if you already have one
+future: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
