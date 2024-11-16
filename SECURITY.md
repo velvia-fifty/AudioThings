@@ -1,4 +1,4 @@
-# Security Policy
+# There's a security policy, for reasons
 
 ## Supported Versions
 
@@ -13,3 +13,10 @@ Ultimately responsibility for support lies with the user and they are free to mo
 I can't concieve of a vulnerability here that wouldn't exist with KiCad or another external entity.
 
 Please report vulnerabilities to exteral parties first (e.g., https://github.com/KiCad), any repo specific notifications/issues should be filed using the issues feature.
+
+## Don't try this at home
+
+If for some reason you came here hoping to find something about how to treat the burn you just gave yourself while assembling something, or because you burnt your house down:
+
+- Silver burn cream
+- Try it at a friend's house next time
