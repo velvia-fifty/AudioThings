@@ -2,7 +2,11 @@
 
 # AudioThings
 
-[![GitHub Pages](https://github.com/velvia-fifty/AudioThings/actions/workflows/jekyll-gh-pages.yml/badge.svg)](https://github.com/velvia-fifty/AudioThings/actions/workflows/jekyll-gh-pages.yml)
+<div style="display: flex; flex-direction: row;">
+<img src="https://github.com/velvia-fifty/AudioThings/actions/workflows/jekyll-gh-pages.yml/badge.svg"> &nbsp;&nbsp;
+<img src="https://img.shields.io/website?url=https%3A%2F%2Fgithub.com%2Fvelvia-fifty%2FAudioThings%2F"> &nbsp;&nbsp; <img src="https://img.shields.io/github/commit-activity/t/velvia-fifty/AudioThings"> &nbsp;&nbsp; <img src="https://img.shields.io/github/repo-size/velvia-fifty/AudioThings?style=flat&label=girth">
+</div>
+
 
 <sup>*I made this for me, maybe you find it helpful?*</sup>
 
