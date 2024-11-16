@@ -462,9 +462,9 @@
 		(remove_unused_layers no)
 		(uuid "4df6a2b6-8f02-4245-a45f-139c55c0e4f5")
 	)
-	(model "${KIPRJMOD}/3dmodels/SBH11-PBPC-D08-RA-BK.STEP"
+	(model "${KIPRJMOD}/../../res/3dmodels/SBH11-PBPC-D08-RA-BK.STEP"
 		(offset
-			(xyz 9.5 4 9.25)
+			(xyz 9 4 8.75)
 		)
 		(scale
 			(xyz 1 1 1)

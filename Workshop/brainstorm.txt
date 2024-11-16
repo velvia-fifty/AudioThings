@@ -1,0 +1,26 @@
+XINPUT
+Vidja Controller goes in, Bloops come out
+
+RP2350/2040 Based, USB port for Xbox controller, maybe bluetooth too
+
+
+DPAD - Toggles
+	H1 | H2 | H3 | H4
+
+Face Buttons - Momentary Triggers
+	A  | B  | X  | Y
+
+Joysticks - KAOSSyadda
+	XCV0 | YCV0 | XCV1 | YCV1
+	BTN - Switch from ABS to REL? | Switch Center from 50% to 0% (mirrored)
+
+SEL / START - Sequencer
+	SEL - Reset
+	START - Play/Pause
+
+Bumpers - Step Sequencer
+	LB - Prev Step
+	RB - Next Step
+
+Triggers - CV
+	LCV | RCV

@@ -12,22 +12,36 @@
 
 ## Getting the most out of your trip to Cleveland Ohio
 
-When you download this as a ZIP open AudioThings.kicad_pro, this is a panopticon project that contains the main resources and exists to handle some references that are common.
+When you download this as a ZIP open AudioThings.kicad_pro, this is a panopticon project that contains the main resources and exists to handle some references that are common. Use Kicad to drill down into other projects.
+
+Or don't, I'm not a cop.
 
 ## Navigating this hot mess of a repo
 
-This repo is poorly organized and so am I, here are the main non-projet folders.
-- [Art](./Art/)
-    - Less-than-practical boards that are incomplete.
-- [AT-Template](./AT-Template/)
-    - KiCad template I've been using to make things.
-- [CRIB SHEET](./CRIB%20SHEET/)
-    - Things I ~stole~ used for inspiration.
-- [Modules](./Modules/)
-    - The stuff that's mostly complete
-- [OLD](./OLD/)
-    - The trashcan, I sometimes use this to store things
+This repo is poorly organized and so am I, here are the main non-project folders.
 
+- [Art](./Art/)
+  - Less-than-practical boards that are incomplete.
+- [CRIB SHEET](./CRIB%20SHEET/)
+  - Things I ~stole~ used for inspiration.
+- [docs](./docs/)
+  - Audio Things: The Manual: The Webpage: The Source
+- [Modules](./Modules/)
+  - The stuff that's mostly complete
+- [OLD](./OLD/)
+  - The trashcan, I sometimes use this to store things
+- [res](./res/)
+  - Central resource folder containing footprints, 3d models, and other assets.
+  - Referenced at ${KIPROJMOD}/../../res/
+- [Tools](./Tools/)
+  - Hammers, Templates, etc.
+- [Workshop](./Workshop/)
+  - Half-baked and half-finished boards
+
+### Project Resources
+
+Footprint Library
+${KIPRJMOD}/../../res/AT-Footprints.pretty
 
 ## I have opinions and they're loud
 
@@ -64,10 +78,10 @@ For how I really feel, see: [LICENSE.MD](./LICENSE.MD)
 - Backplane preferred but optional
 - Daughterboards are assumed (Minium PCB order is 5 after all)
 
-# I took notes here, don't look!
- 
+# I took notes here, don't look
+
 m.2
-https://github.com/timonsku/M.2-Card-Footprints/tree/main
+<https://github.com/timonsku/M.2-Card-Footprints/tree/main>
 
 # Universal Faceplate
 
@@ -76,9 +90,7 @@ Universal 6mm opening for jacks and pots
 11.5mm between board and face
 
 SJ3-350103A 3.5mm Stereo
-https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/SJ3-350103A/24627980
+<https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/SJ3-350103A/24627980>
 
 PTV09 Pots
-https://www.bourns.com/docs/Product-Datasheets/PTV09.pdf
-
-
+<https://www.bourns.com/docs/Product-Datasheets/PTV09.pdf>

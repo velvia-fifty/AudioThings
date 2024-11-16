@@ -834,7 +834,7 @@
 		(remove_unused_layers no)
 		(uuid "1791253b-334e-49d2-833a-b0654d1462a8")
 	)
-	(model "${DOWNLOADS}/FX23-80P-0.5SV20_CL0573-3104-3-00_3DDrawing_STEP_0001219919S/FX23-80P-0.5SV20.stp"
+	(model "${KIPRJMOD}/../../res/3dmodels/FX23-80P-0.5SV20.stp"
 		(offset
 			(xyz 0 0 0)
 		)
