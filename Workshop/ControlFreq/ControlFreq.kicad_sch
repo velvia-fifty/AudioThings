@@ -1,0 +1,213 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "b48a24c3-e448-4ffe-b89b-bee99abc70c9")
+	(paper "A2")
+	(title_block
+		(title "ControlFreq")
+		(rev "1.0")
+		(company "velvia-fifty")
+		(comment 1 "https://github.com/velvia-fifty")
+		(comment 2 "Knob status: fully polished.")
+		(comment 4 "Stay humble")
+	)
+	(lib_symbols)
+	(global_label "RP2040_VBUS"
+		(shape input)
+		(at 161.29 281.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3a511836-81fd-411c-8659-71078c83eeb2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.0606 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RP2040_DP-"
+		(shape input)
+		(at 161.29 289.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8ddbb5d4-685b-4e15-8875-b57bae2b3997")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.8468 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RP2040_DP+"
+		(shape input)
+		(at 161.29 287.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ac0839ac-37ab-460d-9558-621c56a83d20")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.8468 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(sheet
+		(at 170.18 271.78)
+		(size 99.06 73.66)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "56d816e4-6099-4966-9ab6-230b1980037a")
+		(property "Sheetname" "RP2040"
+			(at 170.18 268.5284 0)
+			(effects
+				(font
+					(face "KiCad Font")
+					(size 6.35 6.35)
+					(thickness 1.27)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RP2040.kicad_sch"
+			(at 170.18 346.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ControlFreq"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 330.2 144.78)
+		(size 76.2 74.93)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dd165379-bb17-4c8d-8a59-c2c14db9896a")
+		(property "Sheetname" "USB"
+			(at 330.2 144.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 330.2 220.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 330.2 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ControlFreq"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 163.83 133.35)
+		(size 115.57 93.98)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ec20d79a-6ff9-4396-8f5d-7992b7da952e")
+		(property "Sheetname" "RP2350"
+			(at 163.83 132.6384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RP2350.kicad_sch"
+			(at 163.83 227.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ControlFreq"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

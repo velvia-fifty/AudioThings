@@ -1,0 +1,205 @@
+(footprint "Turret - MILMAX_2501-2-00-80-00-00-07-0"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.635285 -4.701025 0)
+		(layer "F.SilkS")
+		(uuid "67c180be-154a-4ea8-b892-4be4222bd92d")
+		(effects
+			(font
+				(size 1.400606 1.400606)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MILMAX_2501-2-00-80-00-00-07-0"
+		(at 22.9018 4.198645 0)
+		(layer "F.Fab")
+		(uuid "70922168-802c-4a6a-bb25-9b11fc9cc21a")
+		(effects
+			(font
+				(size 1.402559 1.402559)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ca73041-7dbc-47f1-acb3-706420e256ca")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f750f1a3-546a-4e0b-8843-c4f0b8ddbbf1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4cc148a3-0b40-48c3-b667-8ff03577f42c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.54 -2.54)
+		(end 2.54 -2.54)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7f0f90f6-e493-4899-b513-13effdc9143c")
+	)
+	(fp_line
+		(start -2.54 2.54)
+		(end -2.54 -2.54)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "410593e6-c3be-40f5-9074-424a57078313")
+	)
+	(fp_line
+		(start 2.54 -2.54)
+		(end 2.54 2.54)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "01dff3ca-0857-456c-806c-d77bde05c0eb")
+	)
+	(fp_line
+		(start 2.54 2.54)
+		(end -2.54 2.54)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1d87f286-539b-4556-952e-05033fe09131")
+	)
+	(fp_line
+		(start -2.79 -2.79)
+		(end 2.79 -2.79)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "af6fb138-c65f-4a1b-ace6-1f9b5d1ee3ad")
+	)
+	(fp_line
+		(start -2.79 2.79)
+		(end -2.79 -2.79)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "425c1089-2a84-43d8-ad13-65c9619ab0bb")
+	)
+	(fp_line
+		(start 2.79 -2.79)
+		(end 2.79 2.79)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "04318366-d036-49ba-803c-c5586474ce7d")
+	)
+	(fp_line
+		(start 2.79 2.79)
+		(end -2.79 2.79)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c5b0a102-a76f-42f2-be5d-849835553a95")
+	)
+	(fp_line
+		(start -2.54 -2.54)
+		(end 2.54 -2.54)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a98f4fc7-bae6-4f2f-9f32-1290e08c1978")
+	)
+	(fp_line
+		(start -2.54 2.54)
+		(end -2.54 -2.54)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fc1928cf-2387-4479-9a5a-8a65e108219f")
+	)
+	(fp_line
+		(start 2.54 -2.54)
+		(end 2.54 2.54)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "865796b6-ecb3-497f-87c4-de3b858bb410")
+	)
+	(fp_line
+		(start 2.54 2.54)
+		(end -2.54 2.54)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "95dff500-ded1-425c-b08c-f6bb0aaf98aa")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 3.74 3.74)
+		(drill 2.49)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "4e7027c3-7149-4bbc-851a-12f5454844f2")
+	)
+	(model "/Users/paigeday/Documents/AudioThings/3dmodels/2501-2-00-80-00-00-07-0.step"
+		(offset
+			(xyz 0 0 5.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 0)
+		)
+	)
+)

@@ -1,0 +1,18 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a1f67120-7b66-4690-84b0-67c2f83a9f6a")
+	(paper "A1")
+	(lib_symbols)
+	(text "https://github.com/siliconvalley4066/RaspberryPiPicoWOLEDOscilloscope"
+		(exclude_from_sim no)
+		(at 359.664 66.802 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "96fede89-0a33-4dbe-a0c1-9f23c2c3b8e7")
+	)
+)
