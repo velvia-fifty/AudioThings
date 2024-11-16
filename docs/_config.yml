@@ -1,3 +1,6 @@
+title: AudioThings
+description: What is the meaning of life? Are we here only to eat hot chip, shitpost, and make the robot have orgasm?
+show_downloads: true
 remote_theme: pages-themes/leap-day@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
