@@ -8,7 +8,7 @@ Imagine a Doepfer A-180-9, but like, cheaper, and more cowbell.
 
 The [Doepfer A-180-9](https://doepfer.de/A1809.htm) is nifty, slinging 14 signals between racks should't cost $150 though.
 
-~Don't get me wrong, I understand why it costs that and It's a fair price, but we can convince ourselves we can do better.~
+<sup>*Don't get me wrong, I understand why it costs that and It's a fair price, but we can convince ourselves we can do better.*</sup>
 
 The Dual RJ45 cables have been swapped for a single HDMI, just as (if not more) ubiquitous and easy to find high quality cables for a reasonable price. This slings *19* signals (9 Stereo + 1 Mono = 19 Total) over *1* cable.
 
