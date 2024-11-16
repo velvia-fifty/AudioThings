@@ -887,7 +887,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "698ce348-7f77-4d56-9bb9-1ea0d75d7df8")
 	)
-	(model "${DOWNLOADS}/FX23_80S_0_5SV/FX23-80S-0.5SV.step"
+	(model "${KIPRJMOD}/../../res/3dmodels/FX23-80S-0.5SV.step"
 		(offset
 			(xyz 0 0 0)
 		)
