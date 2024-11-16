@@ -27,6 +27,7 @@ baseurl: /AudioThings/docs # the subpath of your site, e.g. /blog
 url: velvia-fifty.github.io # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  velvia-fifty
+repository: velvia-fifty/AudioThings
 show_downloads: true
 encoding: UTF-8
 
