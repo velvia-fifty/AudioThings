@@ -25,8 +25,10 @@ description: >- # this means to ignore newlines until "baseurl:"
   Are we here only to eat hot chip, shitpost, and make the robot have orgasm?
 baseurl: /AudioThings/docs # the subpath of your site, e.g. /blog
 url: https://velvia-fifty.github.io/ # the base hostname & protocol for your site, e.g. http://example.com
+domain: velvia-fifty.github.io
 #twitter_username: jekyllrb
 github_username:  velvia-fifty
+repository: velvia-fifty/AudioThings
 show_downloads: true
 encoding: UTF-8
 
