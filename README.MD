@@ -1,3 +1,5 @@
+![audio, thing](./res/logo.png)
+
 # AudioThings
 
 ~I made this for me, maybe you find it helpful?~
@@ -43,6 +45,12 @@ For how I really feel, see: [LICENSE.MD](./LICENSE.MD)
 - Eurorack Compatible
 - Backplane preferred but optional
 - Daughterboards are assumed (Minium PCB order is 5 after all)
+
+# Navigating this dumpster fire of a repo
+
+This is a hot mess, I apologize for the convienience.
+
+
 
 # I took notes here, don't look!
 
