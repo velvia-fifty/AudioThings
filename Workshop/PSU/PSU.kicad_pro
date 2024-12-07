@@ -658,6 +658,10 @@
     [
       "b48a24c3-e448-4ffe-b89b-bee99abc70c9",
       "Root"
+    ],
+    [
+      "8be66313-4c0e-4a35-b817-9cf2ccd0b268",
+      "USBC"
     ]
   ],
   "text_variables": {}

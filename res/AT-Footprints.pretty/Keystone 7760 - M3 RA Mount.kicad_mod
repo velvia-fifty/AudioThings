@@ -1,0 +1,264 @@
+(footprint "Keystone 7760 - M3 RA Mount"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2.815 -7.055 0)
+		(layer "F.SilkS")
+		(uuid "0403f4d3-48e7-44ec-a481-85a3c1207a3a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "KEYSTONE_7760"
+		(at 2.265 7.055 0)
+		(layer "F.Fab")
+		(uuid "1e02f5ad-b3e7-4c94-80a4-17965cbbd2a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cadc7c12-2825-4933-95b7-48856a384ded")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be66dbee-4ad4-4ce0-bd8c-02a69090a07a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eee6a72a-deca-418c-abb5-c4fac83dae2b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.74 -4.165)
+		(end -5.74 4.165)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1d660071-cffc-41cb-a45a-8342fa657484")
+	)
+	(fp_line
+		(start -5.74 4.165)
+		(end -2.405 4.165)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c66559ba-a73a-4f15-9ca1-9a9b03ff7785")
+	)
+	(fp_line
+		(start -2.405 -4.165)
+		(end -5.74 -4.165)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3d19cb1a-af99-4810-bc56-94740a0bf056")
+	)
+	(fp_line
+		(start 1.085 -4.165)
+		(end 2.595 -4.165)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "252c6f29-be64-4ef6-9fa2-44f0432ee828")
+	)
+	(fp_line
+		(start 1.085 4.165)
+		(end 2.595 4.165)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5a62b59d-9474-402f-b9c9-05b00299e0a5")
+	)
+	(fp_line
+		(start 5.74 -2)
+		(end 5.74 2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "922e23e0-835f-4835-8b4e-773aed146a6e")
+	)
+	(fp_line
+		(start -5.99 -5.42)
+		(end -5.99 5.42)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "08189929-57cf-4632-9fb1-ff63f1dde612")
+	)
+	(fp_line
+		(start -5.99 5.42)
+		(end 6.015 5.42)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "941920b3-9f6a-4c3e-a2d5-1a667d22aea2")
+	)
+	(fp_line
+		(start 6.015 -5.42)
+		(end -5.99 -5.42)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "83820380-e9df-4bae-bc9c-7e8ab20dd3ba")
+	)
+	(fp_line
+		(start 6.015 5.42)
+		(end 6.015 -5.42)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0daee4c5-dbe6-4a52-bf44-c577f6c98fb4")
+	)
+	(fp_line
+		(start -5.74 -4.165)
+		(end -5.74 4.165)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fac36426-c356-4b9d-ab22-4d8de102cb04")
+	)
+	(fp_line
+		(start -5.74 4.165)
+		(end 5.74 4.165)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9e33772f-4ee6-4c93-8ce3-8ed9b64c3ff9")
+	)
+	(fp_line
+		(start 5.74 -4.165)
+		(end -5.74 -4.165)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bb8678f3-9e56-46de-8c39-9131f5fbeab2")
+	)
+	(fp_line
+		(start 5.74 4.165)
+		(end 5.74 -4.165)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3b54b88a-55f8-41f1-84d1-653c290c7a04")
+	)
+	(pad "1_1" thru_hole circle
+		(at -0.66 3.745)
+		(size 2.85 2.85)
+		(drill 1.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "cea6973b-ffc2-4781-9d01-8366a2a9645c")
+	)
+	(pad "1_2" thru_hole circle
+		(at 4.34 3.745)
+		(size 2.85 2.85)
+		(drill 1.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "35502340-b055-4373-8ab4-91e2daa06c50")
+	)
+	(pad "1_3" thru_hole circle
+		(at 4.34 -3.745)
+		(size 2.85 2.85)
+		(drill 1.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "cac7f70b-919f-4957-9eaf-1d74ff31537e")
+	)
+	(pad "1_4" thru_hole circle
+		(at -0.66 -3.745)
+		(size 2.85 2.85)
+		(drill 1.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "1706c5fe-7801-4727-a0f2-e09c0832065a")
+	)
+	(model "${AT_PROJECT_ROOT}/res/3dmodels/Keystone 7760 - M3 RA Mount.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+	(model "${AT_PROJECT_ROOT}/res/3dmodels/m3_screw.stp"
+		(opacity 0.4800)
+		(offset
+			(xyz -10.1 0 4.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -18,9 +18,18 @@
 
 ## Getting the most out of your trip to Cleveland Ohio
 
-When you download this as a ZIP open AudioThings.kicad_pro, this is a panopticon project that contains the main resources and exists to handle some references that are common. Use Kicad to drill down into other projects.
+When you download this as a ZIP open AudioThings.kicad_pro, this is a panopticon project that contains the main resources and exists to handle some references that are common. Apparently KiCad and I have some foundational disagreement on how to misuse their software; this is primarily because I'm ignorant, but also they have incorrect opinions.
+
+Use Kicad to drill down into other projects.
 
 Or don't, I'm not a cop.
+
+## F.A.Q.
+
+1. Are you OK?
+2. Seriously I'm concerned for your wellbeing, is everything alright at home?
+
+🤫
 
 ## Navigating this hot mess of a repo
 
@@ -72,9 +81,11 @@ See: [Fab Min-Max Notes](./FAB_NOTES.MD)
 
 ### Your Licensing Model is Bad and You Should Feel Bad
 
-- All work is under copyright, this is not public domain
-- Its licensed to you under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-- If you're not an individual, the words "copyright" and "NonCommercial" are very important.
+- All work is under copyright, this is not antithetical to the concept of the public domain
+  - I mean *all* work, not just this repo.
+- What I'm offering is licensed to you under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+- If you're not an individual, the words "copyright" and "NonCommercial" are very important to both you, me, and a lawyer makes three.
+  - Corporations don't have rights.
 
 For how I really feel, see: [LICENSE.MD](./LICENSE.MD)
 

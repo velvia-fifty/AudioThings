@@ -1,8 +1,16 @@
+# Corporations are not people, they are not human, and they cannot have rights. They do not bleed, their brows do not glisten with sweat, and most importantly they can't be castrated as punishment for committing crimes against humanity.
+
+## Opinions to the contrary are incorrect.
+
+For the sake of argument, if I'm considering "I can cut their [redacted] off" as what bestows something rights: Presumably the people who work for the Corporation has a [redacted] or two among them to rub together.
+
 ### Your Licensing Model is Bad and You Should Feel Bad
 
 The assertion that prohibiting non-commercial use is incompatible with "open source" is antithetical to human rights and you should feel bad for thinking otherwise.
 
-> Damn, I didn't expect it to get this political either...
+> Damn, I didn't expect a license document to get this political either...
+
+The whole reason why we democratize a technology is to adjust the balance of power (as slight as it may be) and only a fool thinks that's done by distributing weight equally.
 
 - All work is under copyright, this is not public domain
 - Its licensed to you under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/)

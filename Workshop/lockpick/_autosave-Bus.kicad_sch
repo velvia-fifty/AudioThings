@@ -1,0 +1,35 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "30e74ae0-94e8-4c9d-a59f-7abd61c2f617")
+	(paper "A2")
+	(title_block
+		(title "Audio Thing Template")
+		(rev "1.0")
+		(company "velvia-fifty")
+		(comment 1 "https://github.com/velvia-fifty/AudioThings")
+		(comment 2 "You should have changed this already :)")
+		(comment 4 "Stay humble")
+	)
+	(lib_symbols)
+	(text_box "https://hackaday.com/series_of_posts/logic-noise/\n\nPATH\nSAW -> TRI\nTRI -> FOLD\nFOLD -> VCF\nVCF -> VCA\n"
+		(exclude_from_sim no)
+		(at 115.57 260.35 0)
+		(size 83.82 31.75)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "9a5ad022-5849-4913-9b23-adab30304f22")
+	)
+)

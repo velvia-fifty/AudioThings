@@ -6,7 +6,7 @@
         "apply_defaults_to_fp_fields": true,
         "apply_defaults_to_fp_shapes": true,
         "apply_defaults_to_fp_text": true,
-        "board_outline_line_width": 0.1,
+        "board_outline_line_width": 0.15,
         "copper_line_width": 0.2,
         "copper_text_italic": false,
         "copper_text_size_h": 1.5,

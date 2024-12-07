@@ -1,0 +1,322 @@
+(footprint "WL-SMRD_1205"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "<B>WL-SMRD SMT Mono-color Reverse Mount Diffused</B><BR><BR>Size 1205, SMT, 2pins<BR>3.2x1.2x1.1mm(LXWXH)<br><br>Normal use")
+	(property "Reference" "REF**"
+		(at 0 -1.835 0)
+		(layer "B.SilkS")
+		(uuid "4df7e941-2017-4404-9f45-c196d73cf13c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Value" "WL-SMRD_1205"
+		(at 0 1.865 0)
+		(layer "F.Fab")
+		(uuid "4ab2ee9c-7e18-4669-a741-89b7426d6565")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "727de265-8a01-43b0-9c6c-8ed3be915051")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "284cb835-0380-49a2-a98d-5e8f361acd3e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Würth Reverse Mount 1205"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "df05b1b5-4f0a-4d3e-96f7-2ed790ae1ca6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.6 -1)
+		(end 0.6 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "d6e5059b-20ad-42f6-ba7e-baf661fe5b44")
+	)
+	(fp_line
+		(start -0.6 1)
+		(end 0.6 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "c540f5b5-7837-4cae-8940-e0830c677246")
+	)
+	(fp_poly
+		(pts
+			(arc
+				(start 1 0.5)
+				(mid 0.853553 0.853553)
+				(end 0.5 1)
+			)
+			(arc
+				(start -0.5 1)
+				(mid -0.853553 0.853553)
+				(end -1 0.5)
+			)
+			(arc
+				(start -1 -0.5)
+				(mid -0.853553 -0.853553)
+				(end -0.5 -1)
+			)
+			(arc
+				(start 0.5 -1)
+				(mid 0.853553 -0.853553)
+				(end 1 -0.5)
+			)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.Mask")
+		(uuid "6f49def8-be80-4b57-9b81-623600df24a3")
+	)
+	(fp_poly
+		(pts
+			(arc
+				(start -1 0.5)
+				(mid -0.853553 0.853553)
+				(end -0.5 1)
+			)
+			(arc
+				(start 0.5 1)
+				(mid 0.853553 0.853553)
+				(end 1 0.5)
+			)
+			(arc
+				(start 1 -0.5)
+				(mid 0.853553 -0.853553)
+				(end 0.5 -1)
+			)
+			(arc
+				(start -0.5 -1)
+				(mid -0.853553 -0.853553)
+				(end -1 -0.5)
+			)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "163f3933-0f2d-4f8d-af2f-64e32485d882")
+	)
+	(fp_line
+		(start -0.75 0.5)
+		(end -0.75 -0.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5b9b62c3-102d-4bf9-8913-08bdc411c3f4")
+	)
+	(fp_line
+		(start -0.5 -0.75)
+		(end 0.5 -0.75)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "dbed6c8b-35a5-498c-aa38-c8fca8422994")
+	)
+	(fp_line
+		(start 0.5 0.75)
+		(end -0.5 0.75)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ff35c87f-b44f-46c3-8393-53525acdab11")
+	)
+	(fp_line
+		(start 0.75 -0.5)
+		(end 0.75 0.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "993211c6-3f43-4782-9621-7f74efa98eb3")
+	)
+	(fp_arc
+		(start -0.75 -0.5)
+		(mid -0.676777 -0.676777)
+		(end -0.5 -0.75)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8a1961da-b7d4-4a21-91ac-36f586c0ca29")
+	)
+	(fp_arc
+		(start -0.5 0.75)
+		(mid -0.676777 0.676777)
+		(end -0.75 0.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c45189e2-34ed-4921-979d-0b443333e7c4")
+	)
+	(fp_arc
+		(start 0.5 -0.75)
+		(mid 0.676777 -0.676777)
+		(end 0.75 -0.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9a29d851-8284-4e90-864f-96fb57f2a9ef")
+	)
+	(fp_arc
+		(start 0.75 0.5)
+		(mid 0.676777 0.676777)
+		(end 0.5 0.75)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "befba194-19ce-4507-bd45-dec2c5294846")
+	)
+	(fp_line
+		(start -1.6 -0.6)
+		(end -1 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7f6d2755-87e2-4fa0-a3a6-d355b9c85520")
+	)
+	(fp_line
+		(start -1.6 0.6)
+		(end -1.6 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "612cff83-ac3f-44d5-8bcb-c45c8e6f6a2c")
+	)
+	(fp_line
+		(start 1.6 -0.6)
+		(end 1.6 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a21aacb9-68a0-4b75-ab8b-da9b0a14c0c8")
+	)
+	(fp_line
+		(start 1.6 0.6)
+		(end 1 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "04dfcd9f-2651-4862-b6b0-dc4c4969bef3")
+	)
+	(fp_text user "+"
+		(at 3 0 0)
+		(layer "B.SilkS")
+		(uuid "d351729a-ab8e-4b84-8555-5cafeb350d05")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "+"
+		(at 3 0 0)
+		(layer "B.Fab")
+		(uuid "de4a0a49-e9c8-427e-8c78-5031d5e89c91")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.5 0)
+		(size 1 1.2)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "9aa10c39-d99d-4a0d-ab29-83a8e50414b8")
+	)
+	(pad "2" smd rect
+		(at 1.5 0)
+		(size 1 1.2)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "308e7777-a4da-4d2e-9172-f11043b174c0")
+	)
+	(model "${AT_PROJECT_ROOT}/res/3dmodels/WL-SMRD_1205.step"
+		(offset
+			(xyz 0 0 -1.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

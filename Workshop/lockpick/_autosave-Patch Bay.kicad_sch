@@ -1,0 +1,5477 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "20e194c3-0250-4b44-841b-a9086d995832")
+	(paper "A0")
+	(title_block
+		(title "Audio Thing Template")
+		(rev "1.0")
+		(company "velvia-fifty")
+		(comment 1 "https://github.com/velvia-fifty/AudioThings")
+		(comment 2 "You should have changed this already :)")
+		(comment 4 "Stay humble")
+	)
+	(lib_symbols
+		(symbol "Connector_Audio:AudioJack3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AudioJack3"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "audio jack receptacle stereo headphones phones TRS connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AudioJack3_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end -6.35 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0.635 -3.175) (xy 1.27 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -2.54) (xy -1.27 -3.175) (xy -0.635 -2.54) (xy -0.635 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy -2.54 2.54) (xy -2.54 -2.54) (xy -3.175 -3.175) (xy -3.81 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 3.81)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AudioJack3_1_1"
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 157.48 242.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c566f81-9804-4549-8644-19096457be88")
+	)
+	(junction
+		(at 180.34 259.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55ef9742-29ef-4650-97f1-d184ae11612e")
+	)
+	(junction
+		(at 111.76 259.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4bb2dc3-fc01-4401-ac64-aa4dbb6e6ca7")
+	)
+	(junction
+		(at 134.62 259.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0cbefde-2143-4efa-9e6e-a799f5609aec")
+	)
+	(junction
+		(at 111.76 242.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8448a4e-1087-473e-9abe-251ebee3b672")
+	)
+	(junction
+		(at 157.48 259.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e656abeb-f77b-48d3-9d2a-47e12102aae8")
+	)
+	(junction
+		(at 180.34 242.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8119fc1-ac7f-4f85-81b5-7a874a0bf4c0")
+	)
+	(junction
+		(at 134.62 242.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef33c2f3-c993-49e8-9fd0-7f8e56f0fa89")
+	)
+	(no_connect
+		(at 104.14 256.54)
+		(uuid "0657a53d-f368-4835-b8f4-72291bc956b1")
+	)
+	(no_connect
+		(at 172.72 273.05)
+		(uuid "0d72cf56-b493-49b7-9f71-64ff84840f22")
+	)
+	(no_connect
+		(at 149.86 256.54)
+		(uuid "127f7812-3d4e-4c2b-869e-369d000fee28")
+	)
+	(no_connect
+		(at 156.21 76.2)
+		(uuid "173aa215-d5eb-4de7-b4c9-6bc6550f28f1")
+	)
+	(no_connect
+		(at 127 240.03)
+		(uuid "25419c79-68ac-42fb-a70c-f6aa20654a5d")
+	)
+	(no_connect
+		(at 100.33 76.2)
+		(uuid "2d1a5a2a-d727-44ca-8ad8-edb1f28ed65a")
+	)
+	(no_connect
+		(at 100.33 142.24)
+		(uuid "2eda2206-e7d3-439a-8278-9e395c5fe26f")
+	)
+	(no_connect
+		(at 128.27 158.75)
+		(uuid "323e4533-6e4d-40e0-854e-e9bf99fbb04b")
+	)
+	(no_connect
+		(at 172.72 223.52)
+		(uuid "3ecab128-5284-43c8-9133-e09fa071db96")
+	)
+	(no_connect
+		(at 149.86 223.52)
+		(uuid "4069f8bd-d55c-44e0-ae07-37c2ef69a31d")
+	)
+	(no_connect
+		(at 149.86 240.03)
+		(uuid "4214e7fd-4ba1-408c-a105-b4bc9439b55f")
+	)
+	(no_connect
+		(at 156.21 109.22)
+		(uuid "4773a34a-438a-4fc2-8aff-8aac70944840")
+	)
+	(no_connect
+		(at 100.33 59.69)
+		(uuid "48802363-0de9-400f-b0b7-2faadcf12bd4")
+	)
+	(no_connect
+		(at 156.21 26.67)
+		(uuid "4970980f-4fe4-4019-bf30-f81ebcd36196")
+	)
+	(no_connect
+		(at 100.33 158.75)
+		(uuid "57c0a782-2329-4b62-a687-31c5fe17696f")
+	)
+	(no_connect
+		(at 127 273.05)
+		(uuid "5a7e3427-b922-4adb-b0bb-86f4c69ec1a3")
+	)
+	(no_connect
+		(at 100.33 43.18)
+		(uuid "5cbe1025-f933-4346-95a3-4187c30f4d13")
+	)
+	(no_connect
+		(at 185.42 76.2)
+		(uuid "5d077992-19d6-4457-b8ab-d905bb7d8d80")
+	)
+	(no_connect
+		(at 156.21 92.71)
+		(uuid "5efd0dfc-af92-4593-9515-bacb974b0b29")
+	)
+	(no_connect
+		(at 100.33 92.71)
+		(uuid "5f9a1697-790b-4e0f-b234-21e87dd66792")
+	)
+	(no_connect
+		(at 128.27 43.18)
+		(uuid "6ba08ba1-913a-452f-a9c6-ac62a6a88864")
+	)
+	(no_connect
+		(at 104.14 223.52)
+		(uuid "726b010d-54bf-48c7-94c9-0ef1d5f62768")
+	)
+	(no_connect
+		(at 100.33 109.22)
+		(uuid "767b696a-0c6d-4366-a775-4ab11d0e8a72")
+	)
+	(no_connect
+		(at 104.14 273.05)
+		(uuid "7b7a9bb5-9d73-4292-a8e3-6b2b1dd5328c")
+	)
+	(no_connect
+		(at 185.42 59.69)
+		(uuid "7d0f4738-22c3-490a-aa8d-f9b0da3c9ccd")
+	)
+	(no_connect
+		(at 156.21 59.69)
+		(uuid "7fed173b-ffd8-41a3-9dd9-6144a3b8a358")
+	)
+	(no_connect
+		(at 127 256.54)
+		(uuid "83202412-ce39-4b51-a18c-42d9a3a6a267")
+	)
+	(no_connect
+		(at 104.14 240.03)
+		(uuid "8ef2b94d-c1b2-47fb-8a97-afe9b571ee04")
+	)
+	(no_connect
+		(at 128.27 59.69)
+		(uuid "98a8157b-ff46-4232-8b45-a9c7363ddfc1")
+	)
+	(no_connect
+		(at 100.33 26.67)
+		(uuid "9f1b7bd3-6cb9-4aba-aee5-0c7f5c4fd565")
+	)
+	(no_connect
+		(at 128.27 125.73)
+		(uuid "acedbcf9-690d-45ee-8b58-e54986c00a8a")
+	)
+	(no_connect
+		(at 185.42 43.18)
+		(uuid "ad9e6f72-4b61-4ff8-b3b5-4408a717eccf")
+	)
+	(no_connect
+		(at 185.42 92.71)
+		(uuid "b16576d0-2c6d-4473-b883-f47a774a1525")
+	)
+	(no_connect
+		(at 149.86 273.05)
+		(uuid "b2f56b29-e900-42d9-9330-1c6b632d4697")
+	)
+	(no_connect
+		(at 127 223.52)
+		(uuid "b4772fcf-3409-47a3-9ca1-1ce7a6907aaf")
+	)
+	(no_connect
+		(at 156.21 43.18)
+		(uuid "b9e31515-7b89-4ef6-87c2-382a81d4b0f7")
+	)
+	(no_connect
+		(at 128.27 92.71)
+		(uuid "ba5c8a4d-cdb1-4934-94a9-f5996f55830a")
+	)
+	(no_connect
+		(at 185.42 26.67)
+		(uuid "c9cc3005-fd13-427a-b6f8-856c4ac5d649")
+	)
+	(no_connect
+		(at 128.27 109.22)
+		(uuid "d37f0a2d-32da-4962-b2e7-982640f1b6a6")
+	)
+	(no_connect
+		(at 100.33 175.26)
+		(uuid "dc424b59-84e1-4404-9f65-6622b5c33422")
+	)
+	(no_connect
+		(at 172.72 256.54)
+		(uuid "dd1bad8b-a3bb-4fd2-b99d-b2bfb386686f")
+	)
+	(no_connect
+		(at 185.42 109.22)
+		(uuid "e3a615e8-5339-4c0b-b745-46b9f02fa3cf")
+	)
+	(no_connect
+		(at 100.33 125.73)
+		(uuid "f1c4b2c7-9fd5-4f06-accd-d3c523ae2fda")
+	)
+	(no_connect
+		(at 172.72 240.03)
+		(uuid "f22faf3c-4a02-414e-9827-0c391c448c5c")
+	)
+	(wire
+		(pts
+			(xy 134.62 275.59) (xy 127 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b2e3176-3c37-40a2-9395-6672cfae9c54")
+	)
+	(wire
+		(pts
+			(xy 172.72 242.57) (xy 180.34 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dc7d7e7-4c50-4b93-a7d1-f1b2d7c94fa9")
+	)
+	(wire
+		(pts
+			(xy 172.72 259.08) (xy 180.34 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ec90871-96cf-4245-b51c-b7e48407d86b")
+	)
+	(wire
+		(pts
+			(xy 134.62 259.08) (xy 134.62 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "138b2436-bd68-474a-9005-821d51175d72")
+	)
+	(wire
+		(pts
+			(xy 111.76 275.59) (xy 104.14 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c177401-c688-4cb6-9502-1302c60fa474")
+	)
+	(wire
+		(pts
+			(xy 111.76 226.06) (xy 111.76 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c5060f9-7d4b-461b-891a-a97581712fef")
+	)
+	(wire
+		(pts
+			(xy 134.62 242.57) (xy 134.62 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "360bd682-d796-45d4-9be4-aaf35d231ff4")
+	)
+	(wire
+		(pts
+			(xy 149.86 259.08) (xy 157.48 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bec3abc-f258-408b-9ce9-5151af4bfbff")
+	)
+	(wire
+		(pts
+			(xy 104.14 259.08) (xy 111.76 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47cabe87-16ca-488e-b451-5027348011b9")
+	)
+	(wire
+		(pts
+			(xy 157.48 242.57) (xy 157.48 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49b93443-0664-4eb3-83fb-c3626159aeb4")
+	)
+	(wire
+		(pts
+			(xy 157.48 275.59) (xy 149.86 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e67f741-47d7-4927-adce-cac72b8f08e9")
+	)
+	(wire
+		(pts
+			(xy 111.76 259.08) (xy 111.76 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c09c1ac-11aa-407a-962c-07d2cd786be2")
+	)
+	(wire
+		(pts
+			(xy 127 242.57) (xy 134.62 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66ecc5de-b7eb-489e-815a-adba85934683")
+	)
+	(wire
+		(pts
+			(xy 149.86 226.06) (xy 157.48 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72bc0385-126c-4973-8662-afc15790da18")
+	)
+	(wire
+		(pts
+			(xy 149.86 242.57) (xy 157.48 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b3eb264-2a92-413b-b652-8e70f72b66a3")
+	)
+	(wire
+		(pts
+			(xy 134.62 226.06) (xy 134.62 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fb6c120-c12d-4a27-93e5-d9f00d61eb90")
+	)
+	(wire
+		(pts
+			(xy 157.48 259.08) (xy 157.48 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d4a6000-dfec-4880-a243-dd639142cac5")
+	)
+	(wire
+		(pts
+			(xy 180.34 226.06) (xy 180.34 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a5d2fd5-4c56-48f9-bc98-6724ca775228")
+	)
+	(wire
+		(pts
+			(xy 111.76 242.57) (xy 111.76 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d8cfff4-9f37-42b5-a522-21034ae6d344")
+	)
+	(wire
+		(pts
+			(xy 127 259.08) (xy 134.62 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3fa5c7f-77d5-4527-9f94-815a7093c78c")
+	)
+	(wire
+		(pts
+			(xy 180.34 275.59) (xy 172.72 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bad9baa2-8c96-4c68-9727-4f8be6888053")
+	)
+	(wire
+		(pts
+			(xy 172.72 226.06) (xy 180.34 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbc628f7-a3d5-444c-b705-17c0b5e06634")
+	)
+	(wire
+		(pts
+			(xy 180.34 242.57) (xy 180.34 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bebc09d1-1c9a-4b22-b858-5fc3a73b3e1b")
+	)
+	(wire
+		(pts
+			(xy 157.48 226.06) (xy 157.48 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c961b3cb-1708-4230-b39e-dbe9000858ea")
+	)
+	(wire
+		(pts
+			(xy 104.14 226.06) (xy 111.76 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce433bff-97f4-4a2f-8789-291e96ed18d3")
+	)
+	(wire
+		(pts
+			(xy 180.34 259.08) (xy 180.34 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd608e7e-1c34-4a58-8a07-5bb4e0313d6e")
+	)
+	(wire
+		(pts
+			(xy 104.14 242.57) (xy 111.76 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5faf363-31be-4e62-90bb-bf314a8e7504")
+	)
+	(wire
+		(pts
+			(xy 127 226.06) (xy 134.62 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fabf32de-62e0-43cb-b832-0e503e5ff190")
+	)
+	(rectangle
+		(start 83.82 15.24)
+		(end 140.97 182.88)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 05f0562e-1b0e-425d-9148-f91ed04bd3c4)
+	)
+	(rectangle
+		(start 88.9 201.93)
+		(end 182.88 283.21)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 395d04e8-0a40-486d-a98b-db384b20983a)
+	)
+	(rectangle
+		(start 142.24 15.24)
+		(end 199.39 116.84)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7f9efded-d743-4dad-9878-cb93e70e6e9f)
+	)
+	(text "Multiples"
+		(exclude_from_sim no)
+		(at 133.35 208.026 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "1c3a62ad-9903-4e0b-9f28-81a733429210")
+	)
+	(text "Keys"
+		(exclude_from_sim no)
+		(at 132.334 19.304 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "360b6b9b-8f05-4e9a-bb9d-3bedb3d49717")
+	)
+	(text "Chords"
+		(exclude_from_sim no)
+		(at 166.116 18.796 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "64e03b5c-563c-419c-ab20-5def1d8bf430")
+	)
+	(global_label "GND"
+		(shape input)
+		(at 100.33 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "043b8ecb-d015-485a-a6c2-0798d3cc82c5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.4577 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 185.42 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0b68edd1-9412-42dd-bef4-4d1b26c07cd3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 191.5477 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 185.42 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0c8ac466-0de9-4306-96d3-d15cefc50129")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 191.5477 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 185.42 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0ffa30cd-a74b-469a-970b-76a3ccf710a2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 191.5477 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 149.86 254 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1518cb51-cbbd-4dac-83ca-949a8d95e65c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 155.9877 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 100.33 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "17cbf703-6e0a-4123-b8ca-a350c41a1d5c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.4577 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 100.33 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "187e41dd-33fb-4cd3-8a9d-f1077f7faedb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.4577 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CHORD EMaj"
+		(shape input)
+		(at 156.21 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "19585898-14d9-4a6d-8b3c-3828424d727d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.1892 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TRIG_G"
+		(shape input)
+		(at 100.33 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1c073ddc-d3ee-4e91-9393-a309ea397c10")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.8226 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 104.14 220.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1e3f3f85-b0b7-4680-9630-7d3549a416cd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.2677 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TRIG_B"
+		(shape input)
+		(at 100.33 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2179e904-2164-4667-a2e7-b928df4e8cfb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.8226 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CHORD Em"
+		(shape input)
+		(at 185.42 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "24f1dd8d-45e4-4571-a214-03fb7a882d90")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.1559 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CHORD Fm"
+		(shape input)
+		(at 185.42 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2bac4d16-5c25-4976-b421-bdaf829e60ac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.1559 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 100.33 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2c5d75ff-e61a-49c6-b9bb-c7221219f02c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.4577 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 185.42 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2cc2a2dc-e500-4199-89be-7b069b1fb084")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 191.5477 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TRIG_E"
+		(shape input)
+		(at 100.33 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "43da27fd-6496-4dd8-8f6f-fbc00cffd114")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.8226 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CHORD DMaj"
+		(shape input)
+		(at 156.21 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4b62e6c7-03fc-4971-9bb5-777640bfb07f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.1892 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TRIG_F#"
+		(shape input)
+		(at 128.27 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4ce6d84f-75c7-4182-bac9-6f4788473683")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.8842 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 172.72 270.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "538aeecb-8bb2-4190-9062-1cf44659ab18")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 178.8477 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 100.33 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "54b1b8f3-9cf9-405e-bf2f-8dea11d8c5ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.4577 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 185.42 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "552b2bee-dc9c-4868-8420-567ff73ee809")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 191.5477 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 185.42 24.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5615694c-9dba-4f94-bd61-934f71f19078")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 191.5477 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 149.86 220.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5dcfd871-6b83-4ccf-800e-9a08da298fe6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 155.9877 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 128.27 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "61137d88-e0ec-4afc-9773-e3e04e8b6e61")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.3977 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CHORD BMaj-"
+		(shape input)
+		(at 156.21 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6542ed16-ca54-4d87-866e-476b535774c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.3108 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 172.72 220.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "662e500d-5d32-433e-a1cb-677d0788aec1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 178.8477 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CHORD FMaj"
+		(shape input)
+		(at 156.21 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d349bb3-09c0-4d05-88aa-9b7b784a97c3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.1892 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 127 270.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "70ae82af-1b65-40aa-b1f8-f1d69d493ee5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.1277 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 156.21 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "738afd87-95d9-4b8b-ac98-0dbec9ebf08e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.3377 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CHORD Gm"
+		(shape input)
+		(at 185.42 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "739b69ff-1f1c-46c5-82c1-ef47eff32e0b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.1559 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 156.21 24.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7660231e-f094-4213-a288-08ba58adc020")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.3377 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 127 237.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7bdf1447-642d-4774-b9e8-b25f551c4a15")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.1277 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TRIG_A"
+		(shape input)
+		(at 100.33 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7c292f4d-fffd-4430-9f91-cd1044d4c082")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.8226 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 100.33 24.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7caec12d-23d0-4d7e-8cd1-9646269af05b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.4577 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CHORD Cm"
+		(shape input)
+		(at 185.42 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "826c1c37-ffc9-4e08-8483-8e567ba8c3ae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.1559 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CHORD GMaj"
+		(shape input)
+		(at 157.48 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "836ac481-c05b-4244-9bb1-162b67f9fab4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.4592 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 156.21 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "874f29cc-6bc1-49fc-bda5-0574d1ef28cd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.3377 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TRIG_G#"
+		(shape input)
+		(at 128.27 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8f456ab3-9067-44d9-85e2-c90a31807667")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.8842 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TRIG_F"
+		(shape input)
+		(at 100.33 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "95b3794d-002e-440c-a1c9-98263981830f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.8226 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 156.21 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9619fc75-f85a-447c-81c0-2236efea8c7f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.3377 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 100.33 172.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "966de38a-8566-4f0a-ba58-c842a65377b7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.4577 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 100.33 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9b1c2fc0-da1c-4bf3-ae83-49eb544ac2cb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.4577 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 104.14 270.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9e6e6dfd-3076-4b0b-ae52-53a86ccdd880")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.2677 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 100.33 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9f39c7c2-d3d2-4cc8-8cf4-223338f2cab6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.4577 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TRIG_A#"
+		(shape input)
+		(at 128.27 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a3578ef6-13cd-472b-b43e-209d38318911")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.8842 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TRIG_C#+"
+		(shape input)
+		(at 128.27 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a3d21fa5-8aba-411e-9cfb-a3c762ec930e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.0059 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 156.21 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a3e33a06-ab47-4bd0-9978-15dc5e913765")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.3377 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 100.33 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b0db1024-764b-42bb-bb18-2f19f70690eb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.4577 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TRIG_B-"
+		(shape input)
+		(at 100.33 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b4a5a278-8826-476d-952a-8aeae20e143d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.9442 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 128.27 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b63fac36-fc0e-4e83-b015-1974f5e72422")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.3977 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TRIG_C"
+		(shape input)
+		(at 100.33 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b9a04e20-feee-4acc-9b7c-ee826424f50b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.8226 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CHORD Dm"
+		(shape input)
+		(at 185.42 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bab068ba-aa86-4ec8-bb02-9418c617a558")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.1559 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 156.21 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bc1c810d-17ba-40fe-b1d0-2e80a1dbcd1e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.3377 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 128.27 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bf0f112e-3cf3-49af-995c-d54cdcb3fbc1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.3977 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TRIG_D"
+		(shape input)
+		(at 100.33 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bfe69537-5cda-4f29-a27e-d8273728118f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.8226 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 104.14 237.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c257dc6a-5792-4da6-b34c-0c349cf5205b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.2677 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 149.86 237.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c878abaa-6c8d-4c13-b322-f79faf0dcf46")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 155.9877 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TRIG_D#"
+		(shape input)
+		(at 128.27 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d72cea98-bc37-48d0-82f0-26d252a79afb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.8842 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CHORD Bm-"
+		(shape input)
+		(at 185.42 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "df3a3092-081c-4e25-8113-d7ee6682d0b2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.2775 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 149.86 270.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dfb703d0-e8d0-4db8-929c-bb63c23ed3eb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 155.9877 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 128.27 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e7af3f02-4faf-4273-a043-82459094ec99")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.3977 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TRIG_C+"
+		(shape input)
+		(at 100.33 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e8ce316d-bffa-4f14-8d0e-a654303a9897")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.9442 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 127 254 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e8d3be02-7716-4445-96b2-c629ffbbe6c4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.1277 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 104.14 254 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e8d7033c-3ee8-45d8-ae86-f086c14393c1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.2677 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CHORD CMaj"
+		(shape input)
+		(at 156.21 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e9cfb878-72ba-47da-85b0-ac7371bf1cc5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.1892 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 127 220.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ec9324f9-070a-4b93-988e-93e38a1f15cb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.1277 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TRIG_C#"
+		(shape input)
+		(at 128.27 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ecf7fa52-c518-4331-93cc-095729dd76fd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.8842 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 172.72 254 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eea3d8bc-99fb-4046-8958-918b76e9479b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 178.8477 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 172.72 237.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ef3491a3-be16-4813-94d7-a430cd24c291")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 178.8477 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 128.27 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f142948f-1990-40f8-a6a9-4f922964254c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.3977 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 128.27 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f56d1718-19f8-4db9-a365-a30cd9d12e0a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.3977 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TRIG_D+"
+		(shape input)
+		(at 100.33 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f9e7575f-14e6-4014-b13e-7b2f559ec2c3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.9442 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 167.64 273.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "011ee94d-cf05-4df7-beed-b93d1ae2f8ae")
+		(property "Reference" "J52"
+			(at 165.735 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Multiple"
+			(at 165.735 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3"
+			(at 167.64 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 167.64 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "24ca798b-769c-4a02-bee6-1689b538b18e")
+		)
+		(pin "R"
+			(uuid "6ef5ae50-b22f-4c5a-afd7-08a04284fc91")
+		)
+		(pin "T"
+			(uuid "530d8fba-d2a0-48ef-a1a8-f29376ae60eb")
+		)
+		(instances
+			(project "MXKeys"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/4c295ac3-1b2c-49e6-b8fa-f89d3ebea7b6"
+					(reference "J52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 95.25 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b0d4071-8efb-4138-bf40-d6d1dfa98a22")
+		(property "Reference" "J28"
+			(at 93.345 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Trigger D+"
+			(at 93.345 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3"
+			(at 95.25 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 95.25 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "f7aff84b-9b68-4eb7-b989-b3824b6676b1")
+		)
+		(pin "R"
+			(uuid "31fc6209-a63a-4c26-a92c-6eae12f2185d")
+		)
+		(pin "T"
+			(uuid "80e8c67b-d99a-4e1b-96f0-c0c7e5858418")
+		)
+		(instances
+			(project "MXKeys"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/4c295ac3-1b2c-49e6-b8fa-f89d3ebea7b6"
+					(reference "J28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 95.25 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e488cf6-72fc-415d-9e3c-d7316cdf77db")
+		(property "Reference" "J25"
+			(at 93.345 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Trigger B"
+			(at 93.345 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3"
+			(at 95.25 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 95.25 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "b50f4cb6-cbf4-48df-9002-7ef4fd9bfb00")
+		)
+		(pin "R"
+			(uuid "989a9053-ef60-4bfc-8cb1-0a671f47b3b3")
+		)
+		(pin "T"
+			(uuid "d58cad93-bd84-49ad-bc28-5408863e28b0")
+		)
+		(instances
+			(project "MXKeys"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/4c295ac3-1b2c-49e6-b8fa-f89d3ebea7b6"
+					(reference "J25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 180.34 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15c4491a-d0b7-4623-b6cc-8b852cf7fee4")
+		(property "Reference" "J38"
+			(at 178.435 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fm"
+			(at 178.435 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3"
+			(at 180.34 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 180.34 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "9ae04159-a906-47c2-a3fc-874150a9ffc5")
+		)
+		(pin "R"
+			(uuid "dc30fbec-c567-4a3a-b671-ef87a11ea804")
+		)
+		(pin "T"
+			(uuid "b38ace97-25bc-416b-9016-1190a2b3cee9")
+		)
+		(instances
+			(project "MXKeys"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/4c295ac3-1b2c-49e6-b8fa-f89d3ebea7b6"
+					(reference "J38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 99.06 240.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e038768-4c8f-42c6-ad1e-e2ea2dbf9a4a")
+		(property "Reference" "J8"
+			(at 97.155 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Multiple"
+			(at 97.155 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3"
+			(at 99.06 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 99.06 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "59f6e9fc-99bb-4f48-a093-db8372fa09b3")
+		)
+		(pin "R"
+			(uuid "c8ce7561-1fae-4bb1-9b18-4be038266fc8")
+		)
+		(pin "T"
+			(uuid "34a3a74e-b73b-40ba-9a2f-80909660d02a")
+		)
+		(instances
+			(project "MXKeys"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/4c295ac3-1b2c-49e6-b8fa-f89d3ebea7b6"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 121.92 256.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27d022e9-d727-4ebd-bae4-027e20affb58")
+		(property "Reference" "J47"
+			(at 120.015 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Multiple"
+			(at 120.015 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3"
+			(at 121.92 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 121.92 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "79d8f2e0-f310-4e76-a2d5-f35e5d9a3462")
+		)
+		(pin "R"
+			(uuid "3569b291-75ba-493f-a910-6b238d63fe1a")
+		)
+		(pin "T"
+			(uuid "8ab7e7de-8df8-459b-9dbc-14441196a1e8")
+		)
+		(instances
+			(project "MXKeys"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/4c295ac3-1b2c-49e6-b8fa-f89d3ebea7b6"
+					(reference "J47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 151.13 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28a05acc-22e3-4c94-8067-e6dcca8bcb87")
+		(property "Reference" "J31"
+			(at 149.225 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CMaj"
+			(at 149.225 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3"
+			(at 151.13 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 151.13 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "ae8fb613-5cfa-4e5f-9aac-c2c260428adf")
+		)
+		(pin "R"
+			(uuid "6307fd2d-53b1-4be6-922e-307d0969a7b5")
+		)
+		(pin "T"
+			(uuid "239a9c1b-e02b-4f8a-859d-799a383eb227")
+		)
+		(instances
+			(project "MXKeys"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/4c295ac3-1b2c-49e6-b8fa-f89d3ebea7b6"
+					(reference "J31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 167.64 223.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b9edd2f-44e9-4c5b-a284-1c1f55920054")
+		(property "Reference" "J42"
+			(at 165.735 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Multiple"
+			(at 165.735 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3"
+			(at 167.64 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 167.64 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "f3ed73fb-817c-4aaa-b1c6-a08d4e540ff0")
+		)
+		(pin "R"
+			(uuid "dbd90419-1ca6-4941-9bbf-c0c890ddd716")
+		)
+		(pin "T"
+			(uuid "af57b78f-8a98-4352-9a75-81d5446c32b7")
+		)
+		(instances
+			(project "MXKeys"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/4c295ac3-1b2c-49e6-b8fa-f89d3ebea7b6"
+					(reference "J42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 121.92 273.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "336cacdc-114a-4d47-b2b7-890656883c45")
+		(property "Reference" "J48"
+			(at 120.015 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Multiple"
+			(at 120.015 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3"
+			(at 121.92 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 121.92 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "dc478fc3-f743-4532-85ff-023623907e30")
+		)
+		(pin "R"
+			(uuid "1186f8e6-00d5-4016-b1b0-85c90e303b3d")
+		)
+		(pin "T"
+			(uuid "f19aa07f-3d2d-4c5b-ad8a-04bdc834d50c")
+		)
+		(instances
+			(project "MXKeys"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/4c295ac3-1b2c-49e6-b8fa-f89d3ebea7b6"
+					(reference "J48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 167.64 240.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3434385f-3154-4981-8a13-f17082d6ca65")
+		(property "Reference" "J44"
+			(at 165.735 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Multiple"
+			(at 165.735 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3"
+			(at 167.64 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 167.64 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "d1d74974-fb28-4178-a35e-753e9057debb")
+		)
+		(pin "R"
+			(uuid "7053cd34-6518-49e7-b761-f7e64368e535")
+		)
+		(pin "T"
+			(uuid "b3549dc4-55c8-467d-9278-7e139c236bb9")
+		)
+		(instances
+			(project "MXKeys"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/4c295ac3-1b2c-49e6-b8fa-f89d3ebea7b6"
+					(reference "J44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 95.25 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ba7614d-5707-4289-bb05-26c91d3ebeea")
+		(property "Reference" "J18"
+			(at 93.345 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Trigger E"
+			(at 93.345 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3"
+			(at 95.25 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 95.25 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "2805e32e-1a72-4e69-ab6a-a8c8232a38d4")
+		)
+		(pin "R"
+			(uuid "0d986306-cdc2-45c9-a7ff-22061a5ee8a6")
+		)
+		(pin "T"
+			(uuid "5ea299df-2df2-47f1-b7b7-72dbd073c84b")
+		)
+		(instances
+			(project "MXKeys"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/4c295ac3-1b2c-49e6-b8fa-f89d3ebea7b6"
+					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 144.78 256.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c40ed9e-7968-4fbe-8179-9d762bc16281")
+		(property "Reference" "J49"
+			(at 142.875 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Multiple"
+			(at 142.875 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3"
+			(at 144.78 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 144.78 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "6a217483-c0cb-4f50-a886-72bf1e880a0d")
+		)
+		(pin "R"
+			(uuid "d342f8df-de4c-4145-844c-a8d29422c3ab")
+		)
+		(pin "T"
+			(uuid "1ea9d496-6ce7-4e89-b626-b53f12521bc2")
+		)
+		(instances
+			(project "MXKeys"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/4c295ac3-1b2c-49e6-b8fa-f89d3ebea7b6"
+					(reference "J49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 151.13 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4299920c-fd6f-46d6-a776-ae4deada94b2")
+		(property "Reference" "J39"
+			(at 149.225 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GMaj"
+			(at 149.225 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3"
+			(at 151.13 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 151.13 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "ae636e72-089e-4ce3-a5c5-8a1079c58b07")
+		)
+		(pin "R"
+			(uuid "8d82e862-71f1-4639-aa7d-c8918b83a196")
+		)
+		(pin "T"
+			(uuid "44b7c136-bb3e-4480-9d23-1497d1208450")
+		)
+		(instances
+			(project "MXKeys"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/4c295ac3-1b2c-49e6-b8fa-f89d3ebea7b6"
+					(reference "J39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 180.34 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4dc7178d-1f12-47db-a625-49e87ba0797b")
+		(property "Reference" "J32"
+			(at 178.435 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Cm"
+			(at 178.435 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3"
+			(at 180.34 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 180.34 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "49cda05f-a236-4c0c-bed9-6717082a4dcb")
+		)
+		(pin "R"
+			(uuid "32e65e74-e6c8-428b-8ee7-c3364fb4ce6f")
+		)
+		(pin "T"
+			(uuid "00d320ed-ef23-476d-8d63-2c05d9a05d97")
+		)
+		(instances
+			(project "MXKeys"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/4c295ac3-1b2c-49e6-b8fa-f89d3ebea7b6"
+					(reference "J32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 123.19 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50307c1f-f1a7-4d94-8e13-7ab87de09d17")
+		(property "Reference" "J15"
+			(at 121.285 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Trigger C#"
+			(at 121.285 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3"
+			(at 123.19 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 123.19 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "210da370-f9d1-43fb-8adb-598588741c4c")
+		)
+		(pin "R"
+			(uuid "9f6beeed-189b-4ac3-b536-922ba610a723")
+		)
+		(pin "T"
+			(uuid "939dbdf4-3b85-4392-ba44-690d3eba7e3f")
+		)
+		(instances
+			(project "MXKeys"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/4c295ac3-1b2c-49e6-b8fa-f89d3ebea7b6"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 123.19 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52e9d408-6799-4112-b2ca-1ec641bcdc06")
+		(property "Reference" "J22"
+			(at 121.285 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Trigger G#"
+			(at 121.285 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3"
+			(at 123.19 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 123.19 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "c0ada4c4-2425-499e-b690-e625d305ba32")
+		)
+		(pin "R"
+			(uuid "4639325b-4dc3-4d2d-a3d7-fbe8e4dcc70c")
+		)
+		(pin "T"
+			(uuid "4c9fa398-bad4-4724-b17f-be905b6aa957")
+		)
+		(instances
+			(project "MXKeys"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/4c295ac3-1b2c-49e6-b8fa-f89d3ebea7b6"
+					(reference "J22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 95.25 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "539d556c-306f-43eb-90e9-bec970e02377")
+		(property "Reference" "J19"
+			(at 93.345 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Trigger F"
+			(at 93.345 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3"
+			(at 95.25 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 95.25 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "4a34152f-7c48-42be-a7aa-9213adc213a6")
+		)
+		(pin "R"
+			(uuid "bcc4056d-f1a6-4073-9683-ec912245199e")
+		)
+		(pin "T"
+			(uuid "3058b07b-ea84-4506-8fe0-b151fe0a4ee0")
+		)
+		(instances
+			(project "MXKeys"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/4c295ac3-1b2c-49e6-b8fa-f89d3ebea7b6"
+					(reference "J19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 151.13 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53c93c29-7724-458b-aae8-96e17e83af26")
+		(property "Reference" "J37"
+			(at 149.225 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FMaj"
+			(at 149.225 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3"
+			(at 151.13 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 151.13 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "7c08c805-565d-4a5d-b22e-8c452f29b880")
+		)
+		(pin "R"
+			(uuid "a74d1ac1-b064-4e39-9618-62299e284e9c")
+		)
+		(pin "T"
+			(uuid "c91c61a1-44ee-43d3-b08c-142f5a001a41")
+		)
+		(instances
+			(project "MXKeys"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/4c295ac3-1b2c-49e6-b8fa-f89d3ebea7b6"
+					(reference "J37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 95.25 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59883ba4-ba82-4263-a3d0-085dddf885b5")
+		(property "Reference" "J12"
+			(at 93.345 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Trigger B-"
+			(at 93.345 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3"
+			(at 95.25 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 95.25 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "48f48f8b-e960-4978-acf0-6a76799a2cbd")
+		)
+		(pin "R"
+			(uuid "ca661792-485c-4781-8f1c-dc73331fc069")
+		)
+		(pin "T"
+			(uuid "e8058919-cc58-4bdc-8e1f-b85c04b9a984")
+		)
+		(instances
+			(project ""
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/4c295ac3-1b2c-49e6-b8fa-f89d3ebea7b6"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 144.78 223.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59d83f8d-d34f-40d8-b76c-609cd9c2f8e3")
+		(property "Reference" "J41"
+			(at 142.875 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Multiple"
+			(at 142.875 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3"
+			(at 144.78 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 144.78 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "13f45233-333b-44a9-9662-bb2ee258d104")
+		)
+		(pin "R"
+			(uuid "147e6ac3-e66c-4789-8ce8-094bc37d1cad")
+		)
+		(pin "T"
+			(uuid "e637e6d7-c5db-4e66-bd2a-bd47e070b062")
+		)
+		(instances
+			(project "MXKeys"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/4c295ac3-1b2c-49e6-b8fa-f89d3ebea7b6"
+					(reference "J41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 121.92 223.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "654e4d77-1feb-4bef-912e-7b7f4cd1dd64")
+		(property "Reference" "J45"
+			(at 120.015 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Multiple"
+			(at 120.015 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3"
+			(at 121.92 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 121.92 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "9ebda824-b111-437f-8038-fee7ee788100")
+		)
+		(pin "R"
+			(uuid "4f374592-c134-4c95-846b-1363321e85ef")
+		)
+		(pin "T"
+			(uuid "e6921b68-7a0c-460e-b8c2-f5e0fd1370ce")
+		)
+		(instances
+			(project "MXKeys"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/4c295ac3-1b2c-49e6-b8fa-f89d3ebea7b6"
+					(reference "J45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 180.34 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72293164-a066-4723-9fc7-aa756d95f2fa")
+		(property "Reference" "J34"
+			(at 178.435 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Dm"
+			(at 178.435 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3"
+			(at 180.34 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 180.34 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "ae56e543-cf0c-4fd0-8e26-06bd716117c5")
+		)
+		(pin "R"
+			(uuid "37c6f3ad-cd31-4fad-a0ab-efb22f23697a")
+		)
+		(pin "T"
+			(uuid "22809a64-58ef-4969-be0e-c1975943edd9")
+		)
+		(instances
+			(project "MXKeys"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/4c295ac3-1b2c-49e6-b8fa-f89d3ebea7b6"
+					(reference "J34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 123.19 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "757beba7-5a39-42b4-92b2-344cb2bef6ac")
+		(property "Reference" "J27"
+			(at 121.285 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Trigger C#+"
+			(at 121.285 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3"
+			(at 123.19 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 123.19 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "e3b86c3a-f8ff-42ab-8287-9b4fcb25120c")
+		)
+		(pin "R"
+			(uuid "42eb516f-bf66-4028-8c0d-2cec4d1a5e2e")
+		)
+		(pin "T"
+			(uuid "72b8715c-cbee-4c0f-ae5a-7c6bc0a13144")
+		)
+		(instances
+			(project "MXKeys"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/4c295ac3-1b2c-49e6-b8fa-f89d3ebea7b6"
+					(reference "J27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 99.06 256.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7824d7ae-a5f4-4356-b4b2-77887d8983af")
+		(property "Reference" "J9"
+			(at 97.155 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Multiple"
+			(at 97.155 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3"
+			(at 99.06 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 99.06 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "14cfbfda-43ee-4c2d-ba67-4d361ba18132")
+		)
+		(pin "R"
+			(uuid "5c59c261-3606-4664-9c86-3caeaee85711")
+		)
+		(pin "T"
+			(uuid "6c15c7a1-2ba2-42e3-81d2-05a0f554ab81")
+		)
+		(instances
+			(project "MXKeys"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/4c295ac3-1b2c-49e6-b8fa-f89d3ebea7b6"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 95.25 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bb481b3-f68d-4355-9c53-5679e60d598d")
+		(property "Reference" "J21"
+			(at 93.345 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Trigger G"
+			(at 93.345 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3"
+			(at 95.25 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 95.25 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "b8e16f96-15ef-4e1e-a638-518532e7ad86")
+		)
+		(pin "R"
+			(uuid "f51c5d78-993f-4f78-a13f-b57b3072f335")
+		)
+		(pin "T"
+			(uuid "c58acdab-bab3-42cd-839d-c15b741058ed")
+		)
+		(instances
+			(project "MXKeys"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/4c295ac3-1b2c-49e6-b8fa-f89d3ebea7b6"
+					(reference "J21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 123.19 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d8b0e1d-cab1-44ec-8c3b-b82e25d5287d")
+		(property "Reference" "J20"
+			(at 121.285 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Trigger F#"
+			(at 121.285 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3"
+			(at 123.19 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 123.19 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "b968fa25-dcfb-4b6c-899a-cc82d1a86c29")
+		)
+		(pin "R"
+			(uuid "6ca83368-403b-44c5-bf5a-e97ec5a550fb")
+		)
+		(pin "T"
+			(uuid "0d4324fd-98b8-4196-9141-cbb76ca1c302")
+		)
+		(instances
+			(project "MXKeys"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/4c295ac3-1b2c-49e6-b8fa-f89d3ebea7b6"
+					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 180.34 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8393a010-9ead-4e0f-9847-193a01810c10")
+		(property "Reference" "J36"
+			(at 178.435 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Em"
+			(at 178.435 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3"
+			(at 180.34 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 180.34 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "18e1867c-dde9-4f87-a50a-2fc69fa07e7c")
+		)
+		(pin "R"
+			(uuid "860b5bd8-21fe-4096-b58b-eff1548613ae")
+		)
+		(pin "T"
+			(uuid "c24090a4-0bd1-4ab3-9ed6-6f2fe3bf52b6")
+		)
+		(instances
+			(project "MXKeys"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/4c295ac3-1b2c-49e6-b8fa-f89d3ebea7b6"
+					(reference "J36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 180.34 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85aac927-7156-41e6-8679-667f7a42c7b2")
+		(property "Reference" "J30"
+			(at 178.435 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Bm-"
+			(at 178.435 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3"
+			(at 180.34 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 180.34 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "bf4e1f76-9305-4f2a-a2da-1d5a2c47f0d0")
+		)
+		(pin "R"
+			(uuid "b603a594-0684-46e6-98a0-f71e3d91fa7d")
+		)
+		(pin "T"
+			(uuid "afcab844-9afb-4ab1-a7af-12fc74d114a0")
+		)
+		(instances
+			(project "MXKeys"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/4c295ac3-1b2c-49e6-b8fa-f89d3ebea7b6"
+					(reference "J30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 167.64 256.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97925eaa-bff3-4e07-8ce9-88ce716425e1")
+		(property "Reference" "J50"
+			(at 165.735 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Multiple"
+			(at 165.735 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3"
+			(at 167.64 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 167.64 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "4ad74703-cd59-4149-96c6-d7945edce6da")
+		)
+		(pin "R"
+			(uuid "e6fe9c1d-1d00-45b5-90e1-7d6227e53347")
+		)
+		(pin "T"
+			(uuid "f39dbf1c-f211-40ab-a2cc-42483ba1d913")
+		)
+		(instances
+			(project "MXKeys"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/4c295ac3-1b2c-49e6-b8fa-f89d3ebea7b6"
+					(reference "J50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 123.19 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9bd25797-3eb6-4f29-9846-6df0c86919b2")
+		(property "Reference" "J24"
+			(at 121.285 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Trigger A#"
+			(at 121.285 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3"
+			(at 123.19 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 123.19 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "ecce4f77-a676-45c8-b503-48b55474dc6b")
+		)
+		(pin "R"
+			(uuid "ef275ccf-6082-4ec9-a2e2-7aa7bcac265d")
+		)
+		(pin "T"
+			(uuid "74f19eca-10a5-4d6f-83a0-17f71ddb7300")
+		)
+		(instances
+			(project "MXKeys"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/4c295ac3-1b2c-49e6-b8fa-f89d3ebea7b6"
+					(reference "J24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 151.13 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a589ad48-8f53-4513-9685-014101d7cc2a")
+		(property "Reference" "J35"
+			(at 149.225 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EMaj"
+			(at 149.225 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3"
+			(at 151.13 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 151.13 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "fde49808-83c5-4ba7-b247-c73dcdf6eca7")
+		)
+		(pin "R"
+			(uuid "68f0e768-3819-4a90-8212-3f66e9c31648")
+		)
+		(pin "T"
+			(uuid "baf7f49b-28d4-43f9-9a8f-08fc8bf3c68c")
+		)
+		(instances
+			(project "MXKeys"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/4c295ac3-1b2c-49e6-b8fa-f89d3ebea7b6"
+					(reference "J35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 123.19 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa0a7854-6883-4f3f-afd0-d352ae375481")
+		(property "Reference" "J17"
+			(at 121.285 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Trigger D#"
+			(at 121.285 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3"
+			(at 123.19 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 123.19 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "a15199e0-47f0-4793-8cb9-9f9b6506e2ba")
+		)
+		(pin "R"
+			(uuid "50a40b52-6c5a-4e1e-a0ca-d14cfe8d3d1f")
+		)
+		(pin "T"
+			(uuid "825b1f45-5842-4cce-9e73-fa93270743d2")
+		)
+		(instances
+			(project "MXKeys"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/4c295ac3-1b2c-49e6-b8fa-f89d3ebea7b6"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 95.25 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac3faa8b-2d5d-43f5-9137-867ab69b1442")
+		(property "Reference" "J23"
+			(at 93.345 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Trigger A"
+			(at 93.345 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3"
+			(at 95.25 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 95.25 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "616cd5ad-e9a9-47a6-b055-815de71d37c9")
+		)
+		(pin "R"
+			(uuid "e8473045-db98-4ef2-bfa5-96480ab3335c")
+		)
+		(pin "T"
+			(uuid "8716f2f3-1fad-489d-a68f-55dfb724abbf")
+		)
+		(instances
+			(project "MXKeys"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/4c295ac3-1b2c-49e6-b8fa-f89d3ebea7b6"
+					(reference "J23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 95.25 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad176ef9-fdc0-4c77-9c7c-7acb75cbcb17")
+		(property "Reference" "J13"
+			(at 93.345 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Trigger C"
+			(at 93.345 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3"
+			(at 95.25 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 95.25 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "1d7d53ce-403f-49cf-983f-3d28c5748c52")
+		)
+		(pin "R"
+			(uuid "f60dc858-5188-47aa-9332-bf3dd1be0da7")
+		)
+		(pin "T"
+			(uuid "85d94b9a-bfb1-4eb5-add9-ddb30000c7a0")
+		)
+		(instances
+			(project "MXKeys"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/4c295ac3-1b2c-49e6-b8fa-f89d3ebea7b6"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 95.25 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b718e3ad-658e-4fb6-ad2d-8dedc412cefd")
+		(property "Reference" "J16"
+			(at 93.345 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Trigger D"
+			(at 93.345 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3"
+			(at 95.25 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 95.25 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "baef4cc9-b0a3-49a4-b169-830967bb8fa2")
+		)
+		(pin "R"
+			(uuid "43033e4f-321f-4f64-b343-0b9d0fc55dd7")
+		)
+		(pin "T"
+			(uuid "f5784cab-b28a-4855-a053-84c9ad809f91")
+		)
+		(instances
+			(project "MXKeys"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/4c295ac3-1b2c-49e6-b8fa-f89d3ebea7b6"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 99.06 273.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf105f0b-95f6-4ab4-b91d-32262e8c39eb")
+		(property "Reference" "J10"
+			(at 97.155 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Multiple"
+			(at 97.155 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3"
+			(at 99.06 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 99.06 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "85e74710-65ff-4909-bb3e-7ca45aded6ce")
+		)
+		(pin "R"
+			(uuid "04b3db1a-5094-41ab-a2c3-bd37b5e9fd54")
+		)
+		(pin "T"
+			(uuid "4335507c-6f92-457c-8639-5953ae2c26f6")
+		)
+		(instances
+			(project "MXKeys"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/4c295ac3-1b2c-49e6-b8fa-f89d3ebea7b6"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 95.25 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2c708b3-6598-4ac5-a4bb-397dae1bed4d")
+		(property "Reference" "J26"
+			(at 93.345 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Trigger C+"
+			(at 93.345 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3"
+			(at 95.25 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 95.25 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "a384bf82-fc9d-45d5-8b89-74b016406fde")
+		)
+		(pin "R"
+			(uuid "e229cf8a-ae88-4c68-a782-880caa3bf2e9")
+		)
+		(pin "T"
+			(uuid "2cab4423-a3f5-4d11-b35a-962a4d95421d")
+		)
+		(instances
+			(project "MXKeys"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/4c295ac3-1b2c-49e6-b8fa-f89d3ebea7b6"
+					(reference "J26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 144.78 240.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf51434b-031d-4bcc-99eb-9b20de1688cb")
+		(property "Reference" "J43"
+			(at 142.875 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Multiple"
+			(at 142.875 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3"
+			(at 144.78 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 144.78 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "c9223590-3dda-40cd-a743-e33e939883f4")
+		)
+		(pin "R"
+			(uuid "e0dd4eb6-fd42-47b3-9e26-f8e21b54a264")
+		)
+		(pin "T"
+			(uuid "e470cdb5-27d1-4892-a261-61ca9d5b4c31")
+		)
+		(instances
+			(project "MXKeys"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/4c295ac3-1b2c-49e6-b8fa-f89d3ebea7b6"
+					(reference "J43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 144.78 273.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3710608-6384-4ea4-a519-fd4a8b0f2460")
+		(property "Reference" "J51"
+			(at 142.875 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Multiple"
+			(at 142.875 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3"
+			(at 144.78 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 144.78 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "7631a625-5235-4572-a23c-8b049c39b03b")
+		)
+		(pin "R"
+			(uuid "6b3ccd09-af0d-4172-bfc7-649c015d27ea")
+		)
+		(pin "T"
+			(uuid "06fa48a4-7b0b-4b59-af1e-01127bd073dd")
+		)
+		(instances
+			(project "MXKeys"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/4c295ac3-1b2c-49e6-b8fa-f89d3ebea7b6"
+					(reference "J51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 151.13 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd031798-82da-4f13-a5d5-99c1d0faf98f")
+		(property "Reference" "J33"
+			(at 149.225 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DMaj"
+			(at 149.225 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3"
+			(at 151.13 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 151.13 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "d02b0ea8-a6fa-40ca-8175-e4a9db904167")
+		)
+		(pin "R"
+			(uuid "ec097926-e555-44c8-b675-d3715fdbe0e5")
+		)
+		(pin "T"
+			(uuid "209ee777-6ce9-423b-8434-6422176b2c61")
+		)
+		(instances
+			(project "MXKeys"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/4c295ac3-1b2c-49e6-b8fa-f89d3ebea7b6"
+					(reference "J33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 121.92 240.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de2674f0-0735-4064-b77e-acb4020a3457")
+		(property "Reference" "J46"
+			(at 120.015 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Multiple"
+			(at 120.015 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3"
+			(at 121.92 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 121.92 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "c81b5050-31b2-42c8-a339-968b899a9821")
+		)
+		(pin "R"
+			(uuid "30ce4562-88c1-428b-8704-2d1ccb7ea8a6")
+		)
+		(pin "T"
+			(uuid "a5b32502-b0e9-47c8-bf81-f743a9678ad5")
+		)
+		(instances
+			(project "MXKeys"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/4c295ac3-1b2c-49e6-b8fa-f89d3ebea7b6"
+					(reference "J46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 180.34 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0d9a0be-2bb1-42e7-a5e6-764422a8e8e2")
+		(property "Reference" "J40"
+			(at 178.435 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Gm"
+			(at 178.435 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3"
+			(at 180.34 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 180.34 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "20a27299-50db-4b84-95f5-38d6708cc252")
+		)
+		(pin "R"
+			(uuid "c3ac28e4-1a49-4a46-8110-af00845baa81")
+		)
+		(pin "T"
+			(uuid "bde26957-a207-4b60-ae01-c0afa107c914")
+		)
+		(instances
+			(project "MXKeys"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/4c295ac3-1b2c-49e6-b8fa-f89d3ebea7b6"
+					(reference "J40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 151.13 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3aaca39-7be0-47e0-9f41-a8c8b9d44a4c")
+		(property "Reference" "J29"
+			(at 149.225 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BMaj-"
+			(at 149.225 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3"
+			(at 151.13 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 151.13 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "c3162309-27ee-431c-b88e-2ad04717609d")
+		)
+		(pin "R"
+			(uuid "dfb05b86-8ea5-433f-af4e-ecedf7251d55")
+		)
+		(pin "T"
+			(uuid "ca081fd6-882a-47c3-8e55-4055fe452d11")
+		)
+		(instances
+			(project "MXKeys"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/4c295ac3-1b2c-49e6-b8fa-f89d3ebea7b6"
+					(reference "J29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 99.06 223.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5f801a0-cff2-4d15-98d4-a812270e95e0")
+		(property "Reference" "J4"
+			(at 97.155 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Multiple"
+			(at 97.155 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3"
+			(at 99.06 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 99.06 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "dad4ee06-c3ce-4bde-8110-b79106c31dfd")
+		)
+		(pin "R"
+			(uuid "08a022f0-b0bb-4529-8098-18adee0df994")
+		)
+		(pin "T"
+			(uuid "e80349a0-20ab-4157-97b4-ade48eec38c6")
+		)
+		(instances
+			(project "MXKeys"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/4c295ac3-1b2c-49e6-b8fa-f89d3ebea7b6"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

@@ -24,3 +24,13 @@ Bumpers - Step Sequencer
 
 Triggers - CV
 	LCV | RCV
+
+----
+XOUTPUT
+
+The same as above fut the reverse, synth plays pokemans
+
+---
+Enigma
+
+BCD routing for inputs to effects/outputs using thumbwheel switches or BCD counters

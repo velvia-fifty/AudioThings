@@ -1,0 +1,214 @@
+(footprint "SJ3-3505"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -6.5 0.5 -90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "15dec0f1-755f-4d64-9bf9-4c15a525b1f6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SJ3-3505"
+		(at 0.4 1.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4144f7da-9ca5-478a-a283-cbe6bb0e28d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -5.6 5.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a44cac3f-a3df-45f6-a0b8-ae525c1ef4dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -5.6 5.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "66140153-9876-4403-86cf-105aa88d1458")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -5.6 5.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7bcd52c4-133f-46fb-b410-f8adc3f0420e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.6 4.5)
+		(end -5.6 -4.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8009aef7-ebd1-4321-b57b-8a44fef688ee")
+	)
+	(fp_line
+		(start 4 -4.5)
+		(end -5.6 -4.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "23ea97d3-172e-4472-9637-ef74158c87d4")
+	)
+	(fp_line
+		(start 4 4.5)
+		(end -5.6 4.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e2d1f259-e3e9-4fd8-9027-e5006532872c")
+	)
+	(fp_line
+		(start 5 -3.5)
+		(end 4 -4.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f6cedc26-a515-4f93-a125-86040eeb838f")
+	)
+	(fp_line
+		(start 5 3.5)
+		(end 4 4.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7f43e76c-31c9-40d4-a349-f8f9c6630511")
+	)
+	(fp_line
+		(start 5 3.5)
+		(end 5 -3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "003ff38f-72b7-4e95-abac-1bcc9a3250be")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "e0acbff9-b9f2-4d2c-a82f-90d9e250180a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.4 2.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5ac7500b-22b3-4032-a69b-7dfccc361422")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "R" thru_hole oval
+		(at 3.8 0 90)
+		(size 3.1 1.4)
+		(drill oval 2.5 0.8)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(solder_mask_margin 1)
+		(clearance 1)
+		(uuid "addbd82d-fb5f-458e-bf17-0458126c5873")
+	)
+	(pad "RN" thru_hole oval
+		(at 1.75 -3.5 180)
+		(size 3.1 1.4)
+		(drill oval 2.5 0.8)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(solder_mask_margin 1)
+		(clearance 0.6)
+		(uuid "9a52763d-bea2-40fa-a7e5-90c4f217291b")
+	)
+	(pad "S" thru_hole oval
+		(at 0.6 3.5)
+		(size 3.1 1.2)
+		(drill oval 2.5 0.6)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(solder_mask_margin 1)
+		(clearance 1)
+		(uuid "6ed23fcd-3aac-400b-ae90-d63e6af06a2d")
+	)
+	(pad "T" thru_hole oval
+		(at -4.3 0 90)
+		(size 3.1 1.2)
+		(drill oval 2.5 0.6)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(solder_mask_margin 1)
+		(clearance 1)
+		(uuid "e8447b33-68da-48d3-b324-b81e2ade4f37")
+	)
+	(pad "TN" thru_hole oval
+		(at -1.9 -3.5 180)
+		(size 3.1 1.6)
+		(drill oval 2.5 1)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(solder_mask_margin 1)
+		(clearance 1)
+		(uuid "eaa2ec35-e00a-468e-bb9c-6235cd642116")
+	)
+	(model "${KIPRJMOD}/../../res/3dmodels/Same_Sky_SJ3-35053B.step"
+		(offset
+			(xyz 0 0 17.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

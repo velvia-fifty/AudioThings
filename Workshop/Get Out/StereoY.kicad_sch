@@ -1,0 +1,3265 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f483f5c0-2317-478d-a2b1-d4c375efe23d")
+	(paper "A4")
+	(title_block
+		(title "Audio Thing Template")
+		(rev "1.0")
+		(company "velvia-fifty")
+		(comment 1 "https://github.com/velvia-fifty/AudioThings")
+		(comment 2 "You should have changed this already :)")
+		(comment 4 "Stay humble")
+	)
+	(lib_symbols
+		(symbol "Connector_Audio:AudioJack3_SwitchT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AudioJack3_SwitchT"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched T Pole (Normalling)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "audio jack receptacle stereo headphones phones TRS connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AudioJack3_SwitchT_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end -6.35 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -5.334) (xy 2.032 -5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0.635 -5.715) (xy 1.27 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -7.62) (xy 1.778 -7.62) (xy 1.778 -5.334) (xy 1.524 -5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -5.08) (xy -1.27 -5.715) (xy -0.635 -5.08) (xy -0.635 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy -2.54 2.54) (xy -2.54 -5.08) (xy -3.175 -5.715) (xy -3.81 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 3.81)
+					(end -5.08 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AudioJack3_SwitchT_1_1"
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "TN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 129.54 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "590b60be-101c-4e68-b2fc-58ecc9d0cb47")
+	)
+	(junction
+		(at 167.64 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a1afe45-160a-4de6-ac0e-05f0412b80a5")
+	)
+	(junction
+		(at 91.44 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d3e9a84-710e-478b-bf68-5843c70ae342")
+	)
+	(junction
+		(at 128.27 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6295150c-e327-493a-a4e9-ec5796e75d15")
+	)
+	(junction
+		(at 128.27 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "723e8659-1477-4a11-b2ac-d395a2b796f1")
+	)
+	(junction
+		(at 129.54 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "932224f3-4477-46c7-89f9-fb70edf6bec9")
+	)
+	(junction
+		(at 91.44 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c799559-ba70-4631-9697-fa73de1c4ccc")
+	)
+	(junction
+		(at 90.17 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c417355f-6093-410e-b33b-411f677da194")
+	)
+	(junction
+		(at 90.17 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd1c38cb-5601-44be-92ca-dc6e20f1bca7")
+	)
+	(junction
+		(at 166.37 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f24c04de-50db-4728-946b-f1ecb129d428")
+	)
+	(no_connect
+		(at 72.39 138.43)
+		(uuid "0267ad99-536d-4637-8ef9-9bcab82a2be3")
+	)
+	(no_connect
+		(at 110.49 50.8)
+		(uuid "4aee0eef-426d-41cb-99f3-6d6ad8619919")
+	)
+	(no_connect
+		(at 110.49 72.39)
+		(uuid "4b7087bf-2afe-40c8-b031-573f871500f4")
+	)
+	(no_connect
+		(at 72.39 93.98)
+		(uuid "54471f93-f3b5-4ed0-bded-ee4afce69247")
+	)
+	(no_connect
+		(at 110.49 160.02)
+		(uuid "6f8b3e4b-015c-48cf-8899-e8de3ad36190")
+	)
+	(no_connect
+		(at 72.39 50.8)
+		(uuid "8fe8a85a-66b7-4dc1-8c37-4d5db6588728")
+	)
+	(no_connect
+		(at 72.39 160.02)
+		(uuid "9457b8e8-ab38-4404-8518-31c8eb653417")
+	)
+	(no_connect
+		(at 110.49 116.84)
+		(uuid "9c3f4c38-9639-4050-9afa-34542a047f11")
+	)
+	(no_connect
+		(at 148.59 72.39)
+		(uuid "b1314a33-2b1e-4b79-a514-b5b04762ec4b")
+	)
+	(no_connect
+		(at 72.39 72.39)
+		(uuid "c79f649f-8a6b-43e3-be86-9dd3c7f6f26c")
+	)
+	(no_connect
+		(at 72.39 116.84)
+		(uuid "c7dc5da0-bb49-48bc-b9f0-e095633f7220")
+	)
+	(no_connect
+		(at 110.49 138.43)
+		(uuid "cea1784b-aebe-446b-ad80-5b1bceafdfb7")
+	)
+	(no_connect
+		(at 148.59 93.98)
+		(uuid "d0590e23-6bae-49d0-86dc-63cb26e0d179")
+	)
+	(no_connect
+		(at 148.59 50.8)
+		(uuid "d1713641-824b-448d-a12a-efd7fb0e85f3")
+	)
+	(no_connect
+		(at 110.49 93.98)
+		(uuid "da15db89-2294-444a-ae24-931106675253")
+	)
+	(wire
+		(pts
+			(xy 72.39 114.3) (xy 90.17 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0523d632-cdbe-4f83-946a-2d154d1ff2e0")
+	)
+	(wire
+		(pts
+			(xy 110.49 43.18) (xy 129.54 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "068008ba-88c9-4629-865d-85975672b995")
+	)
+	(wire
+		(pts
+			(xy 72.39 135.89) (xy 90.17 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d28a136-ccee-47fe-babd-335ce5c37c3e")
+	)
+	(wire
+		(pts
+			(xy 91.44 43.18) (xy 91.44 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ebd3f46-0acd-4571-8762-8e8698698e92")
+	)
+	(wire
+		(pts
+			(xy 110.49 86.36) (xy 116.84 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1042c23e-eb78-43d4-a92e-e71bc9b60a47")
+	)
+	(wire
+		(pts
+			(xy 34.29 20.32) (xy 34.29 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "126fa655-410c-404a-b330-978895edd22d")
+	)
+	(wire
+		(pts
+			(xy 129.54 43.18) (xy 129.54 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12e03ec8-6211-447d-beaf-9d658dad60d2")
+	)
+	(wire
+		(pts
+			(xy 148.59 86.36) (xy 154.94 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21444088-bdd3-4c97-917d-4e18bfd08a56")
+	)
+	(wire
+		(pts
+			(xy 91.44 109.22) (xy 91.44 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21d7ddad-7605-4b3c-82aa-86456fd2ae74")
+	)
+	(wire
+		(pts
+			(xy 90.17 114.3) (xy 90.17 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "264e9938-3072-456f-99af-647e9be6c712")
+	)
+	(wire
+		(pts
+			(xy 72.39 43.18) (xy 91.44 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27920d3d-0b84-454c-a01b-9ecb5d9d18bb")
+	)
+	(wire
+		(pts
+			(xy 110.49 114.3) (xy 128.27 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f76a515-9752-43c2-99b6-d041dedefd7f")
+	)
+	(wire
+		(pts
+			(xy 148.59 64.77) (xy 154.94 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38027b24-04e3-45ff-ac78-f512d282b870")
+	)
+	(wire
+		(pts
+			(xy 148.59 69.85) (xy 166.37 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3876ab99-dab6-46d8-83c4-c6dd2a0e86a1")
+	)
+	(wire
+		(pts
+			(xy 166.37 64.77) (xy 162.56 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cfaaff0-76a9-496b-bb59-fc189df14e3b")
+	)
+	(wire
+		(pts
+			(xy 128.27 64.77) (xy 128.27 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ecffcfb-af41-4f42-a43c-06db17410a47")
+	)
+	(wire
+		(pts
+			(xy 110.49 91.44) (xy 129.54 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f11b815-8636-4705-8491-ac88addf1e28")
+	)
+	(wire
+		(pts
+			(xy 110.49 157.48) (xy 129.54 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4706b218-2dc2-4d10-8bab-ee7cc5a9e678")
+	)
+	(wire
+		(pts
+			(xy 129.54 157.48) (xy 129.54 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d415df2-3d5b-4820-9a4c-cad376ccc85c")
+	)
+	(wire
+		(pts
+			(xy 72.39 69.85) (xy 90.17 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e61f02c-ae68-49c1-affa-f3e8fcdfdeb2")
+	)
+	(wire
+		(pts
+			(xy 110.49 152.4) (xy 116.84 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53f9ae9f-0979-4da0-b2ca-071469162516")
+	)
+	(wire
+		(pts
+			(xy 72.39 91.44) (xy 91.44 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "559879d8-3ba6-4127-92ff-642ae4e89ff9")
+	)
+	(wire
+		(pts
+			(xy 91.44 91.44) (xy 91.44 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58cf04aa-d305-45a7-aa9c-8f819bd3de96")
+	)
+	(wire
+		(pts
+			(xy 72.39 109.22) (xy 91.44 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d9f18e3-39b7-40f0-89c8-d9ce37eb875c")
+	)
+	(wire
+		(pts
+			(xy 72.39 152.4) (xy 78.74 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "669c1308-09e4-4a58-ac2d-17db77ec2cb8")
+	)
+	(wire
+		(pts
+			(xy 86.36 86.36) (xy 91.44 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "675bc754-3ea3-4823-ba67-c7705ca22f60")
+	)
+	(wire
+		(pts
+			(xy 86.36 152.4) (xy 91.44 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "719b7719-130d-4e60-820e-d0f252828f97")
+	)
+	(wire
+		(pts
+			(xy 148.59 91.44) (xy 167.64 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "721651ef-f526-4fd0-93e0-94956dd24702")
+	)
+	(wire
+		(pts
+			(xy 167.64 43.18) (xy 167.64 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75eea655-689f-4380-be7d-e1d59e87f861")
+	)
+	(wire
+		(pts
+			(xy 90.17 48.26) (xy 90.17 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7861e694-770e-4a8b-9df2-66979c0c1b11")
+	)
+	(wire
+		(pts
+			(xy 91.44 157.48) (xy 91.44 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85d5ad8c-5757-4107-8865-dc47ed802ccb")
+	)
+	(wire
+		(pts
+			(xy 72.39 86.36) (xy 78.74 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86a13765-43bc-4a0f-8dd6-26e8f1051f60")
+	)
+	(wire
+		(pts
+			(xy 166.37 48.26) (xy 166.37 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "883f4007-4214-46cf-8de2-9a0c01f1d710")
+	)
+	(wire
+		(pts
+			(xy 128.27 130.81) (xy 124.46 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c4aa688-9a5b-4de9-a3e7-cf6f5b12202c")
+	)
+	(wire
+		(pts
+			(xy 72.39 130.81) (xy 78.74 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9056c333-c58a-4990-8ce0-e07c16c49e87")
+	)
+	(wire
+		(pts
+			(xy 129.54 109.22) (xy 129.54 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b7883b9-c036-4562-992e-ce0e7cec7c18")
+	)
+	(wire
+		(pts
+			(xy 167.64 91.44) (xy 167.64 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cd15f53-3870-482a-ac57-8630f552149b")
+	)
+	(wire
+		(pts
+			(xy 148.59 48.26) (xy 166.37 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cf22962-5e53-42c6-97a3-e30bb4b1ebba")
+	)
+	(wire
+		(pts
+			(xy 90.17 130.81) (xy 90.17 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4b98dd9-313e-4016-b81c-e69573ec836c")
+	)
+	(wire
+		(pts
+			(xy 72.39 48.26) (xy 90.17 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9e7d466-0921-4f4e-866f-f1ab49d5505e")
+	)
+	(wire
+		(pts
+			(xy 128.27 130.81) (xy 128.27 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0dc4cb9-adc0-4668-9c1f-da2f5dab2cac")
+	)
+	(wire
+		(pts
+			(xy 90.17 64.77) (xy 90.17 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7ea8fd6-8747-4a64-9cef-57502755f241")
+	)
+	(wire
+		(pts
+			(xy 110.49 64.77) (xy 116.84 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8bcd84d-b9e8-46b7-8def-e679c8f050e2")
+	)
+	(wire
+		(pts
+			(xy 110.49 135.89) (xy 128.27 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c21d0c8d-2d6a-4f2d-9625-54d78a71c116")
+	)
+	(wire
+		(pts
+			(xy 90.17 130.81) (xy 86.36 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4101a9f-f27d-4b0a-b1e5-46a37b42f8f3")
+	)
+	(wire
+		(pts
+			(xy 128.27 114.3) (xy 128.27 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c54bcfec-9709-4f83-a95b-8d54534d598a")
+	)
+	(wire
+		(pts
+			(xy 166.37 64.77) (xy 166.37 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c629fa46-ee14-4cee-a0b9-44a8f98260c9")
+	)
+	(wire
+		(pts
+			(xy 124.46 86.36) (xy 129.54 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0c2339c-59b8-44a9-9799-c0162eb21589")
+	)
+	(wire
+		(pts
+			(xy 72.39 64.77) (xy 78.74 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d11249d9-aaca-4fc0-b889-4f94207cf174")
+	)
+	(wire
+		(pts
+			(xy 72.39 157.48) (xy 91.44 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5c92aa1-8405-4b6a-b8af-347a21e220d1")
+	)
+	(wire
+		(pts
+			(xy 110.49 69.85) (xy 128.27 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d62ddf92-9744-4df4-9159-0f6e21fddfac")
+	)
+	(wire
+		(pts
+			(xy 128.27 48.26) (xy 128.27 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d66b7a56-a27f-48fa-a331-f200fa04916f")
+	)
+	(wire
+		(pts
+			(xy 90.17 64.77) (xy 86.36 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6869a23-8060-49cb-9576-bde667c5e290")
+	)
+	(wire
+		(pts
+			(xy 148.59 43.18) (xy 167.64 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dadcb3a4-db79-4c8a-927a-ec0c76af8c0c")
+	)
+	(wire
+		(pts
+			(xy 129.54 91.44) (xy 129.54 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc3ddb43-94d0-4d24-b689-0e68d0df1a9c")
+	)
+	(wire
+		(pts
+			(xy 110.49 130.81) (xy 116.84 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e04754f3-ff41-4d1d-b5f7-56fdc7dada06")
+	)
+	(wire
+		(pts
+			(xy 162.56 86.36) (xy 167.64 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e215049e-c100-42ec-80ab-64e89847f2b2")
+	)
+	(wire
+		(pts
+			(xy 124.46 152.4) (xy 129.54 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9d4acbd-c41c-4a1e-bf21-bea63989b9df")
+	)
+	(wire
+		(pts
+			(xy 110.49 109.22) (xy 129.54 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb70241e-ed09-4131-a616-70396f0d2aef")
+	)
+	(wire
+		(pts
+			(xy 128.27 64.77) (xy 124.46 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f262ce64-32e8-4cf7-b806-08ae5801b321")
+	)
+	(wire
+		(pts
+			(xy 110.49 48.26) (xy 128.27 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7b9e56d-a0d1-434b-8344-d04c6df137a8")
+	)
+	(label "GND"
+		(at 72.39 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a6620bf-26d1-4332-8878-5fcaa1d361a5")
+	)
+	(label "GND"
+		(at 72.39 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2bc955fc-e31f-45fe-9a89-c08f97a711fa")
+	)
+	(label "GND"
+		(at 110.49 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a032a8f-9234-4164-847d-65d659187389")
+	)
+	(label "GND"
+		(at 72.39 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "66cfb4fb-b90f-4d3e-ab88-069d6663a4f4")
+	)
+	(label "GND"
+		(at 72.39 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "696273ad-4a51-4f10-ac7e-cc8833b48bbf")
+	)
+	(label "GND"
+		(at 148.59 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "69fbc586-d209-4a5a-81f8-2dfed92fd39d")
+	)
+	(label "GND"
+		(at 110.49 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "77661a7f-2cf6-4609-8992-a2153b09963c")
+	)
+	(label "GND"
+		(at 110.49 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a0f09ab-9acb-47f8-b52e-cd1198f37ad3")
+	)
+	(label "GND"
+		(at 72.39 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8cd292c5-70cc-406f-b8ab-b81af93ea1b4")
+	)
+	(label "GND"
+		(at 72.39 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "961fded7-c112-43b8-80ae-3518e3a527c6")
+	)
+	(label "GND"
+		(at 148.59 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a9b9e2be-5137-4ef8-8b78-7d4c65e137d6")
+	)
+	(label "GND"
+		(at 110.49 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aa78c99c-dc61-4435-8d62-7f61328b100b")
+	)
+	(label "GND"
+		(at 110.49 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cfd3eaba-e8b5-44d3-aab1-82b8d2baea0f")
+	)
+	(label "GND"
+		(at 110.49 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d602dc6d-6ae0-451c-8f26-d8b8a993e4f0")
+	)
+	(label "GND"
+		(at 34.29 24.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e97f1046-d90b-47d7-8c29-fc7083b68f25")
+	)
+	(label "GND"
+		(at 148.59 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f131bf2f-b202-41df-979b-a1e864b3fee3")
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 82.55 130.81 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "013a6a01-b364-493a-833b-d05e6c7704a7")
+		(property "Reference" "JP11"
+			(at 82.55 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DMONO"
+			(at 82.55 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 82.55 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 82.55 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "79d81cbf-9ac2-4f3c-becf-52c813ac9652")
+		)
+		(pin "1"
+			(uuid "6a3ce063-ea10-4f22-bb19-c50e0259df9a")
+		)
+		(instances
+			(project "AT-Interface-Template"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/d56edc4a-872f-4d4b-a039-e785ef39cb37"
+					(reference "JP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 34.29 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "069f74ac-3a76-4c80-9d8a-a4ecb4f6c805")
+		(property "Reference" "#PWR02"
+			(at 34.29 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.29 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 34.29 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d8d0a86-a20c-4f5c-be02-4b793237e712")
+		)
+		(instances
+			(project "AT-Interface-Template"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/d56edc4a-872f-4d4b-a039-e785ef39cb37"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchT")
+		(at 67.31 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a5f4473-e9ac-4119-8556-99d655f9f5da")
+		(property "Reference" "J38"
+			(at 65.405 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RIGHT"
+			(at 65.405 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3-3505"
+			(at 67.31 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched T Pole (Normalling)"
+			(at 67.31 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "c805d76a-98f0-44cb-8f0e-4ba2bff4b415")
+		)
+		(pin "R"
+			(uuid "df228dbe-362a-40c9-b61f-ee67cfcd8345")
+		)
+		(pin "TN"
+			(uuid "410824b5-85d5-4084-8f9a-3ce1bb8c2c5d")
+		)
+		(pin "T"
+			(uuid "10dcd256-c5a4-4f89-8ca2-0f8a2404169e")
+		)
+		(instances
+			(project "AT-Interface-Template"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/d56edc4a-872f-4d4b-a039-e785ef39cb37"
+					(reference "J38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 82.55 64.77 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "15990f11-8801-4ba0-92e0-8f150b0211e9")
+		(property "Reference" "JP10"
+			(at 82.55 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DMONO"
+			(at 82.55 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 82.55 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 82.55 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ea9a4f4b-e991-4151-936a-9a6aca784f04")
+		)
+		(pin "1"
+			(uuid "f59f697a-83ce-4f4a-978d-5d32edfb48e6")
+		)
+		(instances
+			(project "AT-Interface-Template"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/d56edc4a-872f-4d4b-a039-e785ef39cb37"
+					(reference "JP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 120.65 152.4 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "171f92e1-70be-4eac-8e12-4cfa8d345429")
+		(property "Reference" "JP16"
+			(at 120.65 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DMONO"
+			(at 120.65 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 120.65 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 120.65 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "92f0bd61-df9b-4a3d-b8d1-1f58de5abfd2")
+		)
+		(pin "1"
+			(uuid "c3547730-9f7e-4508-ac1d-09a7f832f39a")
+		)
+		(instances
+			(project "AT-Interface-Template"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/d56edc4a-872f-4d4b-a039-e785ef39cb37"
+					(reference "JP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 82.55 86.36 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e5a8be4-506e-4597-881d-1ec4715bee7b")
+		(property "Reference" "JP9"
+			(at 82.55 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DMONO"
+			(at 82.55 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 82.55 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 82.55 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3595c49e-885a-4118-9c03-5de657270549")
+		)
+		(pin "1"
+			(uuid "d8480d23-a60d-4c90-abfc-99b613d989c0")
+		)
+		(instances
+			(project ""
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/d56edc4a-872f-4d4b-a039-e785ef39cb37"
+					(reference "JP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 120.65 130.81 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "282b4409-0ffd-4f19-8d41-cb1cb7145f60")
+		(property "Reference" "JP15"
+			(at 120.65 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DMONO"
+			(at 120.65 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 120.65 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 120.65 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e301391c-6477-464c-8b04-1612f00e1098")
+		)
+		(pin "1"
+			(uuid "f036114e-3b15-481a-a850-4899a3e3f0fb")
+		)
+		(instances
+			(project "AT-Interface-Template"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/d56edc4a-872f-4d4b-a039-e785ef39cb37"
+					(reference "JP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 82.55 152.4 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a96a2d3-aff2-4dc0-9795-8ed2e49cc3be")
+		(property "Reference" "JP12"
+			(at 82.55 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DMONO"
+			(at 82.55 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 82.55 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 82.55 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a15e6f07-c0c3-4d26-95ed-1826622adf0e")
+		)
+		(pin "1"
+			(uuid "62a5ec1c-ff6d-46d7-a820-f9cb2f164c2d")
+		)
+		(instances
+			(project "AT-Interface-Template"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/d56edc4a-872f-4d4b-a039-e785ef39cb37"
+					(reference "JP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 120.65 86.36 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e2f9171-1fbf-450f-bd55-30136385d146")
+		(property "Reference" "JP14"
+			(at 120.65 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DMONO"
+			(at 120.65 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 120.65 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 120.65 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a698140b-00d3-41ed-990f-c5cce1af083a")
+		)
+		(pin "1"
+			(uuid "8dc327b8-c757-4360-b8d1-4fa557b312d1")
+		)
+		(instances
+			(project "AT-Interface-Template"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/d56edc4a-872f-4d4b-a039-e785ef39cb37"
+					(reference "JP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchT")
+		(at 105.41 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "482bd355-0c37-4167-a031-f090ee13047e")
+		(property "Reference" "J43"
+			(at 103.505 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LEFT"
+			(at 103.505 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3-3505"
+			(at 105.41 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched T Pole (Normalling)"
+			(at 105.41 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "8a7217eb-1987-42f1-882f-e89810aef6ff")
+		)
+		(pin "R"
+			(uuid "33764e21-77ad-4da5-beec-8f63a6802feb")
+		)
+		(pin "TN"
+			(uuid "9e6bd468-ecb0-4427-a5ab-480c846336a5")
+		)
+		(pin "T"
+			(uuid "275d7ca8-0c78-4042-9fe0-70157ea5e643")
+		)
+		(instances
+			(project "AT-Interface-Template"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/d56edc4a-872f-4d4b-a039-e785ef39cb37"
+					(reference "J43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchT")
+		(at 143.51 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d76b000-dee5-4fbe-8810-8f1dd2cf18c0")
+		(property "Reference" "J50"
+			(at 141.605 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RIGHT"
+			(at 141.605 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3-3505"
+			(at 143.51 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched T Pole (Normalling)"
+			(at 143.51 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "fc1a4894-6975-4065-b450-130c873ff0cc")
+		)
+		(pin "R"
+			(uuid "424bd4d8-6f56-41f6-8571-d910121e9629")
+		)
+		(pin "TN"
+			(uuid "043e6c5f-9f00-4a72-a7e3-1d73eda90b99")
+		)
+		(pin "T"
+			(uuid "87be9b0e-63c4-4962-bbbf-729ce69af037")
+		)
+		(instances
+			(project "AT-Interface-Template"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/d56edc4a-872f-4d4b-a039-e785ef39cb37"
+					(reference "J50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 158.75 64.77 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d8fe053-626d-4db1-b1de-df89d82f65bd")
+		(property "Reference" "JP17"
+			(at 158.75 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DMONO"
+			(at 158.75 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 158.75 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 158.75 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fb0c4b33-cc54-48bb-bbf3-70e8f353bf79")
+		)
+		(pin "1"
+			(uuid "21f8bb15-d489-4812-99db-b53d535c5f5a")
+		)
+		(instances
+			(project "AT-Interface-Template"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/d56edc4a-872f-4d4b-a039-e785ef39cb37"
+					(reference "JP17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchT")
+		(at 143.51 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66ce5d7b-d498-421d-99e3-6b7d212fa5c6")
+		(property "Reference" "J48"
+			(at 141.605 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IN"
+			(at 141.605 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3-3505"
+			(at 143.51 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched T Pole (Normalling)"
+			(at 143.51 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "cd65a44d-cefc-4dab-9436-f31a660e58c4")
+		)
+		(pin "R"
+			(uuid "9de3b80f-b317-4e4d-9c37-d463b53ee86e")
+		)
+		(pin "TN"
+			(uuid "28410961-4fa2-40fd-af4f-86e602850f23")
+		)
+		(pin "T"
+			(uuid "5744bdab-c68f-4727-85ba-297935bdbcbe")
+		)
+		(instances
+			(project "AT-Interface-Template"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/d56edc4a-872f-4d4b-a039-e785ef39cb37"
+					(reference "J48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchT")
+		(at 105.41 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "70897a75-2e75-4434-b7ce-8981ad071f39")
+		(property "Reference" "J44"
+			(at 103.505 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RIGHT"
+			(at 103.505 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3-3505"
+			(at 105.41 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched T Pole (Normalling)"
+			(at 105.41 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "fce97bd7-bfce-4fee-a97b-fb4e95228806")
+		)
+		(pin "R"
+			(uuid "b45b36f9-51f2-4131-b56d-076b1e9179fd")
+		)
+		(pin "TN"
+			(uuid "3c732e4b-3045-41ff-80c4-43f540d81da6")
+		)
+		(pin "T"
+			(uuid "1e611cd9-fa8f-4699-8ba8-949af161b37a")
+		)
+		(instances
+			(project "AT-Interface-Template"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/d56edc4a-872f-4d4b-a039-e785ef39cb37"
+					(reference "J44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchT")
+		(at 143.51 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7538a42a-f99f-4612-82a8-5a189b483fa8")
+		(property "Reference" "J49"
+			(at 141.605 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LEFT"
+			(at 141.605 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3-3505"
+			(at 143.51 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched T Pole (Normalling)"
+			(at 143.51 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "d6faef79-e060-4d23-b910-a8b722a9e17b")
+		)
+		(pin "R"
+			(uuid "da73f073-dd9d-4a70-8bb6-a9cd1375dc50")
+		)
+		(pin "TN"
+			(uuid "984f9661-86a8-4aa5-8711-801b376ae33d")
+		)
+		(pin "T"
+			(uuid "bd4c6994-ae8f-4a80-b9bc-49d50db11f29")
+		)
+		(instances
+			(project "AT-Interface-Template"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/d56edc4a-872f-4d4b-a039-e785ef39cb37"
+					(reference "J49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchT")
+		(at 105.41 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f23b124-ddd3-464b-91a1-18fb9a59ed61")
+		(property "Reference" "J42"
+			(at 103.505 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IN"
+			(at 103.505 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3-3505"
+			(at 105.41 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched T Pole (Normalling)"
+			(at 105.41 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "0365e524-e561-4301-9f33-c57c8d1cad52")
+		)
+		(pin "R"
+			(uuid "c0a9f980-1976-465c-a9ce-7365e6cca3d2")
+		)
+		(pin "TN"
+			(uuid "c00dc5a0-0a11-4543-9eab-db78dfb01a1d")
+		)
+		(pin "T"
+			(uuid "ef5c4332-f517-4f83-ae82-c9cdde2b59fc")
+		)
+		(instances
+			(project "AT-Interface-Template"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/d56edc4a-872f-4d4b-a039-e785ef39cb37"
+					(reference "J42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 120.65 64.77 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "82992066-a3c0-42e6-8a81-33b171672031")
+		(property "Reference" "JP13"
+			(at 120.65 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DMONO"
+			(at 120.65 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 120.65 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 120.65 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f437ff81-f06e-4c3a-94ad-ecff7f6e9c6c")
+		)
+		(pin "1"
+			(uuid "48c45cae-8292-4fe6-8717-e33d9fa84aac")
+		)
+		(instances
+			(project "AT-Interface-Template"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/d56edc4a-872f-4d4b-a039-e785ef39cb37"
+					(reference "JP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchT")
+		(at 105.41 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "858355e5-161d-4e14-a64f-da205ea7c344")
+		(property "Reference" "J47"
+			(at 103.505 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RIGHT"
+			(at 103.505 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3-3505"
+			(at 105.41 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched T Pole (Normalling)"
+			(at 105.41 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "594f5b7a-58dc-4c87-a3ed-70adf5938841")
+		)
+		(pin "R"
+			(uuid "23d5eb59-48b6-4a57-94d7-0cb2b6123a17")
+		)
+		(pin "TN"
+			(uuid "1257a63c-3352-4936-8bfe-5d13f0182943")
+		)
+		(pin "T"
+			(uuid "552d971f-aa67-4b28-bb0f-82fb48cb6fc8")
+		)
+		(instances
+			(project "AT-Interface-Template"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/d56edc4a-872f-4d4b-a039-e785ef39cb37"
+					(reference "J47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchT")
+		(at 105.41 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad11de63-4d35-4d72-8f62-8e3df85b0663")
+		(property "Reference" "J46"
+			(at 103.505 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LEFT"
+			(at 103.505 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3-3505"
+			(at 105.41 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched T Pole (Normalling)"
+			(at 105.41 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "28f40a9c-5876-4132-a96b-50c4d76a2476")
+		)
+		(pin "R"
+			(uuid "7376b73c-e9ca-4825-b291-a97859ac6f73")
+		)
+		(pin "TN"
+			(uuid "63db0ffc-7f18-4d57-a17c-54c43f4b0a2b")
+		)
+		(pin "T"
+			(uuid "df34b435-95a9-42da-9b92-36ea36c4be28")
+		)
+		(instances
+			(project "AT-Interface-Template"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/d56edc4a-872f-4d4b-a039-e785ef39cb37"
+					(reference "J46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchT")
+		(at 67.31 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2b31de9-3843-4062-8f4e-4a6f8e0c9ddd")
+		(property "Reference" "J37"
+			(at 65.405 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LEFT"
+			(at 65.405 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3-3505"
+			(at 67.31 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched T Pole (Normalling)"
+			(at 67.31 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "8e398029-a179-4857-ab77-9016047ef091")
+		)
+		(pin "R"
+			(uuid "fb0d2696-840c-4fd8-9264-4063c2e4cdb9")
+		)
+		(pin "TN"
+			(uuid "4d67a389-d760-411c-a2d5-431d05b5f143")
+		)
+		(pin "T"
+			(uuid "90cef896-0817-4f88-985b-e6dd5f85cec0")
+		)
+		(instances
+			(project "AT-Interface-Template"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/d56edc4a-872f-4d4b-a039-e785ef39cb37"
+					(reference "J37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchT")
+		(at 67.31 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1d4903b-3452-49e7-a5ad-5ff27edfb754")
+		(property "Reference" "J40"
+			(at 65.405 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LEFT"
+			(at 65.405 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3-3505"
+			(at 67.31 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched T Pole (Normalling)"
+			(at 67.31 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "72d16977-13dc-4776-915b-7fa9e5ba4048")
+		)
+		(pin "R"
+			(uuid "939e546e-5cf2-45bd-9088-102b710c67ba")
+		)
+		(pin "TN"
+			(uuid "ae554e34-0218-4ab7-a4d1-0426a8e6f90f")
+		)
+		(pin "T"
+			(uuid "18d0222d-0f1c-42d3-9000-a4d4cd27ea14")
+		)
+		(instances
+			(project "AT-Interface-Template"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/d56edc4a-872f-4d4b-a039-e785ef39cb37"
+					(reference "J40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 158.75 86.36 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6f3ab41-08ba-4ad4-88db-b60819da7ccb")
+		(property "Reference" "JP18"
+			(at 158.75 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DMONO"
+			(at 158.75 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 158.75 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 158.75 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "99ab3513-d221-4395-8e2d-3fc68a5afc24")
+		)
+		(pin "1"
+			(uuid "65fe846d-7829-48f4-8431-0c3da2cec826")
+		)
+		(instances
+			(project "AT-Interface-Template"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/d56edc4a-872f-4d4b-a039-e785ef39cb37"
+					(reference "JP18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchT")
+		(at 105.41 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d60fa0af-9b46-44da-aa35-f161a52a51b7")
+		(property "Reference" "J45"
+			(at 103.505 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IN"
+			(at 103.505 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3-3505"
+			(at 105.41 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched T Pole (Normalling)"
+			(at 105.41 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "c272c184-7bc6-4eba-aafa-27d5fb090a82")
+		)
+		(pin "R"
+			(uuid "7305b668-84ca-44f4-b2c6-487dd9b9ab25")
+		)
+		(pin "TN"
+			(uuid "985ebe58-529a-41f6-b375-2d67d39cb3a4")
+		)
+		(pin "T"
+			(uuid "2fe3c34f-7592-4e68-9049-aa457f7d6e6f")
+		)
+		(instances
+			(project "AT-Interface-Template"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/d56edc4a-872f-4d4b-a039-e785ef39cb37"
+					(reference "J45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchT")
+		(at 67.31 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8e0f8cc-c957-4fd9-b89f-e39e4a4cfcbd")
+		(property "Reference" "J41"
+			(at 65.405 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RIGHT"
+			(at 65.405 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3-3505"
+			(at 67.31 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched T Pole (Normalling)"
+			(at 67.31 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "70dd0c9c-a76f-4c12-8fa2-34417bebd997")
+		)
+		(pin "R"
+			(uuid "c8a125ab-0e0a-4166-996f-1370fdfa5fe4")
+		)
+		(pin "TN"
+			(uuid "f994f9fa-29c1-4256-b4d0-ec279d88e031")
+		)
+		(pin "T"
+			(uuid "d2646475-ceec-486e-8836-45f96765c0a7")
+		)
+		(instances
+			(project "AT-Interface-Template"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/d56edc4a-872f-4d4b-a039-e785ef39cb37"
+					(reference "J41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchT")
+		(at 67.31 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddf0c02d-67d1-455e-b93d-40828bf9fea9")
+		(property "Reference" "J39"
+			(at 65.405 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IN"
+			(at 65.405 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3-3505"
+			(at 67.31 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched T Pole (Normalling)"
+			(at 67.31 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "2204df37-f26c-41a9-bedf-27fbf292c242")
+		)
+		(pin "R"
+			(uuid "54ba57ef-bbf2-4ea1-91d8-b44c8389ce34")
+		)
+		(pin "TN"
+			(uuid "11227326-2ab1-4ac0-9c90-94b66ad6e960")
+		)
+		(pin "T"
+			(uuid "602cc723-c7db-4f83-97b5-e90b2b615153")
+		)
+		(instances
+			(project "AT-Interface-Template"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/d56edc4a-872f-4d4b-a039-e785ef39cb37"
+					(reference "J39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchT")
+		(at 67.31 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee35f406-d154-496a-a455-b8e2c1edb759")
+		(property "Reference" "J36"
+			(at 65.405 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IN"
+			(at 65.405 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AT-Footprints:SJ3-3505"
+			(at 67.31 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched T Pole (Normalling)"
+			(at 67.31 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "4154c14c-7239-4e0b-bb75-6cc26412122a")
+		)
+		(pin "R"
+			(uuid "0513c56f-f3cc-4abb-a060-4131c516f605")
+		)
+		(pin "TN"
+			(uuid "ce9eb36b-ae7e-4364-b6a1-648f75ab5d55")
+		)
+		(pin "T"
+			(uuid "c36adfc8-ac54-4395-920a-26256c2f747f")
+		)
+		(instances
+			(project "AT-Interface-Template"
+				(path "/b48a24c3-e448-4ffe-b89b-bee99abc70c9/d56edc4a-872f-4d4b-a039-e785ef39cb37"
+					(reference "J36")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
