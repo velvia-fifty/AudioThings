@@ -504,7 +504,7 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D19"
-			(at 0 -1.850001 360)
+			(at 0 -1.850001 0)
 			(layer "F.SilkS")
 			(uuid "79146c5e-b024-4e57-9517-a0f5fae979e6")
 			(effects
@@ -1671,7 +1671,7 @@
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D26"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "F.SilkS")
 			(uuid "c22aa3b7-ad8d-4bf6-a396-63515ee1804a")
 			(effects
@@ -3829,7 +3829,7 @@
 		(descr "SOT-363, SC-70-6, SC-88")
 		(tags "SOT-363 SC-70-6 SC-88")
 		(property "Reference" "Q6"
-			(at 0 -2.25 360)
+			(at 0 -2.25 0)
 			(layer "F.SilkS")
 			(uuid "c47cc13a-af81-407f-8867-1fcf3f3bd2b8")
 			(effects
@@ -4169,7 +4169,7 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D20"
-			(at 0 -1.850001 360)
+			(at 0 -1.850001 0)
 			(layer "F.SilkS")
 			(uuid "49651c49-1dac-43af-9cbb-85c20b82cd90")
 			(effects
@@ -6351,7 +6351,7 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D17"
-			(at 0 -1.850001 360)
+			(at 0 -1.850001 0)
 			(layer "F.SilkS")
 			(uuid "a364b84d-e2eb-42cc-8d12-8ae69cab6860")
 			(effects
@@ -6727,7 +6727,7 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D24"
-			(at 0 -1.850001 360)
+			(at 0 -1.850001 0)
 			(layer "F.SilkS")
 			(uuid "e7e79a98-6145-4968-b752-74cb10f4a95a")
 			(effects
@@ -7514,7 +7514,7 @@
 	(footprint "Fiducial:Fiducial_1mm_Mask3mm"
 		(layer "F.Cu")
 		(uuid "2b190cd4-de3f-4972-9c40-bee473c85974")
-		(at 45.1125 18.9)
+		(at 128.2625 158.05)
 		(descr "Circular Fiducial, 1mm bare copper, 3mm soldermask opening (recommended)")
 		(tags "fiducial")
 		(property "Reference" "REF**"
@@ -8426,7 +8426,7 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D33"
-			(at 0 -1.850001 360)
+			(at 0 -1.850001 0)
 			(layer "F.SilkS")
 			(uuid "229992f2-0fb3-4b48-8bf2-6239232003ee")
 			(effects
@@ -9266,7 +9266,7 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D22"
-			(at 0 -1.850001 360)
+			(at 0 -1.850001 0)
 			(layer "F.SilkS")
 			(uuid "1938ae39-7350-47d0-99f3-10f496dd2549")
 			(effects
@@ -10701,7 +10701,7 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D21"
-			(at 0 -1.850001 360)
+			(at 0 -1.850001 0)
 			(layer "F.SilkS")
 			(uuid "c86256f8-3ef8-4979-897a-4e31423fee59")
 			(effects
@@ -11492,7 +11492,7 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D27"
-			(at 0 -1.850001 360)
+			(at 0 -1.850001 0)
 			(layer "F.SilkS")
 			(uuid "8b1952f4-3ac0-41d7-8c41-5590d8cc948b")
 			(effects
@@ -12208,7 +12208,7 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D32"
-			(at 0 -1.850001 360)
+			(at 0 -1.850001 0)
 			(layer "F.SilkS")
 			(uuid "14c82eea-df53-41a2-9d73-122e2d9fc0ed")
 			(effects
@@ -13048,7 +13048,7 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D23"
-			(at 0 -1.850001 360)
+			(at 0 -1.850001 0)
 			(layer "F.SilkS")
 			(uuid "597b4088-43e8-42ff-922f-f56448b2c862")
 			(effects
@@ -13424,7 +13424,7 @@
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D25"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "F.SilkS")
 			(uuid "de71747c-bd15-4d35-8fe5-7f3d8ddd7d78")
 			(effects
@@ -13722,7 +13722,7 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D34"
-			(at 0 -1.850001 360)
+			(at 0 -1.850001 0)
 			(layer "F.SilkS")
 			(uuid "326754c5-9b90-478a-b024-ca1d92394f6d")
 			(effects
@@ -17308,7 +17308,7 @@
 		(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "U8"
-			(at 0 -3.4 360)
+			(at 0 -3.4 0)
 			(layer "F.SilkS")
 			(uuid "97178a50-7a72-496c-bfba-0f9a17d6755b")
 			(effects
@@ -17688,7 +17688,7 @@
 		(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "U5"
-			(at 0 -3.4 360)
+			(at 0 -3.4 0)
 			(layer "F.SilkS")
 			(uuid "cd09524d-1264-4729-be3b-b73d0dfe721b")
 			(effects
@@ -18068,7 +18068,7 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D31"
-			(at 0 -1.850001 360)
+			(at 0 -1.850001 0)
 			(layer "F.SilkS")
 			(uuid "16837f65-4646-4d62-8280-d06b6317c68d")
 			(effects
@@ -18444,7 +18444,7 @@
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D15"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "F.SilkS")
 			(uuid "4f071eae-2e31-4b9b-8a8e-feb0cc229f33")
 			(effects
@@ -20117,7 +20117,7 @@
 		(descr "SOT-363, SC-70-6, SC-88")
 		(tags "SOT-363 SC-70-6 SC-88")
 		(property "Reference" "Q7"
-			(at 0 -2.25 360)
+			(at 0 -2.25 0)
 			(layer "F.SilkS")
 			(uuid "20a1744f-b4b4-4c4a-bcb7-15673c58de77")
 			(effects
@@ -20457,7 +20457,7 @@
 		(descr "SOT-363, SC-70-6, SC-88")
 		(tags "SOT-363 SC-70-6 SC-88")
 		(property "Reference" "Q8"
-			(at 0 -2.25 360)
+			(at 0 -2.25 0)
 			(layer "F.SilkS")
 			(uuid "ca9bc877-d4a4-4864-863b-2d77f5a6aacf")
 			(effects
@@ -20797,7 +20797,7 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D18"
-			(at 0 -1.850001 360)
+			(at 0 -1.850001 0)
 			(layer "F.SilkS")
 			(uuid "5a83730e-5ad1-4b82-8bd8-016de3e2601a")
 			(effects
@@ -23166,7 +23166,7 @@
 		(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "U9"
-			(at 0 -3.4 360)
+			(at 0 -3.4 0)
 			(layer "F.SilkS")
 			(uuid "3ac7579a-6b07-4ea4-b781-c07031b3c288")
 			(effects
@@ -23542,7 +23542,7 @@
 	(footprint "AT-Footprints:SJ3"
 		(layer "F.Cu")
 		(uuid "919401c2-4fbd-46a2-88b5-90aa41886b81")
-		(at 126.2625 20.9375 90)
+		(at 209.4125 160.0875 90)
 		(property "Reference" "J9"
 			(at -2 -6 90)
 			(layer "F.SilkS")
@@ -24157,7 +24157,7 @@
 		(descr "SOT-363, SC-70-6, SC-88")
 		(tags "SOT-363 SC-70-6 SC-88")
 		(property "Reference" "Q4"
-			(at 0 -2.25 360)
+			(at 0 -2.25 0)
 			(layer "F.SilkS")
 			(uuid "6ae23bc1-83fc-4323-b915-5451fa717910")
 			(effects
@@ -24497,7 +24497,7 @@
 		(descr "SOT-363, SC-70-6, SC-88")
 		(tags "SOT-363 SC-70-6 SC-88")
 		(property "Reference" "Q9"
-			(at 0 -2.25 360)
+			(at 0 -2.25 0)
 			(layer "F.SilkS")
 			(uuid "2cd8ad8a-b08a-44d7-a168-489ae3785b65")
 			(effects
@@ -25910,7 +25910,7 @@
 		(descr "SOT-363, SC-70-6, SC-88")
 		(tags "SOT-363 SC-70-6 SC-88")
 		(property "Reference" "Q5"
-			(at 0 -2.25 360)
+			(at 0 -2.25 0)
 			(layer "F.SilkS")
 			(uuid "8050edab-7915-49e3-bed4-f01327e5d2dc")
 			(effects
@@ -26250,7 +26250,7 @@
 		(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "U6"
-			(at 0 -3.4 360)
+			(at 0 -3.4 0)
 			(layer "F.SilkS")
 			(uuid "bd494ea5-716c-4ce3-bf72-1c45661c669c")
 			(effects
@@ -27810,7 +27810,7 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D29"
-			(at 0 -1.850001 360)
+			(at 0 -1.850001 0)
 			(layer "F.SilkS")
 			(uuid "bdee4c98-b4b0-4f25-8fd6-ca0e82b5813b")
 			(effects
@@ -28367,7 +28367,7 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D28"
-			(at 0 -1.850001 360)
+			(at 0 -1.850001 0)
 			(layer "F.SilkS")
 			(uuid "0fb163e8-a155-4c2a-ab6a-88681c761b51")
 			(effects
@@ -30424,7 +30424,7 @@
 	(footprint "MountingHole:MountingHole_2mm"
 		(layer "F.Cu")
 		(uuid "df817616-0e62-4bb1-805b-6b74176c7a7b")
-		(at 42.7625 16.55)
+		(at 125.9125 155.7)
 		(descr "Mounting Hole 2mm, no annular")
 		(tags "mounting hole 2mm no annular")
 		(property "Reference" "REF**"
@@ -30544,7 +30544,7 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D30"
-			(at 0 -1.850001 360)
+			(at 0 -1.850001 0)
 			(layer "F.SilkS")
 			(uuid "44621ca9-cd41-48b9-81bd-a1e9ac29f3ae")
 			(effects
@@ -31384,7 +31384,7 @@
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D16"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "F.SilkS")
 			(uuid "bb4ba813-5556-4d74-bbcf-848f34bee3a5")
 			(effects
@@ -45007,8 +45007,8 @@
 		(uuid "6a2c18e0-0b9d-4fb1-83f8-02ffbddefa77")
 	)
 	(gr_rect
-		(start 41.2625 15.05)
-		(end 141.2625 20.05)
+		(start 124.4125 154.2)
+		(end 224.4125 159.2)
 		(stroke
 			(width 0.1)
 			(type default)

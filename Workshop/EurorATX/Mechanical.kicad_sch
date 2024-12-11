@@ -176,7 +176,7 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 53.34 30.48 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -254,15 +254,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 53.34 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "1318b07b-406c-4459-a232-2fa70ccccb68")
 		)
@@ -279,7 +270,7 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 44.45 30.48 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -357,15 +348,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 44.45 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "9465482e-d539-4bb4-be57-14240a88a18d")
 		)
@@ -382,7 +364,7 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 62.23 30.48 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -460,15 +442,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 62.23 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "e109a3dc-31ed-48db-83d0-248d433c9784")
 		)
@@ -485,7 +458,7 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 71.12 30.48 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -555,15 +528,6 @@
 			)
 		)
 		(property "type" ""
-			(at 71.12 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 71.12 30.48 0)
 			(effects
 				(font
